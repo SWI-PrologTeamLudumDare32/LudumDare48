@@ -5,7 +5,7 @@ Ludum Dare 48
  * github for code
 
 Anne Ogborn  - Prolog programmer, Unity - anne@swi-prolog.org - @AnneOgborn or @SwiProlog_   - discord anniepoo#3008
-Peter  -  Writer - day job programmer(Python) -  discord Aquasheep
+Peter  -  Writer - Amateur Git Cloner -  discord Aquasheep
 Ben Nissimov  - Writer, Musician - bnissimov@berklee.edu - 
 Jellybones - 2D artist - discord Jellybones
 Hans Beck - Prolog programmer - 
