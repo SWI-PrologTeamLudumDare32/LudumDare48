@@ -1,0 +1,55 @@
+Ludum Dare 48
+
+ * email for async
+ * IRC for general comms
+ * github for code
+
+Anne Ogborn  - Prolog programmer, Unity - anne@swi-prolog.org - @AnneOgborn or @SwiProlog_   - discord anniepoo#3008
+Peter  -  Writer - day job programmer(Python) -  discord Aquasheep
+Ben Nissimov  - Writer, Musician - bnissimov@berklee.edu - 
+Jellybones - 2D artist - discord Jellybones
+Hans Beck - Prolog programmer - 
+Daniel Krüger - programmer - twitter @dnlkrgr
+Follows you
+
+
+discord
+discourse
+twitter
+email
+github
+
+
+Howdy -
+Finally getting organized for Ludum Dare.
+
+We're a team, so we're entering the 'Jam'.
+Rules:
+We can start with any base code.
+If we use 3rd party assets we have to opt out of the relevant categoryy. We do have
+an artist and musician, so no point in opting out.
+The theme will be announced 6pm friday. 
+
+How we'll work together:
+CHANGE - we're going to use the Socializing over prolog and rpgs discord server, ludum-dare-48 as our primary channel rather than IRC. If you need an invite ping me over whatever medium we
+first talked.
+
+the thing
+
+Issue.read permission
+
+Remember yesterday we needed the type hack for issue
+
+
+
+oso vscode extension
+
+FLASK_DEBUG=1
+
+
+
+
+
+
+
+
