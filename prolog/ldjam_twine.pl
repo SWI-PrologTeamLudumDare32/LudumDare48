@@ -11,8 +11,6 @@
 %
 %   multifile predicate that gives a starting card
 %
-start_card(start).
-
 
 %!  card(-Card:dict) is nondet
 %
@@ -20,25 +18,16 @@ start_card(start).
 %
 %   $ name
 %   : atom name to refer to this card
-%   $ html
+%   $ show
 %   : html to emit for this card, as termerized html
 %   $ buttons
 %   : list of Label=CardName for navigating
 
-card(card{
-         name: start,
-         show: p('this is the start card'),
-         buttons: ['Start'=start]
-     }).
-
 :- table name_card/2.
 
 name_card(Name, Card) :-
-    card(RawCard),
-    card{name: Name} :< RawCard,
-    phrase(html(RawCard.html), Tokens),
-    with_output_to(string(S), print_html(Tokens)),
-    Card = RawCard.put(_{html: S}).
+    card(Card),
+    card{name: Name} :< Card.
 
 :- multifile sandbox:safe_primitive/1.
 
