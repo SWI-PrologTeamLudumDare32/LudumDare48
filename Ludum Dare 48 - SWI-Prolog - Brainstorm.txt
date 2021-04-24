@@ -1,0 +1,214 @@
+Deeper and deeper LD 48 Brainstorm Notes
+
+storytelling
+	like a plot
+	story of someone who does something minorly wrong
+		gets deeper and deeper into a situation
+			everything they try to do gets them deeper into a worse situation
+				e.g. stole something - lie about it - stole a car to dodge cops - just keeps escalating
+					something trivial lie about something that wasn't that important
+						life descends out of control
+						branching story 
+
+	so what ar ethe player choices
+	
+
+what else?
+
+	dream in a dream in a dream
+		something Philip K. Dick-ish
+			like the world you think you see is not the real world
+			player guessing if they're in someone else's game?
+				small
+					slightly weird thing happens out of the norm in an otherwise mundane situation
+						interactive fiction --> like a choose your own adventure
+							some buttons for what to do
+							run into beds; choose to lay down and sleep
+								that leads you to a sub adventure 
+								if you lay down and sleep you dream
+									and in your dream you're doing something and then there's a bed
+										what if you have a resource - find the alarm clock - like 
+											is the goal of the game to get back to reality
+	but when you get back up and you think you found the starting world
+		what if the number of sleeps and wakeups don't match, so you were dreaming before or am I dreaming now
+			sleep in bed ons treet 
+			what if mechanic involves alarm clock 
+				so you set it and it has to go off to get back out of dream
+					alarm clock is the timer you gotta get back up there but you gotta find the bed each time
+						lower level three dreams down something you need to do
+							Kissing valentino by crystal blue italian stream
+							i'm in a dream and something great is about to happen
+							and then I wake up
+						each level like a puzzle
+							either solve it in real-time, but you gotta set the timer
+							every player gets a different experience of the game
+							because they might set alarm in 10 minutes 
+								but [stay alive mechanic?]
+								but not nearly enough time because you gotta do it in the underlying world
+								then chased by monster if it takes too long
+								monster is a little faster than you
+									Twine like a series of cards
+									write a bunch of paragraph nightmares/scenes
+scene
+rooms										possible actions
+actions
+	go north go south
+bed
+	alarm clock - what if you collect batteries for the alarm clock?
+		collect batteries for more time
+			why go down at all? some motivation
+				initial scene - character wakes up from a dream
+				- kissing valentino dream e.g. it's a really good dream
+				pre-determined mazes --> shuffled and you gotta go through the narrative maze
+					some kind of motivation to get to the bottom
+				ephesmophoria
+					persephone visits underworld, eats a pomegranate seed and has to return every year
+					play the mini-game find the bed, and get some melatonin capsules dare not use bed without alarm clock
+						puzzles at higher levels you have suspended
+						must have alarm clock or you won't wake up
+
+Level 1 - need screwdriver to fix alarm clock
+Level 2 - find screwdriver from the garage
+		but if you sleep on this level you're horribly depressed and want out of the world but only on this level
+			mini-tiny worlds with puzzles and dreams
+
+when you enter - decide to go down to dream by going to sleep
+	offered chance to set the alarm clock
+		deciding how many moves you've got on the lower level
+			somehow gotta make a way to make that decision intelligently
+			choice that's meaningful that you have some chance of figuring out
+				game is like a bridge - guess how well you'll do each level
+					e.g. GO take all the territory you can but no more
+
+when you dream each dream has its own aesthetic
+	one is a nightmare,
+	one is a crazy flying dream,
+	one is trippy, 
+	one is silly,
+	one is a relationship-centered
+		could be a little simple twitch game in javascript
+		i'm in a twitch game, simple platformer
+	one dream is just kind of crazy 
+
+	each dream gives you different mechanics
+
+top-level - the ordinary world
+	set the alarm clock for 7 AM next morning to get up and go to work
+	you have 8 hours from 11:00 PM
+		but you fall asleep and are running around in dream world
+			you must go have another dream to solve it - multiple pathways with alarm clock
+			decide between time in this first dream world and time in the second one
+				sense of what you're going to dream
+				multiplayer and players could leave breadcrumbs
+					day or two afterwards 100s of people will play the game
+						
+
+	what if in these dreams, you met other players
+		meeting the other players no problem, making it interesting
+		dream ghosts of other players on the same page as you
+			floating around the javascript page
+			advantage or disadvantage to being in the same dream with other people?
+				how long they set clocks for
+
+	paired with somebody
+		you get the valentino dream if you're on the same level at the same time with them
+		but you have no way of directly communicating with them
+		game of getting cooperation from another player when you can't find that player necessarily
+			we don't provide chat
+			for another level multiple people? on level A you're dreaming that you're a sailor and you need six people to lift a lifeboat
+				you see the session stats (game starts every 15 minutes) then at end: 
+					had 100 people 12 dreams generated, 
+					7 of 8 objectives accomplished
+					people stay and be NPC's for other people
+						like I'll stay on the boat
+
+e.g.
+	hold ladder, climb up to get screw driver in level 3
+		what if it was in real time like sit there for a minute and then push the button
+	go to sailboats
+	just sit here for a minute then a person appears
+		each level has a simple thing
+			e.g. I need worms to catch the fish
+		have control over which dream you get?
+			are you certain you'll end up in that dream
+you have to get back to your original waking state to exit
+	first dream needs to be scary in some way something you don't want - a nightmare
+		then you need to get out of that but you go deeper and deeper
+		you dream you're in a pit full of bugs but you need the latter
+			set the alarm so you'll eventually get out
+				
+
+what should you actually get in a dream?
+	go to sleep and kind of figure out the answer in your sleep
+		what if it made no cents
+
+MOTIVATIONS TO GO DEEPER
+	alarm clock batteries?
+	nonsensical?
+	kissing Valentino?
+	do the dream thing you couldn't do in real life?
+		catch the knife thrown to me when we were autoa accident under water could rescue my beloved
+		
+
+figuring out the game design with other people
+	so how many people are in the room?
+		and what objects exist that are needed?
+		[Wait for Rescue]
+		[Call for Help]
+		[Use Ladder X Ladder and One other person required]
+		
+what if other people look like to you
+	dead mother that you always wanted to say goodbye to
+		but you have to 
+		what they see doesn't agree with you
+		you might be the monster fleeing
+		but mother is always running away from you
+
+		how to make that fun?
+			psychology overtones
+		
+		you must find a desert land and tell a fallen loved one goodbye
+
+			dreams are cool, but the choices are illogical it's okay
+			your choices are things like I can lay down in
+
+				[lay down in bed]
+					other people in bed
+				[say this to my mother]
+				[
+
+Appearance of game
+	looks like a twine game, think you're just playing a twine game but it becomes different types of game
+		paper used to be expensive so artists rubbed out iamges on paper and put a new image on the paper
+			the vague appearance of old artwork was a palimpcest
+			vague palimpcest could be ghostly images of other players
+				ghosts and dreams
+
+ghost characters, dreams, interactions, top-level world and resolution
+	big chunk of writing tomorrow - majority gut work of writing on Saturday
+	play with idea of people
+		e.g. i'm a monster, but someone else is the mom
+			not that many people playing; what if it's just 1?
+				but peaks where there were 20 people playing, but lots of times when 3 were playing
+				conflict points and puzzle points
+
+Say there is o
+
+incorporate some "rooms"/"Dreams" into the maze only if there are certain amount of players?
+	and thenif someone leaves...? Turn their target into an AI who goes straight up the dream world matrix?
+
+
+GHOST GOAL IDEAS???
+1 Player
+2 Player
+3 Players
+
+
+SATURDAY
+bulk of writing here
+	early morning and tonight
+		AS MANY AS POSSIBLE - dreams/ghosts/interactions
+		2:30pm start work day which i sholland so that's like 7:30am here?
+
+	but what about ladders and stuff?
+

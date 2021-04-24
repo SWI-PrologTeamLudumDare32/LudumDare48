@@ -1,0 +1,177 @@
+Each dream is a simple interactive narrative. Can contain art, music, audio, etc. It can have puzzle mechanics or even be a simple type of game e.g. a tiny platformer. Usually you get about 2 minutes per dream in real-time to make your way through, might just be one minute.
+
+=======
+DREAMS
+=======
+
+OVERWORLD INTRO
+
+You wake up. You are dead. You float up out of your lifeless body and see someone sleeping on a bed nearby. Next to the bed is an end-table with an alarm clock. What do you do?
+
+	[Freak Out]			OMG I'm dead I'm dead I'm dead!!!!
+	[Loot your own Corpse]		You find a phone and some pocket lint, but you can't use them. Because you're dead.
+	[Smash the Alarm Clock]		You try to smash the alarm clock, but you have no arms. And you're not corporeal. And being a freshly-minted ghost you simply don't have the telekinetic strength. Too bad...
+	[Possess the dreamer]		As you float over to the bed, you notice an alarm clock set to ____ 2 minutes. Should the alarm clock go off before you heal your biggest regret or possess another dreamer, you will be lost in the Unconscious until your sleeper goes back to sleep. You're certain your lover is somewhere in the Collective Subconscious; after all, someone must have known them and the most random people can show up in others' dreams... You are now entering your ______ first-level dream; once you dive to a deeper dream level, the alarm clock from two levels up (including the real world) will pause until you return to the dream associated with that sleeper. 
+		so level 0 alarm clock pauses on level 2, etc.
+Now to sleep, perchance to dream...
+
+
+
+JUNGLE DREAM
+
+You wake up. You're in a jungle. You hear a tiger roar. It sounds really close! What do you do?
+
+	[Run!] 			You run from the tiger as fast as your hobbit legs can carry you. You hear rustling and growling as the tiger hears you and gives chase. You find a small yurt, just in the knick of time, run in, and slam the straw door, thinking "That probably won't hold..." What do you do?
+		[Jump in the fireplace!]
+			With a running start, you dive headfirst into the fireplace, where you are instantly killed. You wake up. You are dead. You float up out of your lifeless body and see _____ the tiger burst into the door so hard it splats right into an iron headboard and onto the bed below, out cold. Time is ticking. Wht do you do?
+				[Possess the tiger]
+		
+	[Give Up and Die!]	You give up, you shout out to the tiger, "Here kitty kitty, come eat me!" The tiger obliges. You are dead. If you die in dreams, you die in real life. So you are dead. But you are also a ghost in real life. So you were already dead. Realizing this, you float out of your lifeless body and are now a ghost in this dream. The clock is ticking... What do you want to do?
+		[Fly!]		You fly high into the clouds and see the entire world is smoldering ashes and badlands except for that beautiful little jungle. You keep flying for a very long time. You begin to miss that precious little emerald miles below you. Suddenly you fly right through some kind of floating fortress. By the grimy walls, faint moans and clanging of metal, you are cleary in some kind of dungeon.
+				[Go Left]	You go left. There is a massive door blocking your way. You use your ghostly powers of deduction to deduce - after failing to charge right through the door and succeeding in bumping your ghostly little noggin - that the door is in fact magical and requires a magical key to unlock. You're pretty sure you hear some snoring on the other side of this door. Time is ticking. What do you do?
+					NEW QUEST: Find the Magical Key to unlock the Magical Bedroom Door in the Flying Fortress in the Jungle Dream.
+						[Go Back the other way] You go back.
+							[Go Left]
+							[Go Right]
+						[Wait for the love of your life to show up]
+				[Go Right]	You go right. And you were right! Here's an old granny sleeping on a bed. At first you're not sure if she's alive, but sure enough you can hear the faintest snore as you get close. There is an alarm clock on the bed set for 8:00 AM; thanks to magical ghost powers you know it's about 7:58 AM right now. 
+						[Possess the dreamer]
+							[Yes] You dive into your next adventure, hoping the love of your life will be in this one.
+							[No]  You wait. The clock is ticking. What do you do?
+								[Go back] You go back.
+									[Go Left]
+									[Go Right]
+
+
+SPACE DREAM
+
+You wake up. You're a space man! No wait, you're in space, ma'am! Like floating out in space, watching the space station get smaller and smaller in front of you. What do you do?
+
+	[Activate Propulsion Socks]
+	[Merge with the Omnipresent Void of the Infinite Cosmos]
+		You merge with the Omnipresent Void of the Infinite Cosmos. You are one with OVIC. OVIC is one with you. Cheat codes enabled...
+		You learn your lover is in _______ world, accessible through [[base this off of whatever quests they have unlocked]] a Magical Door, the key to which may be found in *sniff* oh oh God that's gross must be a sewer.
+		Then with a great sneeze OVIC expels you, a little astronaut-shaped booger flying through space. You fly so fast that you open a wormhole and find yourself suddenly in a white room with a small white bed where a large white rat is sleeping.
+		[Possess the Rat]
+			Just before you possess the rat, you notice the alarm clock is set to 'blue'. Fragments from your recent bout of omnipotence indicate you've got [5 minutes]. You possess the rat. [[Sewer Dream]] 
+		[Wait in the White Room for your lover]
+	[Take off your Helmet and accept your fate]
+		*Pchhhh  sssssss* The internal pressure releases as you take off your helmet. The total lack of external pressure results in the immediate and total explosion of your face. 
+		You are dead. You float out of your lifeless body *cuh cuh gluh* You are a ghost. Ghosts cannot breathe in space. You suffocate.
+		You are dead again. You are a ghost of your former ghostly self. Fortunately ghosts of ghosts can breathe in space. #Anti-Matter #DreamLogic Yep. What do you do?
+			[Possess your ghost corpse]
+				You possess your ghost corpse. What do you do?
+					[Possess what's left of your body]
+						You possess your remains... Ewww...  They should call you Gross Ghost, because that's just ... ewww... What do you - you know what I can't even write this out it's so gross. I'm gonna go take a shower and wipe all this grossness out of me.
+							[Take control of the narrative]
+								You take control of the narrative. It's mine. All mine!!!! AH HAHAHAH AHHAHAHHAHHAHAHHAHHAHAHH AHAHHA AHHAHAHAHHAHHAHAHAHHAHHAHAHAHAHHAHHAHAHHA. Wow! A bed appears floating in space, and check that out: a wandering erg-lob is sleeping peacefully on the bed. I possess the erg-lob... 
+	and lose control of the narrative - woooh that was close. Good thing I take really fast showers. So the alarm clock next to the erg-lob is set to @#&%*&HFDI!*U(#$):}{+-7, which means you should have approximately three minutes before She wakes up. Good luck, you fourth-wall-breaker you.
+
+	[Float Slowly Towards that small moon]
+		You float slowly...
+			Oh so slowly...
+				Ohhhhhhh.
+					sooo.........
+						slow.......................................
+								l
+								 y
+		towards the small moon. And suddenly, you realize: that's no moon! It's a GIANT BED! with a GIANT!!!! SLEEPING ON IT!!!
+		[Haunt the giant]
+		[You really want to do something else? Just haunt the giant]
+		[Okay fine, sit around and wait for _____ your lover to show up ___ run out the clock]
+
+GARDEN GNOME DREAM [[From Giant]] <------------------------------------------------------------- HUB WORLD
+
+	- Nightmare -
+	- Lawnmower chasing you through a hedge maze -
+	- Several Beds this is like a hub world and a great place to find your lover -
+
+SEWER DREAM [[From White Room]]
+
+
+SCHOOL PRESENTATION IN UNDERWEAR DREAM [[From Bathroom Dream]]
+
+
+WINNING THE LOTTERY DREAM [[From ]]
+
+
+
+EARTH IS GETTING HIT BY ASTEROID-SIZED DINOSAURS DREAM [[From Garden Gnome Dream]]
+
+	- Nightmare - 
+	- Don't get hit by an asteroid-sized dinosaur -
+	- Also many beds here - another Hub World - 
+
+WET DREAM (actually underwater dream) [[From Garden Gnome Dream - Lake]] <------------------------HUB WORLD
+
+	- (hopefully)
+	- Beautiful Artwork
+	- (if not)
+	- You wake up. You are underwater. You are also a fish. A bigger fish eats you. You are dead. You float up out of your lifeless body... Underwater levels always suck. Remembering this, you look for the quickest possible exit. There is a ballerina shark coming right at you. There is also a Lamprey with a tophat and blue waistcoat slowly undulating upwards. And check that out: there's a kelp bed beneath you.
+		[Do a Dance-Off with Ballerina Shark]
+		[Ask the Dapper Lamprey for a Lift]
+		[Go to Kelp Bed]
+			There are four fish sleeping on the kelp bed. Time is ticking, which do you possess?
+				[One Fish]
+				[Two Fish]
+				[Red Fish]
+				[Blue Fish]
+				[None of the above, I go back!]
+
+=========================
+EVEN MORE POSSIBLE DREAMS
+=========================
+
+GOLDFISH BOWL DREAM [[From WET DREAM/UNDERWATER DREAM]]
+
+
+
+ALLIGATOR IN SWIMMING POOL DREAM [[From ]]
+
+
+
+FIRST KISS IN POURING RAIN DREAM [[From ]]
+	- but they're both actual walruses
+
+
+FLY A KITE BECOME THE KITE DREAM [From ]]
+
+
+PIPE DREAM [[From ]]
+	lots of pipes, of all kinds, everywhere
+		could be a platformer, or a maze
+
+ARCTIC SUNRISE/SUNSET DREAM [[From ]]
+	just a pretty one where not much happens
+
+CONSTANTINOPLE DREAM [[From ]]
+
+
+EPIC BATTLE DREAM [[From ]]
+
+
+YOU ARE A SQUID DREAM [[From ]]
+
+
+META DREAM [[From ]]
+
+
+GLITCH DREAM [From ]]
+
+
+HEAVY METAL DREAM [[From ]]
+
+
+STUCK ON AN ELEVATOR WITH A CLOWN DREAM [[From ]]
+
+
+FLYING RHINOCEROUS-ES DREAM [[From ]]
+
+
+COWPERSON DREAM [[From ]]
+	featuring both actual cow people
+		and a gender neutral term for cowboy/girl/person
+
+THE UNFORTUNATE ACCIDENT DREAM [[From  ]]
+
+
