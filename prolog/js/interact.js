@@ -43,3 +43,8 @@ window.addEventListener('load', function() {
   });
 });
 
+function sendPengine() {
+  var query = $("#counter").text();
+  console.log("Query will be: " + query);
+  mypen.ask('increase(' + query + ')');
+};
