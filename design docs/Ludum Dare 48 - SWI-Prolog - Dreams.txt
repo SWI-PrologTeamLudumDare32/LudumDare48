@@ -195,7 +195,7 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 SEWER DREAM [[From White Room]]
 
 
-SCHOOL PRESENTATION IN UNDERWEAR DREAM [[From Bathroom Dream]]
+@hank SCHOOL PRESENTATION IN UNDERWEAR DREAM [[From Bathroom Dream]]
 
 
 WINNING THE LOTTERY DREAM [[From ]]
@@ -236,7 +236,7 @@ EVEN MORE POSSIBLE DREAMS
 
 
 
-FIRST KISS IN POURING RAIN DREAM [[From ]]
+@hank FIRST KISS IN POURING RAIN DREAM [[From ]]
 	- but they're both actual walruses
 
 
@@ -266,6 +266,7 @@ GLITCH DREAM [From ]]
 
 
 @blueloveTH - HEAVY METAL DREAM [[From ]]
+@hank-music? I like metal
 
 
 STUCK ON AN ELEVATOR WITH A CLOWN DREAM [[From ]]
@@ -290,7 +291,7 @@ Possible quests :
 
 -----------------------------
 
-Forgot Pants at School Dream
+@hank Forgot Pants at School Dream
 
 - (In a classroom. Chalkboard, desks, and an analog clock are viewable.)
 - (It sounds like a groovy educational yet improvisational jazz jam. Maybe a ticking clock.)
@@ -361,7 +362,7 @@ Forgot Pants at School Dream
 ---------------------------
 
 
-Teeth on a Date dream
+@hank Teeth on a Date dream
 
 
 - (Restauraunt setting. Your shadowy-silhoutted date sits across from you)
