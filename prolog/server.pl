@@ -43,9 +43,11 @@ server(Port) :-
 http:location(js, '/js', []).
 http:location(css, '/css', []).
 http:location(img, '/img', []).
+http:location(audio, '/audio', []).
 user:file_search_path(css, './css').
 user:file_search_path(js, './js').
 user:file_search_path(icons, './icons').
+user:file_search_path(audio, './Sound').
 
 :- html_resource(style, [virtual(true), requires([css('style.css')]), mime_type(text/css)]).
 :- html_resource(script, [virtual(true), requires([js('interact.js')]), mime_type(text/javascript)]).
@@ -58,7 +60,8 @@ user:file_search_path(icons, './icons').
                 [priority(1000), prefix]).
 :- http_handler(img(.), http_reply_from_files('icons/', []),
                 [priority(1000), prefix]).
-
+:- http_handler(audio(.), http_reply_from_files('Sound/', []),
+                [priority(1000), prefix]).
 
 :- http_handler(/, http_reply_file('./html/index.html', []), []).
 :- http_handler('/index.html', http_reply_file('./html/index.html', []), []).

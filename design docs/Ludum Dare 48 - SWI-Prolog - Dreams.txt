@@ -280,4 +280,192 @@ COWPERSON DREAM [[From ]]
 
 THE UNFORTUNATE ACCIDENT DREAM [[From  ]]
 
+Possible quests :
+	-Remember pants next time
+	-Get back teeth
+
+
+>>> == Exit Dream
+
+
+-----------------------------
+
+Forgot Pants at School Dream
+
+- (In a classroom. Chalkboard, desks, and an analog clock are viewable.)
+- (It sounds like a groovy educational yet improvisational jazz jam. Maybe a ticking clock.)
+
+- You wake up. You are in a classroom. You are a young, impressionable student. You forgot your pants. Your peers snicker, most likely at your lack of pants. Oh no! Not again. What is the answer to question number eight?
+
+	[Apologize and promise to remember pants next time]
+		- You apologize and promise to remember pants next time. You assure everyone this the last time you make the same speech about remembering your pants next time. How this keeps happening is beyond your understanding but your desire for change will surely bring it forth.
+		- Everyone completely understands. Your classmates salute you with various fingers. Your teacher arises from behind her desk to reveal that she too forgot her pants. Actually, no one had pants on this whole time. What's the BFD?
+		[Claim your independence as your own country]
+			- You claim your independence as your own country. It's long overdue. Taxes are ridiculous.
+			- Soon, your classmates begin shunning you for illegally being in their country.
+			- And you actually end up having to pay more taxes somehow.
+			- Taxes are ridiculous. 
+>>>
+		[Bestow five Bravery points to everyone without pants]
+			- You bestow five Bravery points to everyone without pants. This may have been a mistake. These Bravery points have to come from somewhere. And... they come from you.
+			- 25 people at 5 points a pop, and you only have 4 Bravery points to begin with.
+			- You currently have -121 Bravery. This is unacceptable. You're dead now.
+			- But actually through a fluke you've given yourself five points of bravery as well (by not wearing pants). And negative values aren't conditionally attributed to existing values, it reverts to 0.
+			- You've recieved +5 points of Bravery. You have 5 Bravery points. You're alive! With pants this time too! 
+>>>
+		[Sing Eddie Money]
+			- You sing Eddie Money. You try anyway. You can't remember any lyrics. There was that one about 'shaking' or something. And didn't he do that one TV show song? You can't remember the words from that one either, or the show.
+			- Oh well, everyone is totally impressed by your performance anyway.
+			- Next time you'll have to do you a real song, you think to yourself. 
+>>>
+	[Blame local energy companies]
+		- You blame the local energy companies. Their price gouging has impacted the local economy for long enough. The system was designed with specific checks and balances, yet this racketeering continues unimpeded. That's why you're not wearing pants.
+		- The lights turn off. The air conditioning ceases. It's almost as if time has ceased to continue. You can't help but feel that they are listening, and that you are responsible.
+		- Suddenly, there is no hope. Your feet are cold but your skin is on fire. A rumbling vibrates through the school's walls and somehow you feel it exists only to beckon you to follow it.
+		[Break the window and jump out]
+			- You break the window and jump out. The fear takes over. That rumbling is too scary. Fight or flight kicks in and you are flighting.
+			- It reminds you of that time with the thing that you ran from. Hohoho that was scary, remember?
+			- Let's hope you don't dream about that anymore ever again.
+			- As you defenestrate yourself from an incredibly high story in the schoolhouse, you wonder about the other possiblities. 
+>>>
+		[Follow it]
+			- You follow it. The rumbling leads you out of the classroom through the halls. The sound eminates from every direction. No matter which way you go, you are certain it is the right way.
+			- Louder and louder, it calls to you. You've read some stories like this before. About guys going following disturbing forces that beckon them into the inexplicable darkness.
+			- Where the search for knowledge and understanding only yields more questions, darkness, and insanity.
+			- Caddyshack, that was the movie. 
+>>>
+		[Just ignore it]
+			- Big whoop, an impending, ominous rumbling requests your presence? So what! You scoff at the power outage and dimensions you don't understand and go back to blaming the energy companies.
+			- It's dark in here.
+			- You think about other impending, ominous rumblings that have requested your presence. Nothing bad ever happened with them before. And nothing bad is going to happen now. 
+>>>
+		
+
+	[Connect with your classmates on a level you thought impossible]
+		- You connect with your classmates on a level you thought impossible. You thought it was impossible before, yet it was easily doable. Human connection. Person to person.
+		- It turns out sometimes you just need to ask someone a question about themselves.
+		- You're left in awe at your misunderstanding of possibilities. You thought yourself to be reasonable and focused. Logical. Always able to give a good estimation. You should have worn pants, though. Really should have.
+		- You're close enough with everyone now though. You all know each other well and feel comfortable not wearing pants around each other. It's probably fine from now on either way.
+		[Pants are just a form a population control anyway]
+		- Pants are just a form of population control anyway. They keep us down. We have to wear them because society says we do. And the fat cat pants guys are sitting on mountains of cash.
+		- This sparks another dialog with your classmates, that engages you intimately on a level you thought impossible.
+>>>
+
+	[D. All of the Above]
+		- You apologize and promise to remember pants next time, while blaming the local energy companies and connecting with your classmates on a level you thought impossible. Did that work? One of them has to be right.
+		- There is no effect. Usually this answer always works out. Statiscally over 33 percent of that particular multiple choice answer has to be correct assuming the teacher has a soul and the correct answer is even present.
+		- Maybe you overwhelmed the system, or it's a bug.
+		- Maybe the teacher didn't put the answer on here.
+		- Maybe Game of Thrones was kind of lame. You can't let anyone know you think that though. That's worse than the pants thing.
+
+---------------------------
+
+
+Teeth on a Date dream
+
+
+- (Restauraunt setting. Your shadowy-silhoutted date sits across from you)
+- (Mumbling of others talking and light diner-esque music grooves from a crappy speaker)
+
+- You wake up. You are on a date at a restaurant with an unfamiliar romantic partner. All of your teeth fall out of your mouth into your cupped hands. The taste reminds you of pennies.
+
+	[Present the pile of teeth as a gift to your unfamiliar romantic partner]
+		- You present the pile of teeth as a gift to your unfamiliar romantic partner. They are thrilled. It was very thoughtful of you. A selfless action. You are a good person. 
+		- If only the world had more philanthropic and compassionate people like yourself. Other couples look on in jealousy at the spark between the two of you. 
+		[You congratulate yourself on being such a great gift giver]
+		- You congratulate yourself on being such a great gift giver. That one artist guy gave someone his ear. He kept all his teeth. Selfish. Or was he a writer?
+		- Given that correllation, you should be pretty great at art now too. Or writing. One of the two. Maybe both. A bunch of teeth is more than one ear.
+		- You make a mental note to produce art of some type later.
+		- All that inspiration has made you thirsty, but you find drinking exceptionally challenging after being so used to your teeth's presence in your mouth.
+		- You ask the waiter for a straw. It's not any easier. The water pours from your mouth due to your inability to purse your lips. 
+>>>
+
+	[Put the pile of teeth in your soup]
+		- You put the pile of teeth in your soup. Some sink faster than others. This place never sends crackers out with the soup. You wonder why that is. You'll have to remember that when you leave the tip.
+		- Maybe you have to ask for crackers. Maybe they don't send them out automatically because then each individual bowl of soup costs more for them to distribute.
+		- It's embarassing to have to ask about crackers. They should just send them out. If it's too expensive, then why don't they just raise the price of the soup by the cost of the crackers?
+		- The waiter is walking by right now...
+		[Ask about crackers]
+			- You ask about crackers. It's embarassing. Everyone takes notice. The waiter looks at your bowl of soup with a sneer, then asks if you'd like a pack, perhaps to take home.
+			[Accept]
+				- You accept. You reflect silently to yourself about how they should have sent crackers in the first place.
+				- Once the waiter is gone, your unfamiliar romantic partner voices an opinion similar to the one you just had.
+				- You agree. Yes, they should have sent crackers in the first place. 
+>>>
+			[Decline]
+				- You decline. You already put your teeth in the soup and you remember that you have crackers at home. You always have crackers at home.
+				- Once the waiter is gone, your unfamiliar romantic partner reminds you that you have crackers at home.
+				- You remember again that you have crackers at home. 
+>>>
+			[Ask for two packs]
+				- You ask for two packs. The waiter takes another look at your bowl and blinks slowly before walking away.
+				- You'll have to remember that when you leave the tip.
+				- It's hard for you to imagine he makes a decent living off of tips, given the way he treats the customers.
+				- You hope he brings the crackers soon, though. The soup is starting to get cold and your teeth will be soggy soon. 
+>>>
+		[Don't ask about crackers]
+			- You don't ask about crackers. It would be embarassing. I mean, it's fine. You already put your teeth in the soup.
+			- You look around to see if anyone else has crackers. You don't even see another bowl of soup at any tables.
+			- You stir your spoon through the soup, clinking your teeth at the bottom. They will get soggy soon, you think to yourself.
+			- Your unfamiliar romantic partner warns you that you should eat your soup soon, before your teeth get soggy.
+			- That's a reasonable suggestion, you think to yourself. What a wise and decisive unfamiliar romantic partner you've chosen. 
+>>>
+
+	[Ask to trade for your unfamiliar romantic partner's teeth, it's only fair]
+		- You ask to trade for your unfamiliar romantic partner's teeth, it's only fair. This is commitment we're talking about. There's a big difference between living together and exchanging each others' teeth.
+		- We have to be ready to lay it all on the line. To fully embrace each other. To look into each others' toothless mouths and fully accept ourselves, even if it's really really hard to eat stuff and drink stuff.
+		- Ready to take the next step, your unfamiliar romantic partner accepts your offer. Soon both of you have cupped hands full of your own teeth.
+		- You're both a little confused how the exchange is supposed to work out logistically. 
+		- Measuring the available options you...
+		[Pile your teeth in the center of the table]
+			- You pile your teeth in the center of the table. It seemed like the right thing to do. It was the first possiblity that crept into your mind. And now they're there, in the center of the table where you put them.
+			- Good job.
+			- It's a good thing this place doesn't have centerpieces, you think to yourself. 
+			- Your unfamiliar romantic partner looks at a with distaste. You probably inconvenienced them by placing your teeth in the center of the table.
+			- You worry your unfamiliar romantic partner might regret the trade. You didn't mean to rush things.
+			- Even if you didn't mean to rush things, you hurriedly extend your hands to alleviate your unfamiliar romantic partner of their teeth.
+			- Placing them in your pocket, you're both left to look at each other over a pile of your own teeth. You can't help but feel like your teeth are worth more than those you just recieved, but oh well. 
+>>>
+		[Shove your silverware aside with the bottom of your cupped hands and pile your teeth on the napkin]
+			- You shove your silverware aside with the bottom of your cupped hands and pile your teeth on the napkin. That worked out well. Nice. That's a good looking pile, you think to yourself.
+			- Any unfamiliar romantic partner should be happy to recieve that in a fair and agreed upon exchange.
+			- Your unfamiliar romantic partner performs similar actions to your own. Now there are two piles of teeth on their own respective napkins.
+			- You might need another set of silverware though, these tables are filthy.
+			- Your unfamiliar romantic partner furls your former napkin into a bag like shape and proceeds to place it somewhere upon its person, most likely a pocket.
+			- You perform a similar action, it's a little harder than it looked. You drop a couple of your unfamiliar romantic partner's teeth on the floor during transport. 
+>>>
+		[Ask a third party to assist with the exchange]
+			- You ask a third party to assist with the exchange. This is just too much to handle on your own. Somebody needs to be thinking about this from an outside perspective.
+			- The waiter sulks towards the table in response to your pleading gaze and helpless befuddlement. He asks what he can do for you. You put your teeth in his hands.
+			- Now your hands can recieve your unfamiliar romantic partner's teeth. Perfect. Good plan, you think to yourself.
+			- And now your unfamiliar romantic partner's hands are free to recieve your teeth from the waiter.
+			- The waiter unfurls your teeth into your unfamiliar romantic partner's lap, as if he wanted to be rid of them.
+			- You'll have to remember that when you leave the tip. 
+>>>
+
+	[Plant the pile of teeth in the ground later when you get home, together]
+		- You plant the pile of teeth in the ground later when you get home, together. 
+		- You loosely pad the dirt on top of the teeth with your bare hands while your unfamiliar romantic partner returns with a full watering can.
+		- This is the American Dream, you think to yourself.
+		- Why, the world could end right now, and you'd still have a job tomorrow.
+		- And in four to six weeks, these teeth are going to grow into something else. That's what life is.
+		- You have a dreamy glob of an unfamiliar romantic partner and you planted teeth together at your home.
+		- To some, that's a life well lived, and you're not even halfway there yet, you think to yourself. 
+>>>
+		
+	[Plant the pile of teeth in the ground later when you get home, alone]
+		- You plant the pile of teeth in the ground later when you get home, alone.
+		- It's kinda sad doing this all by yourself, you think as you pad the dirt with your hands. You have to get up to get the watering can and end up tracking dirt all over the house. Dang it.
+		- What's the point of planting teeth by yourself, you wonder.
+		- Now the house is dirty and you've got responsibility, and nobody to pawn it off on.
+		- And in four to six weeks, you'll probably still be alone and will have probably neglected these teeth you planted.
+		- You go to bed and never wake up again. 
+>>>
+
+
+
+
+
+
+
 
