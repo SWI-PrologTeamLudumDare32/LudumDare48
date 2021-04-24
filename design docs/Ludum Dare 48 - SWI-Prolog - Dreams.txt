@@ -4,6 +4,9 @@ Each dream is a simple interactive narrative. Can contain art, music, audio, etc
 DREAMS
 =======
 
+Identify Reveals vs. Cards - Cards go to a new location; Reveals are smaller actions that might just have a sound queue but don't go to a new location
+	<card> <button> <reveal> ca put html for <b> and <i>
+
 OVERWORLD INTRO
 
 You wake up. You are dead. You float up out of your lifeless body and see someone sleeping on a bed nearby. Next to the bed is an end-table with an alarm clock. What do you do?
@@ -11,7 +14,7 @@ You wake up. You are dead. You float up out of your lifeless body and see someon
 	[Freak Out]			OMG I'm dead I'm dead I'm dead!!!!
 	[Loot your own Corpse]		You find a phone and some pocket lint, but you can't use them. Because you're dead.
 	[Smash the Alarm Clock]		You try to smash the alarm clock, but you have no arms. And you're not corporeal. And being a freshly-minted ghost you simply don't have the telekinetic strength. Too bad...
-	[Possess the dreamer]		As you float over to the bed, you notice an alarm clock set to ____ 2 minutes. Should the alarm clock go off before you heal your biggest regret or possess another dreamer, you will be lost in the Unconscious until your sleeper goes back to sleep. You're certain your lover is somewhere in the Collective Subconscious; after all, someone must have known them and the most random people can show up in others' dreams... You are now entering your ______ first-level dream; once you dive to a deeper dream level, the alarm clock from two levels up (including the real world) will pause until you return to the dream associated with that sleeper. 
+	[Possess the dreamer]		As you float over to the bed, you notice an alarm clock set to ____ 2 minutes. Should the alarm clock go off before you heal your biggest regret or possess another dreamer, you will be lost in the Unconscious until your sleeper goes back to sleep. You're certain your lover is somewhere in the Collective Subconscious; after all, with only seven degrees of separation between any two people and knowing that the most random people can show up in others' dreams, they must be in there somewhere. You are now entering your ______ first-level dream; once you dive to a deeper dream level, the previous alarm clock will pause until you go back to that world. Don't be afraid to go deeper, and good luck! You possess the dreamer. {sound}
 		so level 0 alarm clock pauses on level 2, etc.
 Now to sleep, perchance to dream...
 
@@ -19,14 +22,15 @@ Now to sleep, perchance to dream...
 
 JUNGLE DREAM
 
-You wake up. You're in a jungle. You hear a tiger roar. It sounds really close! What do you do?
+You wake up. You're in a jungle. You hear a tiger roar. {sound} It sounds really close! What do you do?
 
-	[Run!] 			You run from the tiger as fast as your hobbit legs can carry you. You hear rustling and growling as the tiger hears you and gives chase. You find a small yurt, just in the knick of time, run in, and slam the straw door, thinking "That probably won't hold..." What do you do?
+	[Run!] 			You run from the tiger as fast as your hobbit legs can carry you. You hear rustling and growling {sound} as the tiger hears you and gives chase. You find a small yurt, just in the knick of time, run in, and slam the straw door, thinking "That probably won't hold..." What do you do?
 		[Jump in the fireplace!]
-			With a running start, you dive headfirst into the fireplace, where you are instantly killed. You wake up. You are dead. You float up out of your lifeless body and see _____ the tiger burst into the door so hard it splats right into an iron headboard and onto the bed below, out cold. Time is ticking. Wht do you do?
+			With a running start, you dive headfirst into the fireplace, {sound} {wilhelm scream?} where you are instantly killed. If you die in dreams, you die in real life. So you are now dead. But you are also a ghost in real life. So you were already dead. Realizing this, you float out of your lifeless body and are now a ghost in this dream. You wake up. You are dead. You float up out of your lifeless body and see the tiger burst into the door so hard it splats right into an iron headboard and onto the bed below, out cold. Time is ticking. What do you do?
 				[Possess the tiger]
+					You possess the sleeping tiger. You notice the alarm clock is set to 2 minutes
 		
-	[Give Up and Die!]	You give up, you shout out to the tiger, "Here kitty kitty, come eat me!" The tiger obliges. You are dead. If you die in dreams, you die in real life. So you are dead. But you are also a ghost in real life. So you were already dead. Realizing this, you float out of your lifeless body and are now a ghost in this dream. The clock is ticking... What do you want to do?
+	[Give Up and Die!]	You give up, you shout out to the tiger, "Here kitty kitty, come eat me!" The tiger obliges. {sound} {death} You are dead. If you die in dreams, you die in real life. So you are now dead. But you are also a ghost in real life. So you were already dead. Realizing this, you float out of your lifeless body and are now a ghost in this dream. The clock is ticking... What do you want to do?
 		[Fly!]		You fly high into the clouds and see the entire world is smoldering ashes and badlands except for that beautiful little jungle. You keep flying for a very long time. You begin to miss that precious little emerald miles below you. Suddenly you fly right through some kind of floating fortress. By the grimy walls, faint moans and clanging of metal, you are cleary in some kind of dungeon.
 				[Go Left]	You go left. There is a massive door blocking your way. You use your ghostly powers of deduction to deduce - after failing to charge right through the door and succeeding in bumping your ghostly little noggin - that the door is in fact magical and requires a magical key to unlock. You're pretty sure you hear some snoring on the other side of this door. Time is ticking. What do you do?
 					NEW QUEST: Find the Magical Key to unlock the Magical Bedroom Door in the Flying Fortress in the Jungle Dream.
@@ -48,23 +52,26 @@ SPACE DREAM
 You wake up. You're a space man! No wait, you're in space, ma'am! Like floating out in space, watching the space station get smaller and smaller in front of you. What do you do?
 
 	[Activate Propulsion Socks]
+		You activate your propulsion socks. They don't work. With sheer willpower you launch yourself at the space station and eventually make it. Unfortunately, there is a robot inside who will not open the pod bay doors to let you in. After a candid radio chat, you determine all he wants from life is a red hat. 
+			{You have the strangest feeling your long lost cousin is inside} 
+			{ITEM NEEDED}{RED HAT}
 	[Merge with the Omnipresent Void of the Infinite Cosmos]
 		You merge with the Omnipresent Void of the Infinite Cosmos. You are one with OVIC. OVIC is one with you. Cheat codes enabled...
 		You learn your lover is in _______ world, accessible through [[base this off of whatever quests they have unlocked]] a Magical Door, the key to which may be found in *sniff* oh oh God that's gross must be a sewer.
-		Then with a great sneeze OVIC expels you, a little astronaut-shaped booger flying through space. You fly so fast that you open a wormhole and find yourself suddenly in a white room with a small white bed where a large white rat is sleeping.
+		Then with a great sneeze {sound} OVIC expels you, a little astronaut-shaped booger flying through space. You fly so fast that you open a wormhole and find yourself suddenly in a white room with a small white bed where a large white rat is sleeping.
 		[Possess the Rat]
 			Just before you possess the rat, you notice the alarm clock is set to 'blue'. Fragments from your recent bout of omnipotence indicate you've got [5 minutes]. You possess the rat. [[Sewer Dream]] 
 		[Wait in the White Room for your lover]
 	[Take off your Helmet and accept your fate]
-		*Pchhhh  sssssss* The internal pressure releases as you take off your helmet. The total lack of external pressure results in the immediate and total explosion of your face. 
+		*Pchhhh  sssssss* The internal pressure releases as you take off your helmet. The total lack of external pressure results in the immediate and total explosion {sound} of your face. 
 		You are dead. You float out of your lifeless body *cuh cuh gluh* You are a ghost. Ghosts cannot breathe in space. You suffocate.
-		You are dead again. You are a ghost of your former ghostly self. Fortunately ghosts of ghosts can breathe in space. #Anti-Matter #DreamLogic Yep. What do you do?
+		You are dead again. You are a ghost of your former ghostly self. Fortunately ghosts of ghosts can breathe in space. #DreamLogic Yep. What do you do?
 			[Possess your ghost corpse]
 				You possess your ghost corpse. What do you do?
-					[Possess what's left of your body]
-						You possess your remains... Ewww...  They should call you Gross Ghost, because that's just ... ewww... What do you - you know what I can't even write this out it's so gross. I'm gonna go take a shower and wipe all this grossness out of me.
+					[Possess what's left of your original body]
+						You possess your remains... Ewww... {sound} {squishy version of normal possession sound} They should call you Gross Ghost, because that's just ... ewww... What do you - you know what I can't even write this out it's so gross. I'm gonna go take a shower and wipe all this grossness off of me.
 							[Take control of the narrative]
-								You take control of the narrative. It's mine. All mine!!!! AH HAHAHAH AHHAHAHHAHHAHAHHAHHAHAHH AHAHHA AHHAHAHAHHAHHAHAHAHHAHHAHAHAHAHHAHHAHAHHA. Wow! A bed appears floating in space, and check that out: a wandering erg-lob is sleeping peacefully on the bed. I possess the erg-lob... 
+								I have taken control of the narrative. It's mine. All mine!!!! AH HAHAHAH AHHAHAHHAHHAHAHHAHHAHAHH AHAHHA AHHAHAHAHHAHHAHAHAHHAHHAHAHAHAHHAHHAHAHHA. Wow! A bed appears floating in space, and check that out: a wandering erg-lob is sleeping peacefully on the bed. I possess the erg-lob... 
 	and lose control of the narrative - woooh that was close. Good thing I take really fast showers. So the alarm clock next to the erg-lob is set to @#&%*&HFDI!*U(#$):}{+-7, which means you should have approximately three minutes before She wakes up. Good luck, you fourth-wall-breaker you.
 
 	[Float Slowly Towards that small moon]
@@ -76,31 +83,31 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 								l
 								 y
 		towards the small moon. And suddenly, you realize: that's no moon! It's a GIANT BED! With a GIANT!!!! SLEEPING ON IT!!!
-		[Haunt the giant]
-		[You really want to do something else? Just haunt the giant]
-		[Okay fine, sit around and wait for _____ your lover to show up ___ run out the clock]
+		[Possess the sleeping giant]
+		[You really want to do something else? Just possess the giant]
+		[Okay fine, sit around and wait for your life's goal to achieve itself. You'll only run out the clock.]
+			Tick... Tick... Tick... {sound}
 
 @Aquasheep - GARDEN GNOME DREAM [[From Giant]] <------------------------------------------------------------- HUB WORLD
 
-	- Nightmare -
 
-		You wake up. As far as your eyes can see there is grass. It's a sunny day, but massive shadows drape across the grass. You look up a bit to see castle-wall-sized hedges all around you. "This is amaze-ing," you exclaim in a shrill voice. You start hopping around with glee, but it's quite difficult to move as the blades of grass are huge and your legs appear to be stuck together. Suddenly, you hear an engine roar to life followed by the unmistakable sound of a {lawnmower}. The sound is getting closer. Time is ticking. What do you do?
+		You wake up. As far as your eyes can see there is grass. It's a sunny day, but massive shadows drape across the grass. You look up a bit to see castle-wall-sized hedges all around you. "This is amaze-ing," you exclaim in a shrill voice. You start hopping around with glee, but it's quite difficult to move as the blades of grass are huge and your legs appear to be stuck together. Suddenly, you hear an engine roar to life followed by the unmistakable sound of a lawnmower {sound}. The sound is getting closer. Time is ticking. What do you do?
 			[Roll over and brace for impact]
-				Good choice! You roll over, the lawnmower gets closer. Oh goodness it must be right behind you and -- a {sound} as if someone just put a helicopter through a cheese grater is gracefully cut short by a deafening explosion. The last thing you see is bits of porcelain flying away from you. Then everything goes black. 
+				Good choice! You roll over, the lawnmower gets closer. Oh goodness it must be right behind you and -- a sound as if someone just put a helicopter through a cheese grater {sound} is gracefully cut short by a deafening explosion {sound}. The last thing you see is bits of porcelain flying away from you. Then everything goes black. 
 				You are dead. You float up out of your lifeless body - or what's left of it. Time is ticking. What do you do?
 					[Hold a funeral for yourself]
-						With great effort, you telekinetically scoot a few pieces of your once-proud porcelain pape in a small pile on the grass. You say a quick prayer, something to the effect of "Rest in Pieces, mi amigo. You were a fragile, yet sturdy little body and will be missed." A single ectoplasmic tear falls down your ghostly visage and onto the lawn. Without any warning at all, a pool of purple Fate-o-rade opens beneath you. Entranced by the infinity of small distant shapes dancing in the depths of that pool, you enter.
+						With great effort, you telekinetically scoot a few pieces of your once-proud porcelain pape in a small pile on the grass. You say a quick prayer, something to the effect of "Rest in Pieces, mi amigo. You were a fragile, yet sturdy little body and will be missed." A single ectoplasmic tear falls down your ghostly visage and onto the lawn. Without any warning at all, a pool of purple Fate-o-rade opens beneath you. {sound} {like bubbling liquid maybe?} Entranced by the infinity of small distant shapes dancing in the depths of that pool, you enter.
 						{Music} {Sound} {Art}
 						You are now surrounded by liquid chaos: all possibilities morphing in and out of existence at once. The weight of this dimension drags you down making it difficult to float. Time is ticking. What do you do?
 							[Cry]
 								You cry for a bit. It feels good. The ectoplasm floats around in globules in the air. It's pretty gross. Time is ticking. What do you do? {{Code: Minimap feature?}}
 								[Platform up the globules and get out of here]
-									With great effort you leap from globule to globule of your globby gooey ghostly tears. Along the way, you find a silver cup and scoop up some of the liquid chaos  before leaping out of the portal back into the Hedgemaze. Epic! {Item} {Liquid Chaos} Time is ticking. What do you do?
+									With great effort you leap from globule to globule of your globby gooey ghostly tears. Along the way, you find a silver cup and scoop up some of the liquid chaos {sound}  before leaping out of the portal back into the Hedgemaze. Epic! {Item} {Liquid Chaos} Time is ticking. What do you do?
 								[Find a possibility with a bed in it]
 									[Explore the Maze]
 									[Drink the goo] {Code} {can this be anoption any time you have a certain item, to use it?}
 							[Find a possibility with a bed in it]
-								You leap into one of the infinite possibilities twirling around you. After a blinding flash of light you wander around until you sense a bed nearby. Without thinking, you possess a sleeper! Who knows where you might end up... Just as you dive in, you catch a faint glimpse of their alarm clock, which is set to go off three minutes from now.
+								You leap into one of the infinite possibilities twirling around you. After a blinding flash of light you wander around until you sense a bed nearby. Without thinking, you possess a sleeper! Who knows where you might end up... Just as you dive in, you catch a faint glimpse of their alarm clock, which is set to go off ten minutes from now.
 					[Explore the Maze]
 					[Loot your corpse]
 						With great effort, you telekinetically turn over the various bits and pieces of your shattered body until you find a pointy red porcelain hat {Item}. You use all the rest of your ghostly powers to float the hat atop your head. Style! Time is ticking. What do you do?
@@ -109,7 +116,7 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 								You activate your hat with your mind. It spins around wildly on your ghostly head before stopping in the direction of the maze. You decide to explore the maze.
 								
 			[Hop away as fast as your tiny legs can take you]
-				You hop and hop and hop. The lawnmower is getting closer. It must be right behind you now. At the last minute you hop out of the way as it goes careening right through the hedges, creating a very convenient shortcut. A rather 2-Dimensional Pink Flamingo with thin metal legs takes off into the sky. {sound} Time is ticking. What do you do?
+				You hop and hop and hop. The lawnmower is getting closer. {sound} {background} It must be right behind you now. At the last minute you hop out of the way as it goes careening right through the hedges, creating a very convenient shortcut. A rather 2-Dimensional Pink Flamingo with thin metal legs takes off into the sky. {sound} Time is ticking. What do you do?
 					[Take Shortcut]
 						You take the shortcut right to the center of the maze. A large wrought-iron gazeebo rests there along with a pigeon in a tiny little bed inside a nest.
 							[Possess the pigeon]
@@ -118,13 +125,13 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 						You hop {Code: if ghost, change to float} around the maze for hours, maybe even days. You hop left. You hop right. But most importantly, you keep on hopping until you find three little houses scattered about. One is made of straw, one of wood, and one of brick. Time is ticking. What do you do?
 						[Take Shortcut to Center of Maze]
 						[This choice is way too easy, some might even call it a STRAW man.]
-							The moment you walk in the house, a sentry turret guns you down. {Good thing you are already a ghost!} {code} Pieces of porcelain fly everywhere before everything goes black. You are dead. You float up out of your lifeless body and {code start here if already ghost} see a medium-sized straw pig on a medium-sized straw bed with a medium-sized alarm-clock nearby. You also see some porridge nearby. Thinking "This is just right." You try to eat the porridge. Unfortunately, you are a ghost, so it just spills on the floor. Time is ticking. What do you do?	
+							The moment you walk in the house, a sentry turret guns you down. {sound} {Good thing you are already a ghost!} {code} Pieces of porcelain fly everywhere before everything goes black. You are dead. You float up out of your lifeless body and {code start here if already ghost} see a medium-sized straw pig on a medium-sized straw bed with a medium-sized alarm-clock nearby. You also see some porridge nearby. Thinking "This is just right." You try to eat the porridge. Unfortunately, you are a ghost, so it just spills on the floor. Time is ticking. What do you do?	
 								[Possess the Straw Pig]
 									You possess the straw pig, taking note the alarm-clock is set for 2 minutes from now. 
 								[Leave] {Code back to maze - float around the maze}
 	
 						[You WOOD pick this house.]
-							The moment you walk in a hatchet falls from the roof and kills you. {code} {good thing you were already a ghost!} {if you were already a ghost?} You are dead. You float up out of your lifeless body and see a large wooden pig sleeping on a large wooden bed shaped like an alarm clock.
+							The moment you walk in a hatchet falls from the roof {sound} and kills you. {sound} {code} {good thing you were already a ghost!} {if you were already a ghost?} You are dead. You float up out of your lifeless body and see a large wooden pig sleeping on a large wooden bed shaped like an alarm clock.
 								[Possess the Wood Pig]
 									You possess the sleeping pig, taking note the bed-clock is set for ____ four minutes from now.
 						[She's a BRICK... house!]
@@ -134,17 +141,17 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 					
 					
 			[Fart]
-				You clench your fists - and your buns - and let out a solid fart. Not a 10 by any stretch, but probably a 6. Solid. Unintimidated, the lawnmower is getting closer {sound}. Now that you're more relaxed, you hear a faint beeping in the nearby bushes. Time is ticking. What do you do?
+				You clench your fists - and your buns - and let out a solid fart. {sound} Not a 10 by any stretch, but probably a 6. Solid. Unintimidated, the lawnmower is getting closer {sound} {background}. Now that you're more relaxed, you hear a faint beeping {sound} in the nearby bushes. Time is ticking. What do you do?
 
 				[Search the bushes]
-					You search the bushes and find a metal detector! Wicked!!! {Item} The lawnmower is very close now but it zooms past you following along the hedge maze with frightening speed and precision. As the lawmower zooms past, a rather 2-Dimensional Pink Flamingo with thin metal legs takes off into the sky. {sound} Time is ticking. What do you do?
+					You search the bushes and find a metal detector! Wicked!!! {Item} The lawnmower is very close now but it zooms past you following along the hedge maze with frightening speed and precision. {sound} {background} As the lawmower zooms past, a rather 2-Dimensional Pink Flamingo with thin metal legs takes off into the sky. {sound} Time is ticking. What do you do?
 				[Explore the Maze]
-					The lawnmower is very close. You wait a moment as it hurtles down the hedge maze path with frightening speed and precision. As the lawnmower zooms past, a rather 2-Dimensional Pink Flamingo with thin metal legs takes off into the sky. {sound}
+					The lawnmower is very close. You wait a moment as it hurtles down the hedge maze path with frightening speed and precision {sound}. As the lawnmower zooms past, a rather 2-Dimensional Pink Flamingo with thin metal legs takes off into the sky. {sound}
 		
 					You hop {Code: if ghost, change to float} around the maze for hours, maybe even days. You hop left. You hop right. But most importantly, you keep on hopping until you find three little houses scattered about. One is made of straw, one of wood, and one of brick. Time is ticking. What do you do?
 
 						[Use metal detector]
-							You hop some more, possibly for weeks. Good thing dream time works differently or that alarm clock would have gone off by now. Trusty metal detector at hand, you beep your way to the very center of the maze. A large wrought-iron gazeebo rests there and-- As you approach the gazeebo, the metal detector starts beeping wildly. Suddenly a land mine goes off. Porcelain pieces fly everywhere, and everything goes black. You are dead. You float up out of your lifeless body and see a pigeon in a tiny little bed inside a nest. Time is ticking. What do you do?
+							You hop some more, possibly for weeks. Good thing dream time works differently or that alarm clock would have gone off by now. Trusty metal detector at hand, you beep your way to the very center of the maze. A large wrought-iron gazeebo rests there and-- As you approach the gazeebo, the metal detector starts beeping wildly. {sound} Suddenly a land mine goes off. {sound} Porcelain pieces fly everywhere, {sound} {smashing plate?} and everything goes black. You are dead. You float up out of your lifeless body and see a pigeon in a tiny little bed inside a nest. Time is ticking. What do you do?
 							[Possess the pigeon]
 								You possess the pigeon, noting its egg-shaped alarm clock is set to two minutes from now. {{Heavy Metal}}
 							[Go to Straw House] {ghost}
@@ -154,28 +161,30 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 						
 					
 			[Search for something useful]
-				You root around a little in the tall grass. The lawnmower is getting closer. You hear some rustling, investigate, and are pleased to find a rather 2-Dimensional Pink Flamingo with thin metal legs. Time is ticking. The lawnmower is approaching. What do you do?
+				You root around a little in the tall grass. The lawnmower is getting closer. {sound} {background} You hear some rustling, investigate, and are pleased to find a rather 2-Dimensional Pink Flamingo with thin metal legs. Time is ticking. The lawnmower is approaching. What do you do?
 					[Mount Up]
-						With the grace of an ace pilot, you leap onto your steed. Startled it takes off into the sky, leaving lawnmower, hedgemaze, and frustratingly tall grass behind. From up here you see it all, a medium-sized straw house, a large wood house, and a little brick house. There also appears to be a wrought-iron gazeebo in the center of the maze. Too scared to let go, you let the pink flamingo take you higher and higher so high that you can't breathe anymore. Slapping the flamingo wildly, you try to get it to descend, but to no avail. The flamingo goes up and rests on a pillow-shaped cloud with a cloud-shaped pillow on top and a completely normal hover-clock floating nearby. Unfortunately it is at this moment your lungs cannot bear it anymore. Everything goes black. You are dead. You float up out of your lifeless body and see the flamingo sleeping on the bed. Time is ticking. What do you do?
+						With the grace of an ace pilot, you leap onto your steed. Startled it takes off into the sky, {sound} leaving lawnmower, hedgemaze, and frustratingly tall grass behind. From up here you see it all, a medium-sized straw house, a large wood house, and a little brick house. There also appears to be a wrought-iron gazeebo in the center of the maze. Too scared to let go, you let the pink flamingo take you higher and higher so high that you can't breathe anymore. 
+						Slapping the flamingo wildly, {sound} you try to get it to descend, but to no avail. The flamingo goes up and rests on a pillow-shaped cloud with a cloud-shaped pillow on top and a completely normal hover-clock floating nearby. Unfortunately it is at this moment your lungs cannot bear it anymore. Everything goes black. {sound} {Death} You are dead. You float up out of your lifeless body and see the flamingo sleeping on the bed. Time is ticking. What do you do?
 						[Possess the Flamingo]
+							You possess the flamingo, noting the hover-clock is set to three minutes from now.
  
 					[Explore the Maze]
-						The lawnmower is very close. You wait a moment as it hurtles down the hedge maze path with frightening speed and precision. As the lawnmower zooms past, the rather 2-Dimensional Pink Flamingo with thin metal legs takes off into the sky. {sound}
+						The lawnmower is very close. {sound} {background} You wait a moment as it hurtles down the hedge maze path with frightening speed and precision. As the lawnmower zooms past, the rather 2-Dimensional Pink Flamingo with thin metal legs takes off into the sky. {sound}
 		
 						You hop around the maze for hours, maybe even days. You hop left. You hop right. But most importantly, you keep on hopping until you find three little houses scattered about. One is made of straw, one of wood, and one of brick. Time is ticking. What do you do?
 							
 													[This choice is way too easy, some might even call it a STRAW man.]
-							The moment you walk in the house, a sentry turret guns you down. {Good thing you are already a ghost!} {code} Pieces of porcelain fly everywhere before everything goes black. You are dead. You float up out of your lifeless body and {code start here if already ghost} see a medium-sized straw pig on a medium-sized straw bed with a medium-sized alarm-clock nearby. You also see some porridge nearby. Thinking "This is just right." You try to eat the porridge. Unfortunately, you are a ghost, so it just spills on the floor. Time is ticking. What do you do?	
+							The moment you walk in the house, a sentry turret guns you down. {sound} {Good thing you are already a ghost!} {code} Pieces of porcelain fly everywhere before everything goes black. You are dead. You float up out of your lifeless body and {code start here if already ghost} see a medium-sized straw pig on a medium-sized straw bed with a medium-sized alarm-clock nearby. You also see some porridge nearby. Thinking "This is just right." You try to eat the porridge. Unfortunately, you are a ghost, so it just spills on the floor. Time is ticking. What do you do?	
 								[Possess the Straw Pig]
 									You possess the straw pig, taking note the alarm-clock is set for 2 minutes from now. 
 								[Leave] {Code back to maze - float around the maze}
 	
 						[You WOOD pick this house.]
-							The moment you walk in a hatchet falls from the roof and kills you. You are dead. You float up out of your lifeless body and see a large wooden pig sleeping on a large wooden bed shaped like an alarm clock.
+							The moment you walk in a hatchet falls from the roof {sound} and kills you. {sound} You are dead. You float up out of your lifeless body and see a large wooden pig sleeping on a large wooden bed shaped like an alarm clock.
 								[Possess the Wood Pig]
 									You possess the sleeping pig, taking note the bed-clock is set for ____ four minutes from now.
 						[She's a BRICK... house!]
-							The moment you walk in a proximity mine explodes, sending your porcelain bits flying everywhere. You are dead. You float up out of your lifeless body and see a little brick pig sleeping on a little brick bed with a little brick alarm clock next to her.
+							The moment you walk in a proximity mine explodes, {sound} sending your porcelain bits flying everywhere. {sound} {death porcelain} You are dead. You float up out of your lifeless body and see a little brick pig sleeping on a little brick bed with a little brick alarm clock next to her.
 								[Possess the Brick Pig]
 									You possess the sleeping pig, taking note the alarm clock is set for ____ three minutes from now.
 
