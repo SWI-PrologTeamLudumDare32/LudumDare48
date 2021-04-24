@@ -1,0 +1,15 @@
+<game start="somecard">
+	<dream name="somedream">
+		<card name="somecard">
+			<show>
+			<p>It was a dark and <b>stormy</b> night</p>
+			</show>
+			<button>
+				<label><span>Go <b>Down</b></span></label>
+				<reveal><p>You approach the <b>door</b></p></reveal>
+				<go card="othercard" />
+			</button>
+		</card>
+	</dream>
+</game>
+

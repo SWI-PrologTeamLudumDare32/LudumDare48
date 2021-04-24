@@ -5,6 +5,7 @@
 
 :- use_module(library(http/html_write)).
 
+:- dynamic start_card/1, card/1.
 
 %!  start_card(-Name:atom) is det
 %
@@ -26,7 +27,7 @@ start_card(start).
 
 card(card{
          name: start,
-         html: p('this is the start card'),
+         show: p('this is the start card'),
          buttons: ['Start'=start]
      }).
 
@@ -42,4 +43,7 @@ name_card(Name, Card) :-
 :- multifile sandbox:safe_primitive/1.
 
 sandbox:safe_primitive(ldjam_twine:name_card(_, _)).
+
+:- use_module(ifml).
+
 
