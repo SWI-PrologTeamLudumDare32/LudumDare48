@@ -10,6 +10,7 @@ function startGame() {
 	mypengine = new Pengine({
 		ask: "create_game(Result)",
 		onsuccess: new_data,
+		destroy: false,
 		application: "ldjam_pengine_app"
 	});
 }
