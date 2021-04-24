@@ -1,50 +1,23 @@
-var mypen = null;
+var mypengine;
 
-window.addEventListener('load', function() {
-	console.log("loaded");
-  const inputbox = document.getElementById('inputbox');
-  inputbox.focus();
-  inputbox.disabled = true;
-  inputbox.addEventListener("keyup", function(ev) {
-  	   if(ev.key == "Enter") {
-  	   	console.log("saw return");
-  	      mypen.ask("game_turn('" + encodeURI(inputbox.value) + "', ResponseText)", [])
-  	   } else {
-  	   	console.log(inputbox.innerHTML);
-  	       // inputbox.value = inputbox.value.toUpperCase();
-  	   }
-  });
-  mypen = new Pengine( {
-  	ask: "create_game(ResponseText)",
-  	destroy: false,
-  	oncreate: function(){
-  		console.log("pengine created")
-
-  	},
-  	onsuccess: function() {
-  		console.log("pengine responds\n");
-  		console.log(this);
-  		if(this.data.length > 0 && this.data[0]["ResponseText"] != undefined) {
-  			 if (inputbox.value != "") {
-  			 	$("<code>&#x25B6;" + inputbox.value + "</code>").appendTo("#codeliketext");
-  			 }
-  			 if (this.data[0]["ResponseText"] != "") {
-  			 	$("<code>" + this.data[0]["ResponseText"] + "</code>").appendTo("#codeliketext");
-  			 }
-  			 inputbox.value = ""
-  			 inputbox.focus();
-		    inputbox.disabled = false;
-		    document.getElementById( 'bottom' ).scrollIntoView();
-  		}
-  		if(this.more) {
-  		    mypen.next();
-  		}
-  	}
-  });
-});
+function new_data(){
+	if(this.data && this.data[0] && this.data[0].Result != undefined) {
+		console.log("Data is " + this.data[0].Result.toString());
+		// Hans - this.data[0].Result is a json object I hope
+	}
+}
+function startGame() {
+	mypengine = new Pengine({
+		ask: "create_game(Result)",
+		onsuccess: new_data,
+		application: "ldjam_pengine_app"
+	});
+}
 
 function sendPengine() {
   var query = $("#counter").text();
   console.log("Query will be: " + query);
-  mypen.ask('increase(' + query + ')');
+  mypengine.ask('increase(' + query + ', Result)');
 };
+
+window.onload = startGame;
