@@ -229,10 +229,71 @@ EVEN MORE POSSIBLE DREAMS
 =========================
 
 @Aquasheep - GOLDFISH BOWL DREAM [[From WET DREAM/UNDERWATER DREAM]]
+You wake up. You are a fish. A goldfish to be exact. Not a gold fish. That would have been cool, but it was too expensive to get one in the Ludum Dare time window. You look out and see a distorted room around you. You try to swim into that room, but you seem to bump into thin air. This happens in all directions. It's pretty cramped in here. Underneath you is a castle. Above you is a scary place you don't want to go. In front of you is your fishy reflection. Time is ticking. What do you do?
+	[Check out reflection]
+	[Investigate castle]
+		
+	[Face your greatest fear]
+		/YOLO. You swim to the top of the bowl. The black-and-white cat immediately snatches you out of the bowl with its teeth. As the cats jaws tear at your fishy carcass, you have no regrets. You faced your fear. Your fishlips curve into a smug smile before everything goes black. You wake up. You are dead. You float out of your lifeless body and out of the cat and see the cat is napping. Time is ticking. What do you do?
+		
+	[Pee on the cat]
+			You drop some ectoplasm on the cat... Gross, and kinda mean. Fortunately the cat does not wake up. Time is ticking. What do you do?
 
+			[Possess the cat]
+				You possess the cat. You notice the alarm clock on the cat's collar is set to stun, roughly one minute from now. Poor thing...
+
+		[Possess the cat]
 
 
 @Aquasheep - ALLIGATOR IN SWIMMING POOL DREAM [[From ]]
+You wake up. You are in a swimming pool. There is an alligator in front of you and a ladder behind you. Time is ticking. What do you do?
+	[Clamp the gator's jaws shut]
+	[Punch the gator]
+		You cock your hip and send a single watery fisticuff towards the gator. It eats your arm off. I forgot to mention you also have hemophilia. You bleed out rapidly, are devoured, and everything goes black.
+		You wake up. You are dead. You float out of your lifeless body and see the gator lounging in a beach chair. Next to the gator is a robot waiter doing the splits. Lowering his shades, the gator acknowledges your ghostly figure and presses a button on the robot. The robot goes to sleep. Time is ticking. What do you do?
+		[Possess the robot]
+		[Punch the gator]
+			Once again you - with all your ghostly might - try to form a fist and punch the gator. It's not very effective... Time is ticking. What do you do?
+				[Keep Trying] This is embarrasing, but it's what you did: You kept trying to morph your ectoplasmic mass into a fist. It failed. Every time.
+						 However, watching the ebb and flow of your shimmery non-physical body put the gator into a kind of hypnotic state. He is drooling now, and you're pretty sure he's asleep. Time is ticking. What do you do?
+							[Possess the Gator]
+								You possess the gator. The alarm-clock on his gold watch will go off three minutes from now.
+							[Punch th-#$%^&!@@!*&^???] Exception: Buffer Overflow. To maintain data integrity, this story thread has been put to sleep.
+								[Possess Story Thread]
+									... ... ... Error. Error. Error. Entity 'PlayerCharacter' is undefined. Initiating Stacktrace... Error. Unable to trace 'StoryThread0037'. Object is null. Initiating Ghost Image Protocol. Please stand by... {music} {elevator music} ... ... ... 
+
+	[Get to the ladder!]
+		You reach the lad-- hey wait a second, the ladder disappears before your very eyes. That's just cruel... The gator is coming. Time is ticking. What do you do?
+		[Climb out the side of the pool]
+			You attempt to climb out of the side of the pool, but this is impossible. Without a ladder, you are doomed. You feel the gator's fangs tickle your skin then everything goes black.
+			You wake up. You are dead. You float out of your lifeless body and see the gator lounging in a beach chair. Next to the gator is a robot waiter doing the splits. Lowering his shades, the gator acknowledges your ghostly figure and presses a button on the robot. The robot goes to sleep. Time is ticking. What do you do?
+			[Possess the robot]	You possess the robot. You notice his sleep timer is set to five minutes...
+			[Punch the gator]
+			Once again you - with all your ghostly might - try to form a fist and punch the gator. It's not very effective... Time is ticking. What do you do?
+				[Keep Trying] This is embarrasing, but it's what you did: You kept trying to morph your ectoplasmic mass into a fist. It failed. Every time.
+						 However, watching the ebb and flow of your shimmery non-physical body put the gator into a kind of hypnotic state. He is drooling now, and you're pretty sure he's asleep. Time is ticking. What do you do?
+							[Possess the Gator]
+								You possess the gator. The alarm-clock on his gold watch will go off three minutes from now.
+							[Punch th-#$%^&!@@!*&^???] Exception: Buffer Overflow. To maintain data integrity, this story thread has been put to sleep.
+								[Possess Story Thread]
+									... ... ... Error. Error. Error. Entity 'PlayerCharacter' is undefined. Initiating Stacktrace... Error. Unable to trace 'StoryThread0037'. Object is null. Initiating Ghost Image Protocol. Please stand by... {music} {elevator music} ... ... ... 
+	
+
+GLITCH DREAM
+System backed up succ%essfully. Time is ti$#cking. W@!ha7 do you do?
+
+		[%#$#*&^%$]
+			Congratulations. You beat the game. Continue?
+				[Y]	Congratulations. You beat the game. Continue?
+						[Y]	Congratulations. You beat the game. Continue?
+						[N]	The End. {{go to previous screen}}
+				[N] 	The End.
+		[&%*$*(#!!]
+			Invalid input. Virus detected. Anti-virus protocol engaged. Threat neutralized. Ghost detected. Emergency shutdown engaged. System clock disabled. {Code} {disable alarm-clocks} {{go to unconscious}}
+		[:D]
+				;)     :)        :|     :[       :(        :O
+				[&%*$*(#!!]		
+				
 
 
 
