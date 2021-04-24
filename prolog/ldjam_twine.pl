@@ -35,4 +35,4 @@ sandbox:safe_primitive(ldjam_twine:name_card(_, _)).
 
 :- use_module(ifml).
 
-
+:- load_ifml_to_cards('testgame.xml'). % temporary til we get all the dreams converted
