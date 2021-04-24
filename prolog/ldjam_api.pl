@@ -12,12 +12,9 @@
 % trivial pred for testing hookup
 mymember(M, L) :- member(M, L).
 
-
-create_game(0).
-
-
-buildResponse(ResponseText) :-
-	ResponseText = 'Ready player one :)'.
+create_game(Card) :-
+	start_card(Name),
+	name_card(Name, Card).
 
 increase(N, N2) :-
 		N2 is N + 1.

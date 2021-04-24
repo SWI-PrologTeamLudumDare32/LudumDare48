@@ -3,6 +3,7 @@ var mypengine;
 function new_data(){
 	if(this.data && this.data[0] && this.data[0].Result != undefined) {
 		console.log("Data is " + this.data[0].Result.toString());
+		// Hans - this.data[0].Result is a json object I hope
 	}
 }
 function startGame() {
