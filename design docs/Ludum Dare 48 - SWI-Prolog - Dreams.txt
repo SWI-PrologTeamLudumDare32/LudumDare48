@@ -75,7 +75,7 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 						slow.......................................
 								l
 								 y
-		towards the small moon. And suddenly, you realize: that's no moon! It's a GIANT BED! with a GIANT!!!! SLEEPING ON IT!!!
+		towards the small moon. And suddenly, you realize: that's no moon! It's a GIANT BED! With a GIANT!!!! SLEEPING ON IT!!!
 		[Haunt the giant]
 		[You really want to do something else? Just haunt the giant]
 		[Okay fine, sit around and wait for _____ your lover to show up ___ run out the clock]
@@ -83,6 +83,103 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 @Aquasheep - GARDEN GNOME DREAM [[From Giant]] <------------------------------------------------------------- HUB WORLD
 
 	- Nightmare -
+
+		You wake up. As far as your eyes can see there is grass. It's a sunny day, but massive shadows drape across the grass. You look up a bit to see castle-wall-sized hedges all around you. "This is amaze-ing," you exclaim in a shrill voice. You start hopping around with glee, but it's quite difficult to move as the blades of grass are huge and your legs appear to be stuck together. Suddenly, you hear an engine roar to life followed by the unmistakable sound of a {lawnmower}. The sound is getting closer. Time is ticking. What do you do?
+			[Roll over and brace for impact]
+				Good choice! You roll over, the lawnmower gets closer. Oh goodness it must be right behind you and -- a {sound} as if someone just put a helicopter through a cheese grater is gracefully cut short by a deafening explosion. The last thing you see is bits of porcelain flying away from you. Then everything goes black. 
+				You are dead. You float up out of your lifeless body - or what's left of it. Time is ticking. What do you do?
+					[Hold a funeral for yourself]
+						With great effort, you telekinetically scoot a few pieces of your once-proud porcelain pape in a small pile on the grass. You say a quick prayer, something to the effect of "Rest in Pieces, mi amigo. You were a fragile, yet sturdy little body and will be missed." A single ectoplasmic tear falls down your ghostly visage and onto the lawn. Without any warning at all, a pool of purple Fate-o-rade opens beneath you. Entranced by the infinity of small distant shapes dancing in the depths of that pool, you enter.
+						{Music} {Sound} {Art}
+						You are now surrounded by liquid chaos: all possibilities morphing in and out of existence at once. The weight of this dimension drags you down making it difficult to float. Time is ticking. What do you do?
+							[Cry]
+								You cry for a bit. It feels good. The ectoplasm floats around in globules in the air. It's pretty gross. Time is ticking. What do you do? {{Code: Minimap feature?}}
+								[Platform up the globules and get out of here]
+									With great effort you leap from globule to globule of your globby gooey ghostly tears. Along the way, you find a silver cup and scoop up some of the liquid chaos  before leaping out of the portal back into the Hedgemaze. Epic! {Item} {Liquid Chaos} Time is ticking. What do you do?
+								[Find a possibility with a bed in it]
+									[Explore the Maze]
+									[Drink the goo] {Code} {can this be anoption any time you have a certain item, to use it?}
+							[Find a possibility with a bed in it]
+								You leap into one of the infinite possibilities twirling around you. After a blinding flash of light you wander around until you sense a bed nearby. Without thinking, you possess a sleeper! Who knows where you might end up... Just as you dive in, you catch a faint glimpse of their alarm clock, which is set to go off three minutes from now.
+					[Explore the Maze]
+					[Loot your corpse]
+						With great effort, you telekinetically turn over the various bits and pieces of your shattered body until you find a pointy red porcelain hat {Item}. You use all the rest of your ghostly powers to float the hat atop your head. Style! Time is ticking. What do you do?
+							[Explore the Maze]
+							[Activate Hat] {Code} {Hat icon like compass}
+								You activate your hat with your mind. It spins around wildly on your ghostly head before stopping in the direction of the maze. You decide to explore the maze.
+								
+			[Hop away as fast as your tiny legs can take you]
+				You hop and hop and hop. The lawnmower is getting closer. It must be right behind you now. At the last minute you hop out of the way as it goes careening right through the hedges, creating a very convenient shortcut. A rather 2-Dimensional Pink Flamingo with thin metal legs takes off into the sky. {sound} Time is ticking. What do you do?
+					[Take Shortcut]
+						You take the shortcut right to the center of the maze. A large wrought-iron gazeebo rests there along with a pigeon in a tiny little bed inside a nest.
+							[Possess the pigeon]
+								You possess the pigeon, noting its egg-timer alarm clock is set to two minute from now.
+					[Explore Maze]
+						You hop {Code: if ghost, change to float} around the maze for hours, maybe even days. You hop left. You hop right. But most importantly, you keep on hopping until you find three little houses scattered about. One is made of straw, one of wood, and one of brick. Time is ticking. What do you do?
+						[Take Shortcut to Center of Maze]
+						[This choice is way too easy, some might even call it a STRAW man.]
+							The moment you walk in the house, a sentry turret guns you down. {Good thing you are already a ghost!} {code} Pieces of porcelain fly everywhere before everything goes black. You are dead. You float up out of your lifeless body and {code start here if already ghost} see a medium-sized straw pig on a medium-sized straw bed with a medium-sized alarm-clock nearby. You also see some porridge nearby. Thinking "This is just right." You try to eat the porridge. Unfortunately, you are a ghost, so it just spills on the floor. Time is ticking. What do you do?	
+								[Possess the Straw Pig]
+									You possess the straw pig, taking note the alarm-clock is set for 2 minutes from now. 
+								[Leave] {Code back to maze - float around the maze}
+	
+						[You WOOD pick this house.]
+							The moment you walk in a hatchet falls from the roof and kills you. {code} {good thing you were already a ghost!} {if you were already a ghost?} You are dead. You float up out of your lifeless body and see a large wooden pig sleeping on a large wooden bed shaped like an alarm clock.
+								[Possess the Wood Pig]
+									You possess the sleeping pig, taking note the bed-clock is set for ____ four minutes from now.
+						[She's a BRICK... house!]
+							The moment you walk in a proximity mine explodes, sending your porcelain bits flying everywhere. You are dead. You float up out of your lifeless body and see a little brick pig sleeping on a little brick bed with a little brick alarm clock next to her.
+								[Possess the Brick Pig]
+									You possess the sleeping pig, taking note the alarm clock is set for ____ three minutes from now.
+					
+					
+			[Fart]
+				You clench your fists - and your buns - and let out a solid fart. Not a 10 by any stretch, but probably a 6. Solid. Unintimidated, the lawnmower is getting closer {sound}. Now that you're more relaxed, you hear a faint beeping in the nearby bushes. Time is ticking. What do you do?
+
+				[Search the bushes]
+					You search the bushes and find a metal detector! Wicked!!! {Item} The lawnmower is very close now but it zooms past you following along the hedge maze with frightening speed and precision. As the lawmower zooms past, a rather 2-Dimensional Pink Flamingo with thin metal legs takes off into the sky. {sound} Time is ticking. What do you do?
+				[Explore the Maze]
+					The lawnmower is very close. You wait a moment as it hurtles down the hedge maze path with frightening speed and precision. As the lawnmower zooms past, a rather 2-Dimensional Pink Flamingo with thin metal legs takes off into the sky. {sound}
+		
+					You hop {Code: if ghost, change to float} around the maze for hours, maybe even days. You hop left. You hop right. But most importantly, you keep on hopping until you find three little houses scattered about. One is made of straw, one of wood, and one of brick. Time is ticking. What do you do?
+
+						[Use metal detector]
+							You hop some more, possibly for weeks. Good thing dream time works differently or that alarm clock would have gone off by now. Trusty metal detector at hand, you beep your way to the very center of the maze. A large wrought-iron gazeebo rests there and-- As you approach the gazeebo, the metal detector starts beeping wildly. Suddenly a land mine goes off. Porcelain pieces fly everywhere, and everything goes black. You are dead. You float up out of your lifeless body and see a pigeon in a tiny little bed inside a nest. Time is ticking. What do you do?
+							[Possess the pigeon]
+								You possess the pigeon, noting its egg-shaped alarm clock is set to two minutes from now. {{Heavy Metal}}
+							[Go to Straw House] {ghost}
+							[Go to Wood House]
+							[Go to Brick House]							
+							
+						
+					
+			[Search for something useful]
+				You root around a little in the tall grass. The lawnmower is getting closer. You hear some rustling, investigate, and are pleased to find a rather 2-Dimensional Pink Flamingo with thin metal legs. Time is ticking. The lawnmower is approaching. What do you do?
+					[Mount Up]
+						With the grace of an ace pilot, you leap onto your steed. Startled it takes off into the sky, leaving lawnmower, hedgemaze, and frustratingly tall grass behind. From up here you see it all, a medium-sized straw house, a large wood house, and a little brick house. There also appears to be a wrought-iron gazeebo in the center of the maze. Too scared to let go, you let the pink flamingo take you higher and higher so high that you can't breathe anymore. Slapping the flamingo wildly, you try to get it to descend, but to no avail. The flamingo goes up and rests on a pillow-shaped cloud with a cloud-shaped pillow on top and a completely normal hover-clock floating nearby. Unfortunately it is at this moment your lungs cannot bear it anymore. Everything goes black. You are dead. You float up out of your lifeless body and see the flamingo sleeping on the bed. Time is ticking. What do you do?
+						[Possess the Flamingo]
+ 
+					[Explore the Maze]
+						The lawnmower is very close. You wait a moment as it hurtles down the hedge maze path with frightening speed and precision. As the lawnmower zooms past, the rather 2-Dimensional Pink Flamingo with thin metal legs takes off into the sky. {sound}
+		
+						You hop around the maze for hours, maybe even days. You hop left. You hop right. But most importantly, you keep on hopping until you find three little houses scattered about. One is made of straw, one of wood, and one of brick. Time is ticking. What do you do?
+							
+													[This choice is way too easy, some might even call it a STRAW man.]
+							The moment you walk in the house, a sentry turret guns you down. {Good thing you are already a ghost!} {code} Pieces of porcelain fly everywhere before everything goes black. You are dead. You float up out of your lifeless body and {code start here if already ghost} see a medium-sized straw pig on a medium-sized straw bed with a medium-sized alarm-clock nearby. You also see some porridge nearby. Thinking "This is just right." You try to eat the porridge. Unfortunately, you are a ghost, so it just spills on the floor. Time is ticking. What do you do?	
+								[Possess the Straw Pig]
+									You possess the straw pig, taking note the alarm-clock is set for 2 minutes from now. 
+								[Leave] {Code back to maze - float around the maze}
+	
+						[You WOOD pick this house.]
+							The moment you walk in a hatchet falls from the roof and kills you. You are dead. You float up out of your lifeless body and see a large wooden pig sleeping on a large wooden bed shaped like an alarm clock.
+								[Possess the Wood Pig]
+									You possess the sleeping pig, taking note the bed-clock is set for ____ four minutes from now.
+						[She's a BRICK... house!]
+							The moment you walk in a proximity mine explodes, sending your porcelain bits flying everywhere. You are dead. You float up out of your lifeless body and see a little brick pig sleeping on a little brick bed with a little brick alarm clock next to her.
+								[Possess the Brick Pig]
+									You possess the sleeping pig, taking note the alarm clock is set for ____ three minutes from now.
+
+
 	- Lawnmower chasing you through a hedge maze -
 	- Several Beds this is like a hub world and a great place to find your lover -
 
