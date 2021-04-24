@@ -6,6 +6,8 @@
 %  pengine_rpc('http://localhost:8888/', mymember(X, [a,b,c]), [application(ldjam_pengine_app)]).
 %
 
+:- use_module(ldjam_twine).
+
 % trivial pred for testing hookup
 mymember(M, L) :- member(M, L).
 
