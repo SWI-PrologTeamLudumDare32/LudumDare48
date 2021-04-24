@@ -1,0 +1,44 @@
+More detailed discussion of basic mechanics, e.g. the Goal Compass
+
+===============
+MECHANICS/NOTES
+===============
+All you remember from life is that you wanted to kiss your lover goodbye.
+
+
+GOAL COMPASS
+	
+	- sits at bottom-right of screen with alarm-clock bottom-left
+		- gives you vague hints as to where your goal may be (could be live players or static AI)
+
+If you wake in a dream with your lover, 
+	[You feel oddly certain your lover is somewhere in this very dream.]
+	[You feel as if your lover has exited this dream.]
+	[You feel as if your lover is in a dream just below this one.]
+	[You feel as if your lover is in a jungle somewhere.]
+
+You sense your lover is just below you in the next dream}
+{{You sense your lover might be just above you in the dream world}}
+
+
+ALARM CLOCK EFFECT
+	- At present, allows you either to wake with dreamer to return to previous level or to wait a bit and either decide to redo the dream you were in or roll for a random dream
+
+AINNHHH AINHHH AINHHH AINHHH You hear a sound more horrifying than anything you encountered in life. The world goes black.
+
+	You wake up...
+	The alarm clock went off, do you
+		[Wake with the dreamer] (go up one level)
+		[Rest in the unconscious (randomly generated stuff) until they go back to sleep] (stay in this dream)
+			You are resting in the unconscious. It's kind of weird and pretty boring here tbh. What do you do? You've got all the time in the world.
+				[Hope you end up in that same dream]
+				[Hope the dreamer dreams about something totally different (warning: you could end up anywhere)] <-- now technically, that would teleport you to another compeltely different part of the map, so I don't agree with it in principle, BUT double check with code
+				[Possess the Unconscious] and hope you end up in a different dreamer/dream (warning you could end up anywhere!)]
+					You possess the Collective Unconscious... somehow... Who knows whose dream you might wind up in...
+						[DING!] You wake up...
+
+	Alarm Clock Effect Old Idea
+		60s respawn timer then spawn in a random different dream, on the same tier, with the same timer
+	so the dreams need to be pages or something and wherever people are is where they are, you're basically rolling dreams until you find them. But maybe the deeper you go the more likely you are to find them?
+
+Maybe when alarm clock goes off you just pop into the dream above you from the beginning, no penalty. It's a way to travel up looking for your lover or taking stuff with you.
