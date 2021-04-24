@@ -80,7 +80,7 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 		[You really want to do something else? Just haunt the giant]
 		[Okay fine, sit around and wait for _____ your lover to show up ___ run out the clock]
 
-GARDEN GNOME DREAM [[From Giant]]
+GARDEN GNOME DREAM [[From Giant]] <------------------------------------------------------------- HUB WORLD
 
 	- Nightmare -
 	- Lawnmower chasing you through a hedge maze -
@@ -102,7 +102,7 @@ EARTH IS GETTING HIT BY ASTEROID-SIZED DINOSAURS DREAM [[From Garden Gnome Dream
 	- Don't get hit by an asteroid-sized dinosaur -
 	- Also many beds here - another Hub World - 
 
-WET DREAM (actually underwater dream) [[From Garden Gnome Dream - Lake]]
+WET DREAM (actually underwater dream) [[From Garden Gnome Dream - Lake]] <------------------------HUB WORLD
 
 	- (hopefully)
 	- Beautiful Artwork
@@ -117,3 +117,61 @@ WET DREAM (actually underwater dream) [[From Garden Gnome Dream - Lake]]
 				[Red Fish]
 				[Blue Fish]
 				[None of the above, I go back!]
+
+=========================
+EVEN MORE POSSIBLE DREAMS
+=========================
+
+GOLDFISH BOWL DREAM [[From WET DREAM/UNDERWATER DREAM]]
+
+
+
+ALLIGATOR IN SWIMMING POOL DREAM [[From ]]
+
+
+
+FIRST KISS IN POURING RAIN DREAM [[From ]]
+	- but they're both actual walruses
+
+
+FLY A KITE BECOME THE KITE DREAM [From ]]
+
+
+PIPE DREAM [[From ]]
+	lots of pipes, of all kinds, everywhere
+		could be a platformer, or a maze
+
+ARCTIC SUNRISE/SUNSET DREAM [[From ]]
+	just a pretty one where not much happens
+
+CONSTANTINOPLE DREAM [[From ]]
+
+
+EPIC BATTLE DREAM [[From ]]
+
+
+YOU ARE A SQUID DREAM [[From ]]
+
+
+META DREAM [[From ]]
+
+
+GLITCH DREAM [From ]]
+
+
+HEAVY METAL DREAM [[From ]]
+
+
+STUCK ON AN ELEVATOR WITH A CLOWN DREAM [[From ]]
+
+
+FLYING RHINOCEROUS-ES DREAM [[From ]]
+
+
+COWPERSON DREAM [[From ]]
+	featuring both actual cow people
+		and a gender neutral term for cowboy/girl/person
+
+THE UNFORTUNATE ACCIDENT DREAM [[From  ]]
+
+
