@@ -2,8 +2,11 @@ var mypengine;
 
 function new_data(){
 	if(this.data && this.data[0] && this.data[0].Result != undefined) {
-		console.log("Data is " + this.data[0].Result.toString());
+    var cardObj = this.data[0].Result;
+		console.log("Data is " + cardObj.toString());
 		// Hans - this.data[0].Result is a json object I hope
+    console.log("HTML instruction", cardObj.show.toString());
+    displayCard(cardObj);
 	}
 }
 function startGame() {
@@ -21,3 +24,26 @@ function sendPengine() {
 };
 
 window.onload = startGame;
+
+function displayCard(aCardObj)
+{
+  var html = aCardObj.show;
+  $("#card").append(html);
+
+  displayButtons(aCardObj);
+}
+
+function displayButtons(aCardObj)
+{
+    var buttonObj = aCardObj.buttons[0].args;
+    var html = buildButton(buttonObj[0])
+     $("#buttonArea").append(html);
+
+    console.log("Buttons ", buttonObj)
+}
+
+function buildButton(name)
+{
+  var html = '<button id = "' + name + '"">'+ name + '</button>';
+  return html; 
+}

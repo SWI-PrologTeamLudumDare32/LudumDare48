@@ -36,9 +36,9 @@ card(card{
 name_card(Name, Card) :-
     card(RawCard),
     card{name: Name} :< RawCard,
-    phrase(html(RawCard.html), Tokens),
+    phrase(html(RawCard.show), Tokens),
     with_output_to(string(S), print_html(Tokens)),
-    Card = RawCard.put(_{html: S}).
+    Card = RawCard.put(_{show: S}).
 
 :- multifile sandbox:safe_primitive/1.
 
