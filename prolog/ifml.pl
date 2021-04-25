@@ -40,18 +40,28 @@ load_dream_to_cards(Path) :-
 load_dream_to_cards(_).
 
 assert_cards(DOM) :-
-    xpath(DOM, //card, Card),
+    xpath(DOM, //dream, Dream),
+    xpath(Dream, /self(@name), DreamName),
+    xpath(Dream, //card, Card),
     xpath(Card, /self(@name), Name),
     xpath(Card, show(1)/(*), Show),
     xml_str(Show, ShowStr),
     findall(Button, button(Card, Button), Buttons),
+    mangle_name(Mangle, DreamName, Name),
+    \+ card_already_exists(Mangle),
     asserta(ldjam_twine:card(card{
-                name: Name,
+                name: Mangle,
                 show: ShowStr,
                 buttons: Buttons
             })),
     false.
 assert_cards(_).
+
+card_already_exists(Mangle) :-
+    ldjam_twine:card(OC),
+     _{name: Mangle} :< OC,
+     !.
+
 
 button(Card, button{
                  label: LabelStr,
@@ -67,10 +77,35 @@ button(Card, button{
     ;
         RevealStr = ''
    ),
-   (   xpath(Button, go(@card), Go)
-   ->  true
-   ;   Go = ''
-   ).
+   find_go(Button, Go).
+
+find_go(Button, Go) :-
+    xpath(Button, //exit(@dream), ExitDream),
+    xpath(Button, //exit(@card), Card),
+    mangle_name(Go, ExitDream, Card),
+    !.
+find_go(Button, Go) :-
+    xpath(Button, //exit(@dream), ExitDream),
+    mangle_name(Go, ExitDream, root),
+    !.
+find_go(Button, Go) :-
+   xpath(Button, go(@card), Go),
+   !.
+find_go(_, '').
+
+mangle_name(Mangle, Dream, Name) :-
+    atom(Mangle),
+    atom_codes(Mangle, MC),
+    append(DC, `_!_`, Pre),
+    append(Pre, NC, MC),
+    atom_codes(Dream, DC),
+    atom_codes(Name, NC),
+    !.
+mangle_name(Mangle, Dream, Name) :-
+    atom_codes(Dream, DC),
+    atom_codes(Name, NC),
+    append([DC, `_!_`, NC], MC),
+    atom_codes(Mangle, MC).
 
 xml_str(XML, Str) :-
        with_output_to(string(Str), xml_write(current_output, XML, [header(false)])).
