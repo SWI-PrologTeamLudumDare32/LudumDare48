@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 
+from typing import Match
 from node import WorldNode
 from xml.dom.minidom import Document
 from xml.dom.minidom import parseString
@@ -75,7 +76,12 @@ def to_xml(filepath):
 
     dfs_card(doc, dream, tree)
 
-    return dream.toprettyxml()
+    xml = dream.toprettyxml()
+
+    xml = re.sub(r"\*\*.+\*\*", lambda m: f"<b>{m.group(0).strip('*')}</b>", xml)
+    xml = re.sub(r"\*.+\*", lambda m: f"<i>{m.group(0).strip('*')}</i>", xml)
+
+    return xml
 
 
 def dfs_card(doc, dream, root):

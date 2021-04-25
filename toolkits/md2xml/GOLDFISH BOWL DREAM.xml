@@ -67,7 +67,7 @@
 	</card>
 	<card name="Approach Quietly">
 		<show>
-			<p>You sneakily swim over to the worm, briefly snag yourself on a wire and *THWAP*. You wake up. You are dead. You float out of your lifeless body and see your fish body pinned to the castle wall by a crossbow bolt. The worm is still asleep. What do you do?</p>
+			<p>You sneakily swim over to the worm, briefly snag yourself on a wire and <i>THWAP</i>. You wake up. You are dead. You float out of your lifeless body and see your fish body pinned to the castle wall by a crossbow bolt. The worm is still asleep. What do you do?</p>
 		</show>
 		<button>
 			<label>
