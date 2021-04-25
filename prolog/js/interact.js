@@ -58,7 +58,7 @@ function displayButtons(buttons)
     $("#buttonArea").empty();
     $("#buttonArea").append(html);
 
-    console.log("Buttons ", html)
+    //console.log("Buttons ", html)
 }
 
 function donothing() {
@@ -67,7 +67,16 @@ function donothing() {
 
 // perform the reveal and then call the callback
 function doReveal(text, callback) {
-// TODO actually do the reveal part
+
+//console.log("Reveal text", text);
+  if (text != '')
+  {
+     var node = decodeURI(text);
+     $("#revealArea").empty();
+     $("#revealArea").append('<div id="spookyText">' + node + '</div>');
+     setTimeout(callback, 4000);
+  }
+  else 
 	callback();
 }
 
