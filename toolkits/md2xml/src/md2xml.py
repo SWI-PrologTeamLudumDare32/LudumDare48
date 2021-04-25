@@ -2,6 +2,7 @@
 
 from node import WorldNode
 from xml.dom.minidom import Document
+from xml.dom.minidom import parseString
 import re
 
 def build_tree(text):
@@ -74,7 +75,9 @@ def dfs_card(doc, dream, root):
     for _, child in root.children.items():
         dfs_card(doc, dream, child)
 
-def create_p(doc, text):
+def create_p(doc, text: str):
+    if text.startswith("<"):
+        return parseString(text).childNodes[0]
     p_elem = doc.createElement('p')
     p_elem.appendChild(doc.createTextNode(text))
     return p_elem
