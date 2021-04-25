@@ -1,7 +1,5 @@
 EPIC BATTLE DREAM
 
-<Audio>123</Audio>
-
 You wake up. You're in a castle. In front of you is a staff and a sword. What do you do?
 
 + [Pick the staff]
@@ -10,8 +8,6 @@ You wake up. You're in a castle. In front of you is a staff and a sword. What do
     	You raise your staff and wave it towards an enemy.
     	With a crisp sound, your staff breaks into two parts under the enemy's parry.
     	At the next second, the Goblins easily captured you.
-
-    ​	<Audio>123</Audio>
 
   + [Retreat]
   		You calmly analyze the situation and decide to go back some distance.

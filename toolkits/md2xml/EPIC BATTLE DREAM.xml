@@ -1,7 +1,6 @@
 <dream name="EPIC BATTLE DREAM">
 	<card name="root">
 		<show>
-			<Audio>123</Audio>
 			<p>You wake up. You're in a castle. In front of you is a staff and a sword. What do you do?</p>
 		</show>
 		<button>
@@ -20,7 +19,6 @@
 				<p>You raise your staff and wave it towards an enemy.</p>
 				<p>With a crisp sound, your staff breaks into two parts under the enemy's parry.</p>
 				<p>At the next second, the Goblins easily captured you.</p>
-				<Audio>123</Audio>
 			</reveal>
 		</button>
 		<button>
