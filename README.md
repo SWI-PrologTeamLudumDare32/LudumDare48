@@ -31,7 +31,7 @@ A window will open and say something about welcome to prolog.
 You'll be left with a prompt like `?-`.
 
 At that prompt type
-
+ 
 ````
 ifml:load_game_to_cards(root, 'xml/'),go.
 ````
