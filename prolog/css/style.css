@@ -28,6 +28,18 @@
   100% { opacity: 1;}
 }
 
+
+@keyframes disappear {
+  0% { opacity: 0.5}
+  20% { opacity: 1.0;}
+  50% { opacity: 1.0;}
+  85% { opacity: 0.9;}
+  90% { opacity: 0.6;}
+  95% { opacity: 0.3;}
+  100% { opacity: 0.0;}
+}
+
+
 blink {
   color: #FFFFFF;
   margin-right: 6px;
@@ -79,6 +91,8 @@ b {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+   margin: 5px;
+   border-radius: 4px;
  }
  
  button:active {
@@ -90,9 +104,33 @@ b {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin: 5px;
+  border-radius: 4px;
  }
  
- 
+#playarea {
+  width: 60%;
+  margin: auto;
+ }
+
+#buttonArea {
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+ }
+
+ #revealArea {
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+ }
+
+ #spookyText {
+  opacity: 0;
+  animation-name: disappear;
+  animation-duration: 4s;
+ }
+
 #testArea {
   display: none;
 }
