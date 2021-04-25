@@ -1,10 +1,12 @@
 :- module(ifml, [
-              load_ifml_to_cards/1
+              load_ifml_to_cards/1,
+              load_game_to_cards/2
           ]).
 
 :- use_module(library(sgml)).
 :- use_module(library(xpath)).
 :- use_module(library(sgml_write)).
+:- use_module(library(yall)).
 
 load_ifml_to_cards(File) :-
     load_xml_file(File, DOM),
@@ -17,6 +19,25 @@ load_ifml_to_cards(File) :-
     ),
     retractall(ldjam_twine:card(_)),
     assert_cards(DOM).
+
+load_game_to_cards(Start, Dir) :-
+    directory_files(Dir, Files),
+    retractall(ldjam_twine:card(_)),
+    retractall(ldjam_twine:start_card(_)),
+    asserta(ldjam_twine:start_card(Start)),
+    maplist([Name,Path]>>atom_concat('xml/', Name, Path), Files, Paths),
+    maplist(load_dream_to_cards, Paths).
+
+load_dream_to_cards(Path) :-
+    atom_concat(_, '.xml', Path),
+    debug(load_cards, 'loading ~w', [Path]),
+    catch(
+        (   load_xml_file(Path, DOM),
+            assert_cards(DOM)),
+        E,
+        format('Cannot load ~w because ~w~n', [Path, E])
+    ).
+load_dream_to_cards(_).
 
 assert_cards(DOM) :-
     xpath(DOM, //card, Card),

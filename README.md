@@ -19,12 +19,32 @@ This is the **Team SWI-Prolog** entry for **Ludum Dare 48 Jam**.
  
 ````
  cd prolog/
-swipl -s server.pl -g "ifml:load_ifml_to_cards('xml/testgame.xml'),go"
+swipl -s server.pl -g "ifml:load_game_to_cards(root, 'xml/'),go"
 ````
 
-Substituting whatever xml file you want. `testgame.xml` is what I'm developing with.
+`root` is the card the player sees when they first load the game.
 
-This will run the server, you can look at it at (port 8888)[http://localhost:8888/].
+On windows:
+
+Double click the server.pl file.
+A window will open and say something about welcome to prolog.
+You'll be left with a prompt like `?-`.
+
+At that prompt type
+
+````
+ifml:load_game_to_cards(root, 'xml/'),go.
+````
+
+Notice the period at the end. (and yes, type enter at the end of all of it)
+There will be a moment's delay and if all goes well it will say
+
+````
+% Started server at http://localhost:8888/
+````
+
+On either system, 
+this will run the server, you can look at it at (port 8888)[http://localhost:8888/].
 
 I've only tested with firefox at the moment.
 
