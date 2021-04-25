@@ -3,6 +3,12 @@
 
 This is the **Team SWI-Prolog** entry for **Ludum Dare 48 Jam**.
 
+## Acknowledgements
+
+Walrus video from Discord.
+
+LD Jam image 
+
 ## Team members
 
  * Anne Ogborn - programming
@@ -50,5 +56,23 @@ On either system,
 this will run the server, you can look at it at (port 8888)[http://localhost:8888/].
 
 I've only tested with firefox at the moment.
+
+
+## Adding stuff to your md file
+
+You can add audio/video to your reveal section. Recently most browsers stopped allowing media to play on load.
+Not sure what's up, the video is playing but audio is not.
+
+Video
+
+````
+<video width="320" height="240" autoplay="true"><source src="/img/walrus.mp4" type="video/mp4" />8c( no video</video>
+````
+
+````
+<audio><source src="/audio/Dream-transition1.mp3"  autoplay="true"/></audio>
+````
+
+
 
  
