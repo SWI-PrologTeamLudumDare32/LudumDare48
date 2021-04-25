@@ -1,0 +1,133 @@
+<dream name="nopantsatschooldream">
+	<card name="root">
+		<show>
+			<p>You wake up. You are in a classroom. You are a young, impressionable student. You forgot your pants. Your peers snicker, most likely at your lack of pants. Oh no! Not again. What is the answer to question number eight?</p>
+		</show>
+		<button>
+			<label>
+				<p>Apologize and promise to remember pants next time</p>
+			</label>
+			<go card="Apologize and promise to remember pants next time"/>
+		</button>
+		<button>
+			<label>
+				<p>Blame local energy companies</p>
+			</label>
+			<go card="Blame local energy companies"/>
+		</button>
+		<button>
+			<label>
+				<p>Connect with your classmates on a level you thought impossible</p>
+			</label>
+			<go card="Connect with your classmates on a level you thought impossible"/>
+		</button>
+		<button>
+			<label>
+				<p>D. All of the Above</p>
+			</label>
+			<reveal/>
+		</button>
+	</card>
+	<card name="Apologize and promise to remember pants next time">
+		<show>
+			<p>You apologize and promise to remember pants next time. You assure everyone this the last time you make the same speech about remembering your pants next time. How this keeps happening is beyond your understanding but your desire for change will surely bring it forth.</p>
+			<p>Everyone completely understands. Your classmates salute you with various fingers. Your teacher arises from behind her desk to reveal that she too forgot her pants. Actually, no one had pants on this whole time. What's the BFD?</p>
+		</show>
+		<button>
+			<label>
+				<p>Claim your independence as your own country</p>
+			</label>
+			<reveal>
+				<p>You claim your independence as your own country. It's long overdue. Taxes are ridiculous.</p>
+				<p>Soon, your classmates begin shunning you for illegally being in their country.</p>
+				<p>And you actually end up having to pay more taxes somehow.</p>
+				<p>Taxes are ridiculous.</p>
+				<p>&gt;&gt;&gt;</p>
+			</reveal>
+		</button>
+		<button>
+			<label>
+				<p>Bestow five Bravery points to everyone without pants</p>
+			</label>
+			<reveal>
+				<p>You bestow five Bravery points to everyone without pants. This may have been a mistake. These Bravery points have to come from somewhere. And... they come from you.</p>
+				<p>25 people at 5 points a pop, and you only have 4 Bravery points to begin with.</p>
+				<p>You currently have -121 Bravery. This is unacceptable. You're dead now.</p>
+				<p>But actually through a fluke you've given yourself five points of bravery as well (by not wearing pants). And negative values aren't conditionally attributed to existing values, it reverts to 0.</p>
+				<p>You've recieved +5 points of Bravery. You have 5 Bravery points. You're alive! With pants this time too!</p>
+				<p>&gt;&gt;&gt;</p>
+			</reveal>
+		</button>
+		<button>
+			<label>
+				<p>Sing Eddie Money</p>
+			</label>
+			<reveal>
+				<p>You sing Eddie Money. You try anyway. You can't remember any lyrics. There was that one about 'shaking' or something. And didn't he do that one TV show song? You can't remember the words from that one either, or the show.</p>
+				<p>Oh well, everyone is totally impressed by your performance anyway.</p>
+				<p>Next time you'll have to do you a real song, you think to yourself.</p>
+				<p>&gt;&gt;&gt;</p>
+			</reveal>
+		</button>
+	</card>
+	<card name="Blame local energy companies">
+		<show>
+			<p>You blame the local energy companies. Their price gouging has impacted the local economy for long enough. The system was designed with specific checks and balances, yet this racketeering continues unimpeded. That's why you're not wearing pants.</p>
+			<p>The lights turn off. The air conditioning ceases. It's almost as if time has ceased to continue. You can't help but feel that they are listening, and that you are responsible.</p>
+			<p>Suddenly, there is no hope. Your feet are cold but your skin is on fire. A rumbling vibrates through the school's walls and somehow you feel it exists only to beckon you to follow it.</p>
+		</show>
+		<button>
+			<label>
+				<p>Break the window and jump out</p>
+			</label>
+			<reveal>
+				<p>You break the window and jump out. The fear takes over. That rumbling is too scary. Fight or flight kicks in and you are flighting.</p>
+				<p>It reminds you of that time with the thing that you ran from. Hohoho that was scary, remember?</p>
+				<p>Let's hope you don't dream about that anymore ever again.</p>
+				<p>As you defenestrate yourself from an incredibly high story in the schoolhouse, you wonder about the other possiblities.</p>
+				<p>&gt;&gt;&gt;</p>
+			</reveal>
+		</button>
+		<button>
+			<label>
+				<p>Follow it</p>
+			</label>
+			<reveal>
+				<p>You follow it. The rumbling leads you out of the classroom through the halls. The sound eminates from every direction. No matter which way you go, you are certain it is the right way.</p>
+				<p>Louder and louder, it calls to you. You've read some stories like this before. About guys going following disturbing forces that beckon them into the inexplicable darkness.</p>
+				<p>Where the search for knowledge and understanding only yields more questions, darkness, and insanity.</p>
+				<p>Caddyshack, that was the movie.</p>
+				<p>&gt;&gt;&gt;</p>
+			</reveal>
+		</button>
+		<button>
+			<label>
+				<p>Just ignore it</p>
+			</label>
+			<reveal>
+				<p>Big whoop, an impending, ominous rumbling requests your presence? So what! You scoff at the power outage and dimensions you don't understand and go back to blaming the energy companies.</p>
+				<p>It's dark in here.</p>
+				<p>You think about other impending, ominous rumblings that have requested your presence. Nothing bad ever happened with them before. And nothing bad is going to happen now.</p>
+				<p>&gt;&gt;&gt;</p>
+			</reveal>
+		</button>
+	</card>
+	<card name="Connect with your classmates on a level you thought impossible">
+		<show>
+			<p>You connect with your classmates on a level you thought impossible. You thought it was impossible before, yet it was easily doable. Human connection. Person to person.</p>
+			<p>It turns out sometimes you just need to ask someone a question about themselves.</p>
+			<p>You're left in awe at your misunderstanding of possibilities. You thought yourself to be reasonable and focused. Logical. Always able to give a good estimation. You should have worn pants, though. Really should have.</p>
+			<p>You're close enough with everyone now though. You all know each other well and feel comfortable not wearing pants around each other. It's probably fine from now on either way.</p>
+		</show>
+		<button>
+			<label>
+				<p>Pants are just a form a population control anyway</p>
+			</label>
+			<reveal>
+				<p>Pants are just a form of population control anyway. They keep us down. We have to wear them because society says we do. And the fat cat pants guys are sitting on mountains of cash.</p>
+				<p>This sparks another dialog with your classmates, that engages you intimately on a level you thought impossible.</p>
+				<p>&gt;&gt;&gt;</p>
+			</reveal>
+		</button>
+	</card>
+</dream>
