@@ -32,7 +32,17 @@ def build_tree(text):
                 for _ in range(indent, previous_indent+1):
                     stack.pop()
             
-            name = line[match.end():].strip(' []-')
+            _line = line[match.end():]
+
+            if ']' in _line:
+                _idx = str.find(_line, ']') + 1
+                name = _line[:_idx].strip(' \t[]-\u200b')
+
+                _t = _line[_idx:].strip(' \t\u200b')
+                if not (str.isspace(_t) or _t == ""):
+                    tmp_text += [_t]
+            else:
+                name = _line.strip(' []-\t\u200b')
 
             while(name in name_set):
                 name += "#"
@@ -42,7 +52,8 @@ def build_tree(text):
             stack[-1].add_child(new_node)
             
             if indent > previous_indent:
-                assert indent - previous_indent == 1
+                if indent - previous_indent != 1:
+                    raise ValueError("Indentation Error!")
             stack.append(new_node)
                 
             previous_indent = indent
