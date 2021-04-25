@@ -7,8 +7,9 @@ You wake up. You're in a jungle. You hear a tiger roar. {sound} It sounds really
 	+ [Jump in the fireplace!]
 			With a running start, you dive headfirst into the fireplace, {sound} {wilhelm scream?} where you are instantly killed. If you die in dreams, you die in real life. So you are now dead. But you are also a ghost in real life. So you were already dead. Realizing this, you float out of your lifeless body and are now a ghost in this dream. You wake up. You are dead. You float up out of your lifeless body and see the tiger burst into the door so hard it splats right into an iron headboard and onto the bed below, out cold. Time is ticking. What do you do?
 		+ [Possess the tiger]
-					You possess the sleeping tiger. You notice the alarm clock is set to 2 minutes
-	
+					You possess the sleeping tiger. You notice the alarm clock is set to 2 minutes. 
+<exit dream="GOLDFISHBOWLDREAM"/>
+
 + [Give Up and Die!]
 	You give up, you shout out to the tiger, "Here kitty kitty, come eat me!" The tiger obliges. {sound} {death} You are dead. If you die in dreams, you die in real life. So you are now dead. But you are also a ghost in real life. So you were already dead. Realizing this, you float out of your lifeless body and are now a ghost in this dream. The clock is ticking... What do you want to do?
 	+ [Fly!]
@@ -39,3 +40,4 @@ You wake up. You're in a jungle. You hear a tiger roar. {sound} It sounds really
 					You go right. And you were right! Here's an old granny sleeping on a bed. At first you're not sure if she's alive, but sure enough, you can hear the faintest snore as you get close. There is an alarm clock on the bed set for 8:00 AM; thanks to magical ghost powers you know it's about 7:58 AM right now. Time is ticking. What do you do?
 					+ [Possess the dreamer]
 						You possess the granny. You take the alarm clock and shove it into your ghost body as you haunt your next dream.
+<exit dream="SPACEDREAM"/>
