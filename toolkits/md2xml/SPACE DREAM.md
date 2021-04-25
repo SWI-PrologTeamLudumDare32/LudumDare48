@@ -21,10 +21,10 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 	*Pchhhh  sssssss* The internal pressure releases as you take off your helmet. The total lack of external pressure results in the immediate and total explosion of your face. You are dead. You float out of your lifeless body *cuh cuh gluh* You are a ghost. Ghosts cannot breathe in space. You suffocate. You are dead again. You are a ghost of your former ghostly self. Fortunately ghosts of ghosts can breathe in space. #DreamLogic Yep. What do you do?
 	+ [Possess your ghost corpse]
 		You possess your ghost corpse. What do you do?
-			+ [Possess what's left of your original body]
-				You possess your remains... Ewww... They should call you Gross Ghost, because that's just ... ewww... What do you - you know what I can't even write this out it's so gross. I'm gonna go take a shower and wipe all this grossness off of me.
-				+ [Take control of the narrative]
-					I have taken control of the narrative. It's mine. All mine!!!! AH HAHAHAH AHHAHAHHAHHAHAHHAHHAHAHH AHAHHA AHHAHAHAHHAHHAHAHAHHAHHAHAHAHAHHAHHAHAHHA. Wow! A bed appears floating in space, and check that out: a wandering erg-lob is sleeping peacefully on the bed. I possess the erg-lob... and lose control of the narrative - woooh that was close. Good thing I take really fast showers. So the alarm clock next to the erg-lob is set to @#&%*&HFDI!*U(#$):}{+-7, which means you should have approximately three minutes before She wakes up. Good luck, you fourth-wall-breaker you. Oops! You almost forgot; you reach out, take the alarm clock, and shove it in your ghostly body.
+		+ [Possess what's left of your original body]
+			You possess your remains... Ewww... They should call you Gross Ghost, because that's just ... ewww... What do you - you know what I can't even write this out it's so gross. I'm gonna go take a shower and wipe all this grossness off of me.
+			+ [Take control of the narrative]
+				I have taken control of the narrative. It's mine. All mine!!!! AH HAHAHAH AHHAHAHHAHHAHAHHAHHAHAHH AHAHHA AHHAHAHAHHAHHAHAHAHHAHHAHAHAHAHHAHHAHAHHA. Wow! A bed appears floating in space, and check that out: a wandering erg-lob is sleeping peacefully on the bed. I possess the erg-lob... and lose control of the narrative - woooh that was close. Good thing I take really fast showers. So the alarm clock next to the erg-lob is set to @#&%*&HFDI!*U(#$):}{+-7, which means you should have approximately three minutes before She wakes up. Good luck, you fourth-wall-breaker you. Oops! You almost forgot; you reach out, take the alarm clock, and shove it in your ghostly body.
 <exit dream="EPICBATTLEDREAM"/>
 
 + [Float Slowly Towards that Small Moon]
