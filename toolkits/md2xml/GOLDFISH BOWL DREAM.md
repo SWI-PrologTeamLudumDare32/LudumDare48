@@ -6,6 +6,7 @@ You look out and see a distorted room around you. You try to swim into that room
 
 + [Check out reflection]
 	Your scales look so bright and orange today!
+
 + [Investigate castle]
 	You swim down to the castle. Inside is a worm hole. What do you do?
 	+ [Enter Worm Hole]
@@ -33,6 +34,7 @@ You look out and see a distorted room around you. You try to swim into that room
 				You possess the cat. You notice the alarm clock on the cat's collar is set to stun, roughly one minute from now.
 		+ [Possess the cat]
 				You possess the cat. You notice the alarm clock on the cat's collar is set to stun, about one minute from now.
+
 + [Face your greatest fear]
 		/YOLO. You swim to the top of the bowl. The black-and-white cat immediately snatches you out of the bowl with its teeth. As the cats jaws tear at your fishy carcass, you have no regrets. You faced your fear. Your fishlips curve into a smug smile before everything goes black. You wake up. You are dead. You float out of your lifeless body and out of the cat and see the cat is napping. Time is ticking. What do you do?
 	+ [Pee on the cat]
