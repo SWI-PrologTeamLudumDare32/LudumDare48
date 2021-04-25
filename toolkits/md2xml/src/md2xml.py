@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 from node import WorldNode
 from xml.dom.minidom import Document
 import re
@@ -18,7 +20,7 @@ def build_tree(text):
             continue
         match = re.match(r"^[\t\s]*\+", line)
         if match is None:
-            tmp_text += [line.strip(" \t")]
+            tmp_text += [line.strip(' \t\u200b')]
         else:
             indent = line[:match.end() - 1]
             indent = indent.count('\t')
@@ -49,7 +51,7 @@ def build_tree(text):
 
 
 def to_xml(filepath):
-    with open(filepath) as f:
+    with open(filepath, 'rt', encoding='utf-8') as f:
         title = f.readline().strip()
         text = f.read()
 

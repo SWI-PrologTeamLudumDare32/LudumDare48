@@ -13,5 +13,5 @@ if __name__ == '__main__':
         filepath = dir + '/' + file
         xml = to_xml(filepath)
 
-        with open(filepath.replace('.md', '.xml'), 'w') as f:
+        with open(filepath.replace('.md', '.xml'), 'w', encoding='utf-8') as f:
             f.write(xml)
