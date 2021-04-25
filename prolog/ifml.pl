@@ -20,10 +20,12 @@ load_ifml_to_cards(File) :-
     retractall(ldjam_twine:card(_)),
     assert_cards(DOM).
 
-load_game_to_cards(Start, Dir) :-
+%
+load_game_to_cards(StartDream, Dir) :-
     directory_files(Dir, Files),
     retractall(ldjam_twine:card(_)),
     retractall(ldjam_twine:start_card(_)),
+    mangle_name(Start, StartDream, root),
     asserta(ldjam_twine:start_card(Start)),
     maplist([Name,Path]>>atom_concat('xml/', Name, Path), Files, Paths),
     maplist(load_dream_to_cards, Paths).

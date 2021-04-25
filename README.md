@@ -15,11 +15,14 @@ This is the **Team SWI-Prolog** entry for **Ludum Dare 48 Jam**.
  
  To run the server:
  
+ As I write this I don't know the name of the dream you start in.  So this assumes it's `firstkiss`.
+ replace as needed.
+ 
  On linux and mac
  
 ````
  cd prolog/
-swipl -s server.pl -g "ifml:load_game_to_cards(root, 'xml/'),go"
+swipl -s server.pl -g "ifml:load_game_to_cards(firstkiss, 'xml/'),go"
 ````
 
 `root` is the card the player sees when they first load the game.
@@ -33,7 +36,7 @@ You'll be left with a prompt like `?-`.
 At that prompt type
  
 ````
-ifml:load_game_to_cards(root, 'xml/'),go.
+ifml:load_game_to_cards(firstkiss, 'xml/'),go.
 ````
 
 Notice the period at the end. (and yes, type enter at the end of all of it)
