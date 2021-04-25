@@ -1,6 +1,7 @@
 :- module(ldjam_twine, [
               start_card/1,
-              name_card/2
+              name_card/2,
+              next_card/1
           ]).
 
 :- use_module(library(http/html_write)).
@@ -12,6 +13,8 @@
 %   multifile predicate that gives a starting card
 %
 start_card(start).
+% a dummy for the moment, has to be calculate the next card in future
+next_card(next).
 
 
 %!  card(-Card:dict) is nondet
@@ -29,6 +32,13 @@ card(card{
          name: start,
          show: p('this is the start card'),
          buttons: ['Start'=start]
+     }).
+
+% only for test, a simple dummy for the next card, so nothing
+card(card{
+         name: next,
+         show: p('this is the next card'),
+         buttons: ['Next'=start]
      }).
 
 :- table name_card/2.
