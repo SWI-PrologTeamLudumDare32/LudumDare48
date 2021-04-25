@@ -1,13 +1,38 @@
-<game start="somecard">
-	<dream name="somedream">
-		<card name="somecard">
+<game start="start">
+	<dream name="overworld intro">
+		<card name="intro">
 			<show>
-			<p>It was a dark and <b>stormy</b> night</p>
+			<p>You wake up. You are dead.</p><p>You float up out of your lifeless body and see someone sleeping on a bed nearby. Next to the bed is an end-table with an alarm clock. What do you do?</p>
 			</show>
 			<button>
-				<label><span>Go <b>Down</b></span></label>
-				<reveal><p>You approach the <b>door</b></p></reveal>
-				<go card="othercard" />
+				<label><span>Freak Out</span></label>
+				<reveal><p>OMG I'm dead I'm dead I'm dead!!!!</p></reveal>
+			</button>
+			<button>
+				<label><span>Loot your own Corpse</span></label>
+				<reveal><p>You find a phone and some pocket lint, but you can't use them. Because you're dead.</p></reveal>
+			</button>
+			<button>
+				<label><span>Smash the Alarm Clock</span></label>
+				<reveal><p>You try to smash the alarm clock, but you have no arms. And you're not corporeal. And being a freshly-minted ghost you simply don't have the telekinetic strength. Too bad...</p></reveal>
+			</button>
+			<button>
+				<label><span>Possess the dreamer</span></label>
+				<reveal><p>s you float over to the bed, you notice an alarm clock set to ____ 2 minutes. Should the alarm clock go off before you heal your biggest regret or possess another dreamer, you will be lost in the Unconscious until your sleeper goes back to sleep.</p><p>You're certain your lover is somewhere in the Collective Subconscious; after all, with only seven degrees of separation between any two people and knowing that the most random people can show up in others' dreams, they must be in there somewhere. You are now entering your ______ first-level dream; once you dive to a deeper dream level, the previous alarm clock will pause until you go back to that world. Don't be afraid to go deeper, and good luck! You possess the dreamer. {sound}</p>
+				<p>so level 0 alarm clock pauses on level 2, etc.</p>
+<p><i>Now to sleep, perchance to dream...</i></p></reveal>
+				<go card="jungleintro" />
+			</button>
+		</card>
+	</dream>
+	<dream name="jungle">
+		<card name="jungleintro">
+			<show><p>You wake up. You're in a jungle. You hear a tiger roar. {sound} It sounds really close! What do you do?</p></show>
+			<button>
+				<label><p>Run</p></label>
+				<reveal><p>You run from the tiger as fast as your hobbit legs can carry you. You hear rustling and growling {sound} as the tiger hears you and gives chase. You find a small yurt, just in the knick of time, run in, and slam the straw door, thinking "That probably won't hold..." What do you do?</p>
+				</reveal>
+				<go card="yurt" />
 			</button>
 		</card>
 	</dream>

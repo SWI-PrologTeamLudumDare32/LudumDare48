@@ -12,10 +12,13 @@
 %
 %   multifile predicate that gives a starting card
 %
+<<<<<<< HEAD
 start_card(start).
 % a dummy for the moment, has to be calculate the next card in future
 next_card(next).
 
+=======
+>>>>>>> 6c8f2d42176282e4a15cda6200f9c76e3e7fad0a
 
 %!  card(-Card:dict) is nondet
 %
@@ -23,11 +26,12 @@ next_card(next).
 %
 %   $ name
 %   : atom name to refer to this card
-%   $ html
+%   $ show
 %   : html to emit for this card, as termerized html
 %   $ buttons
 %   : list of Label=CardName for navigating
 
+<<<<<<< HEAD
 card(card{
          name: start,
          show: p('this is the start card'),
@@ -49,6 +53,13 @@ name_card(Name, Card) :-
     phrase(html(RawCard.show), Tokens),
     with_output_to(string(S), print_html(Tokens)),
     Card = RawCard.put(_{show: S}).
+=======
+:- table name_card/2.
+
+name_card(Name, Card) :-
+    card(Card),
+    card{name: Name} :< Card.
+>>>>>>> 6c8f2d42176282e4a15cda6200f9c76e3e7fad0a
 
 :- multifile sandbox:safe_primitive/1.
 
@@ -56,4 +67,4 @@ sandbox:safe_primitive(ldjam_twine:name_card(_, _)).
 
 :- use_module(ifml).
 
-
+:- load_ifml_to_cards('testgame.xml'). % temporary til we get all the dreams converted

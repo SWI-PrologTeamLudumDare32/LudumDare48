@@ -37,7 +37,7 @@ button(Card, button{
                  reveal: RevealStr,
                  go: Go
              }) :-
-    xpath(Card, /button, Button),
+    xpath(Card, button, Button),
     xpath(Button, label/(*), Label),
     xml_str(Label, LabelStr),
     (   xpath(Button, reveal, Reveal)
