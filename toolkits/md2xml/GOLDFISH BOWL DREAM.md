@@ -14,7 +14,7 @@ You look out and see a distorted room around you. You try to swim into that room
 			You sneakily swim over to the worm, briefly snag yourself on a wire and *THWAP*. You wake up. You are dead. You float out of your lifeless body and see your fish body pinned to the castle wall by a crossbow bolt. The worm is still asleep. What do you do?
 			+ [Leave]
 				You entered a worm hole. There is no turning back. 
-			+ [Possess the Worm]			
+			+ [Possess the Worm]
 	+ [Possess the Worm]
 		You float over to the worm and attempt to possess her. Unfortunately, you are not a ghost, so you actually just rub all up on the worm, who immediately wakes up and shouts "GUARDS!" Two worm knights swoop in on their wyrm mounts and slice your head off. You wake up. You are dead. You float up out of your lifeless body and see the worm has rolled over and gone back to sleep. What do you do?
 		+ [Possess the Worm]
@@ -37,7 +37,7 @@ You look out and see a distorted room around you. You try to swim into that room
 		/YOLO. You swim to the top of the bowl. The black-and-white cat immediately snatches you out of the bowl with its teeth. As the cats jaws tear at your fishy carcass, you have no regrets. You faced your fear. Your fishlips curve into a smug smile before everything goes black. You wake up. You are dead. You float out of your lifeless body and out of the cat and see the cat is napping. Time is ticking. What do you do?
 	+ [Pee on the cat]
 		You drop some ectoplasm on the cat... Gross, and kinda mean. Fortunately the cat does not wake up. Time is ticking. What do you do?
-			+ [Possess the cat]
-				You possess the cat. You notice the alarm clock on the cat's collar is set to stun, roughly one minute from now.
 		+ [Possess the cat]
+				You possess the cat. You notice the alarm clock on the cat's collar is set to stun, roughly one minute from now.
+	+ [Possess the cat]
 				You possess the cat. You notice the alarm clock on the cat's collar is set to stun, about one minute from now.
