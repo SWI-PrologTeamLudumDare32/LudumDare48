@@ -40,7 +40,7 @@ button(Card, button{
     xpath(Card, button, Button),
     xpath(Button, label/(*), Label),
     xml_str(Label, LabelStr),
-    (   xpath(Button, reveal, Reveal)
+    (   xpath(Button, reveal/(*), Reveal)
     ->
         xml_str(Reveal, RevealStr)
     ;

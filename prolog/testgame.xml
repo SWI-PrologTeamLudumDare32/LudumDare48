@@ -1,4 +1,4 @@
-<game start="start">
+<game start="intro">
 	<dream name="overworld intro">
 		<card name="intro">
 			<show>

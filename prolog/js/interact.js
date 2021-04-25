@@ -1,17 +1,18 @@
 // hold the Pengine object
 var mypengine;
 // hold the current card so that it can be send back to Prolog for processing the next card
+// Hans, we only need the name from the button field
+// you don't need to pass the whole object back, just the name for the card you want
 var lastCard; 
 
 // Data from Pengine comming
 function new_data(){
 	if(this.data && this.data[0] && this.data[0].Result != undefined) {
-    var cardObj = this.data[0].Result;
-		console.log("Data is " + cardObj.toString());
-		// Hans - this.data[0].Result is a json object I hope
-    console.log("HTML instruction", cardObj.show.toString());
-    displayCard(cardObj);
-    lastCard = cardObj; 
+    		lastCard = this.data[0].Result;
+    		displayCard(lastCard);
+	}
+	if(this.more) {
+		mypengine.stop();
 	}
 }
 
@@ -20,25 +21,21 @@ function startGame() {
 	mypengine = new Pengine({
 		ask: "create_game(Result)",
 		onsuccess: new_data,
-<<<<<<< HEAD
 		application: "ldjam_pengine_app",
-    destroy: false
-=======
 		destroy: false,
-		application: "ldjam_pengine_app"
->>>>>>> 6c8f2d42176282e4a15cda6200f9c76e3e7fad0a
+		onfailure: () => console.log('engine fails'),
+		onerror: () => console.log('engine error', this.data),
 	});
 }
 
-// send a query to Pengine
-function sendPengine(Par) {
-  //var query = $("#counter").text();
-  var query = 'next_card('+ JSON.stringify(lastCard) + ',' + Par +', Result)';
+// send a query to Pengine, when it returns new_data is called and the card
+// replaced
+function advanceToNextCard(NextCard) {
+  var query = 'next_card(\''+ NextCard +'\', Result)';
   console.log("Query will be: " + query);
   mypengine.ask(query);
 };
 
-window.onload = startGame;
 
 // display the card
 function displayCard(aCardObj)
@@ -47,29 +44,60 @@ function displayCard(aCardObj)
   $("#card").empty(); 
   $("#card").append(html);
 
-  displayButtons(aCardObj);
+  displayButtons(aCardObj.buttons);
 }
 
-// display the buttons of a card, replace the old one
-function displayButtons(aCardObj)
+// display the buttons of a card, replace the old ones
+function displayButtons(buttons)
 {
-    var buttonObj = aCardObj.buttons[0].args;
-    var html = buildButton(buttonObj[0], buttonObj[1])
+	let html = '';
+	
+	for (i in buttons) {
+    		html += buildButton(buttons[i].label, buttons[i].go, buttons[i].reveal);
+    	}
     $("#buttonArea").empty();
     $("#buttonArea").append(html);
 
-    console.log("Buttons ", buttonObj)
+    console.log("Buttons ", html)
 }
 
-// create a new button for html
-function buildButton(name, Par)
-{
-  var parText = "'" + Par + "'";
-  // different ways are possible to send the Par to Pengine, this is just one suggestion
-  // best way depends on how to process the next card
-  // here, the from the [Name = Value] pair of a button the Value is here the Par
-  // and this would mean Prolog decides by this Value which card is next
-  var html = '<button id = "' + name + '" onclick="sendPengine('+ parText +')">'+ name + '</button>';
-  console.log("HTML Text: ", html);
-  return html; 
+function donothing() {
+	;
 }
+
+// perform the reveal and then call the callback
+function doReveal(text, callback) {
+// TODO actually do the reveal part
+	callback();
+}
+
+const backslash = String.fromCharCode(92);
+
+// .replaceAll("\"", "\\\"")
+// .replaceAll("'", "\\'") 
+// create html for a new button
+function buildButton(label, go, reveal)
+{
+	let escgo = go.replaceAll(/'/g, backslash.concat("'"));
+	let escreveal = encodeURI(reveal).replaceAll(/'/g, backslash.concat("'"));
+
+	if(go != '' && reveal != '') {
+		return '<button onclick="doReveal(\''.concat(
+			escreveal).concat(
+		        '\', () => { advanceToNextCard(\'').concat(
+		        escgo).concat(
+		        '\');})">').concat(
+		         label).concat( 
+		         '</button>');
+	} else if (go != '') {
+		return '<button onclick="advanceToNextCard(\'' + escgo + '\')">' + label + '</button>';
+	} else if (reveal != '') {
+		return '<button onclick="doReveal(\'' + escreveal + '\', donothing)">' + label + '</button>';
+	} else {
+		return '<button disabled>' + label + '</button>';
+	}
+}
+
+
+window.onload = startGame;
+
