@@ -92,16 +92,17 @@ def node_to_xml(doc, root):
         lb_elem.appendChild(create_p(doc, child.display_name))
         btn.appendChild(lb_elem)
 
-        re_elem = doc.createElement('reveal')
+        if len(child.children) == 0:
+            re_elem = doc.createElement('reveal')
 
-        for t in child.text:
-            re_elem.appendChild(create_p(doc, t))
+            for t in child.text:
+                re_elem.appendChild(create_p(doc, t))
 
-        btn.appendChild(re_elem)
-
-        go_elem = doc.createElement('go')
-        go_elem.setAttribute("card", child.name)
-        btn.appendChild(go_elem)
+            btn.appendChild(re_elem)
+        else:
+            go_elem = doc.createElement('go')
+            go_elem.setAttribute("card", child.name)
+            btn.appendChild(go_elem)
 
         card.appendChild(btn)
         
