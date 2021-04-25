@@ -36,7 +36,8 @@
 				<p>Possess the tiger</p>
 			</label>
 			<reveal>
-				<p>You possess the sleeping tiger. You notice the alarm clock is set to 2 minutes</p>
+				<p>You possess the sleeping tiger. You notice the alarm clock is set to 2 minutes.</p>
+				<exit dream="GOLDFISHBOWLDREAM"/>
 			</reveal>
 		</button>
 	</card>
