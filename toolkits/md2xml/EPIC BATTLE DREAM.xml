@@ -1,0 +1,261 @@
+<dream name="EPIC BATTLE DREAM">
+	<card name="root">
+		<show>
+			<p>You wake up. You're in a castle. In front of you is a staff and a sword. What do you do?</p>
+		</show>
+		<button>
+			<label>
+				<p>Pick the stuff</p>
+			</label>
+			<reveal>
+				<p>You picks the stuff. A group of Goblins appears. They are rushing towards you with daggers!</p>
+			</reveal>
+			<go card="Pick the stuff"/>
+		</button>
+		<button>
+			<label>
+				<p>Take the sword</p>
+			</label>
+			<reveal>
+				<p>You takes the sword. A Giant appears, with a huge rock in hand aiming at you!</p>
+				<p>What do you do?</p>
+			</reveal>
+			<go card="Take the sword"/>
+		</button>
+	</card>
+	<card name="Pick the stuff">
+		<show>
+			<p>You picks the stuff. A group of Goblins appears. They are rushing towards you with daggers!</p>
+		</show>
+		<button>
+			<label>
+				<p>Stuff Attack!</p>
+			</label>
+			<reveal>
+				<p>You raise your staff and wave it towards an enemy.</p>
+				<p>With a crisp sound, your staff breaks into two parts under the enemy's parry.</p>
+				<p>At the next second, the Goblins easily captured you.</p>
+			</reveal>
+			<go card="Stuff Attack!"/>
+		</button>
+		<button>
+			<label>
+				<p>Retreat</p>
+			</label>
+			<reveal>
+				<p>You calmly analyze the situation and decide to go back some distance.</p>
+				<p>At this time, you find that the Goblins are very close to each other, and your spells are ready.</p>
+				<p>What do you do?</p>
+			</reveal>
+			<go card="Retreat"/>
+		</button>
+	</card>
+	<card name="Retreat">
+		<show>
+			<p>You calmly analyze the situation and decide to go back some distance.</p>
+			<p>At this time, you find that the Goblins are very close to each other, and your spells are ready.</p>
+			<p>What do you do?</p>
+		</show>
+		<button>
+			<label>
+				<p>Fireball!</p>
+			</label>
+			<reveal>
+				<p>You chant the spell, summon a huge fireball.</p>
+				<p>The fireball landed among the enemies, turning all of them into ashes.</p>
+			</reveal>
+			<go card="Fireball!"/>
+		</button>
+		<button>
+			<label>
+				<p>Frost Ward!</p>
+			</label>
+			<reveal>
+				<p>You chant the spell, an ice barrier appears around your body.</p>
+				<p>Goblins start using their daggers to attack you. But no effects.</p>
+				<p>However, you are surrounded. What do you do?</p>
+			</reveal>
+			<go card="Frost Ward!"/>
+		</button>
+	</card>
+	<card name="Frost Ward!">
+		<show>
+			<p>You chant the spell, an ice barrier appears around your body.</p>
+			<p>Goblins start using their daggers to attack you. But no effects.</p>
+			<p>However, you are surrounded. What do you do?</p>
+		</show>
+		<button>
+			<label>
+				<p>Stuff Attack!</p>
+			</label>
+			<reveal>
+				<p>You raise your staff and wave it towards an enemy.</p>
+				<p>The attack missed, but it makes your energy unstable.</p>
+				<p>The ice barrier explodes and then repels the Goblins.</p>
+				<p>You've also taken a lot of damage.</p>
+			</reveal>
+			<go card="Stuff Attack!"/>
+		</button>
+		<button>
+			<label>
+				<p>Wait for the Next Spell</p>
+			</label>
+			<reveal>
+				<p>You try to maintain the barrier, but quickly become exhausted.</p>
+				<p>After that, the ice barrier collapses and you fall down.</p>
+			</reveal>
+			<go card="Wait for the Next Spell"/>
+		</button>
+	</card>
+	<card name="Take the sword">
+		<show>
+			<p>You takes the sword. A Giant appears, with a huge rock in hand aiming at you!</p>
+			<p>What do you do?</p>
+		</show>
+		<button>
+			<label>
+				<p>Defend!</p>
+			</label>
+			<reveal>
+				<p>You raise your sword and adopt a defensive posture.</p>
+				<p>The rock hits you accurately and ruins this trivial defense</p>
+				<p>...along with your body.</p>
+			</reveal>
+			<go card="Defend!"/>
+		</button>
+		<button>
+			<label>
+				<p>Dodge!</p>
+			</label>
+			<reveal>
+				<p>You move quickly. The rock landed in your left. BOOM!!</p>
+				<p>With flying sand and dust, it is not able to see the situation over there.</p>
+				<p>What do you do next?</p>
+			</reveal>
+			<go card="Dodge!"/>
+		</button>
+	</card>
+	<card name="Dodge!">
+		<show>
+			<p>You move quickly. The rock landed in your left. BOOM!!</p>
+			<p>With flying sand and dust, it is not able to see the situation over there.</p>
+			<p>What do you do next?</p>
+		</show>
+		<button>
+			<label>
+				<p>Charge!</p>
+			</label>
+			<reveal>
+				<p>&quot;The best defense is to attack.&quot;</p>
+				<p>You rush towards the Giant, and use the sword to launch a continuous attack on it.</p>
+				<p>However, it dealt trivial damage.</p>
+				<p>On the next second, the Giant punches you, and then you fly tens of meters away...</p>
+			</reveal>
+			<go card="Charge!"/>
+		</button>
+		<button>
+			<label>
+				<p>Move Left</p>
+			</label>
+			<reveal>
+				<p>You move left towards the position where the previous rock landed.</p>
+				<p>You found a pit!</p>
+			</reveal>
+			<go card="Move Left"/>
+		</button>
+		<button>
+			<label>
+				<p>Move Right</p>
+			</label>
+			<reveal>
+				<p>You move right, trying to find a good position.</p>
+				<p>At this time, the Giant lifts another rock, aiming at you!</p>
+			</reveal>
+			<go card="Move Right"/>
+		</button>
+	</card>
+	<card name="Move Left">
+		<show>
+			<p>You move left towards the position where the previous rock landed.</p>
+			<p>You found a pit!</p>
+		</show>
+		<button>
+			<label>
+				<p>Jump into it!</p>
+			</label>
+			<reveal>
+				<p>You jump into the pit without hesitation!</p>
+				<p>... ...</p>
+				<p>It takes a few seconds to hit the bottom.</p>
+				<p>Though taking a great deal of damage, you left the battle alive.</p>
+			</reveal>
+			<go card="Jump into it!"/>
+		</button>
+		<button>
+			<label>
+				<p>Get closer to investigate</p>
+			</label>
+			<reveal>
+				<p>You try to get closer to the pit, want to see the details.</p>
+				<p>At the same time, the Giant's second rock flies to you.</p>
+				<p>While you have no time to react.</p>
+				<p>BOOM!!</p>
+			</reveal>
+			<go card="Get closer to investigate"/>
+		</button>
+	</card>
+	<card name="Move Right">
+		<show>
+			<p>You move right, trying to find a good position.</p>
+			<p>At this time, the Giant lifts another rock, aiming at you!</p>
+		</show>
+		<button>
+			<label>
+				<p>Charge!</p>
+			</label>
+			<reveal>
+				<p>&quot;The best defense is to attack.&quot;</p>
+				<p>You rush towards the Giant, and use the sword to launch a continuous attack on it.</p>
+				<p>However, it dealt trivial damage.</p>
+				<p>On the next second, the Giant punches you, and then you fly tens of meters away...</p>
+			</reveal>
+			<go card="Charge!"/>
+		</button>
+		<button>
+			<label>
+				<p>Defend!</p>
+			</label>
+			<reveal>
+				<p>You raise your sword and adopt a defensive posture.</p>
+				<p>The rock hits you accurately and ruins this trivial defense</p>
+				<p>...along with your body.</p>
+			</reveal>
+			<go card="Defend!"/>
+		</button>
+		<button>
+			<label>
+				<p>Dodge!</p>
+			</label>
+			<reveal>
+				<p>You are in a good position, so you escaped from that attack again.</p>
+				<p>... ...</p>
+				<p>After several rounds, the Giant exhausted.</p>
+			</reveal>
+			<go card="Dodge!"/>
+		</button>
+	</card>
+	<card name="Dodge!">
+		<show>
+			<p>You are in a good position, so you escaped from that attack again.</p>
+			<p>... ...</p>
+			<p>After several rounds, the Giant exhausted.</p>
+		</show>
+		<button>
+			<label>
+				<p>Possess the Giant</p>
+			</label>
+			<reveal/>
+			<go card="Possess the Giant"/>
+		</button>
+	</card>
+</dream>
