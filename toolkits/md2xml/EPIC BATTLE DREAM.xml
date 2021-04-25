@@ -18,7 +18,7 @@
 	</card>
 	<card name="Pick the stuff">
 		<show>
-			<p>You picks the stuff. A group of Goblins appears. They are rushing towards you with daggers!</p>
+			<p>You pick the stuff. A group of Goblins appears. They are rushing towards you with daggers!</p>
 		</show>
 		<button>
 			<label>
@@ -88,7 +88,7 @@
 	</card>
 	<card name="Take the sword">
 		<show>
-			<p>You takes the sword. A Giant appears, with a huge rock in hand aiming at you!</p>
+			<p>You take the sword. A Giant appears, with a huge rock in hand aiming at you!</p>
 			<p>What do you do?</p>
 		</show>
 		<button>
@@ -122,7 +122,7 @@
 				<p>&quot;The best defense is to attack.&quot;</p>
 				<p>You rush towards the Giant, and use the sword to launch a continuous attack on it.</p>
 				<p>However, it dealt trivial damage.</p>
-				<p>On the next second, the Giant punches you, and then you fly tens of meters away...</p>
+				<p>At the next second, the Giant punches you, and then you fly tens of meters away...</p>
 			</reveal>
 		</button>
 		<button>
@@ -179,7 +179,7 @@
 				<p>&quot;The best defense is to attack.&quot;</p>
 				<p>You rush towards the Giant, and use the sword to launch a continuous attack on it.</p>
 				<p>However, it dealt trivial damage.</p>
-				<p>On the next second, the Giant punches you, and then you fly tens of meters away...</p>
+				<p>At the next second, the Giant punches you, and then you fly tens of meters away...</p>
 			</reveal>
 		</button>
 		<button>

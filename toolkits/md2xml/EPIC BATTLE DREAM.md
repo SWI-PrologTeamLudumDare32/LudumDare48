@@ -3,7 +3,7 @@ EPIC BATTLE DREAM
 You wake up. You're in a castle. In front of you is a staff and a sword. What do you do?
 
 + [Pick the stuff]
-		You picks the stuff. A group of Goblins appears. They are rushing towards you with daggers!
+		You pick the stuff. A group of Goblins appears. They are rushing towards you with daggers!
 	+ [Stuff Attack!]
 			You raise your staff and wave it towards an enemy.
 			With a crisp sound, your staff breaks into two parts under the enemy's parry.
@@ -29,7 +29,7 @@ You wake up. You're in a castle. In front of you is a staff and a sword. What do
 						After that, the ice barrier collapses and you fall down.
 	
 + [Take the sword]
-  	You takes the sword. A Giant appears, with a huge rock in hand aiming at you!
+  	You take the sword. A Giant appears, with a huge rock in hand aiming at you!
   	What do you do?
 	+ [Defend!]
 			You raise your sword and adopt a defensive posture.
@@ -43,7 +43,7 @@ You wake up. You're in a castle. In front of you is a staff and a sword. What do
 	      	"The best defense is to attack."
         	You rush towards the Giant, and use the sword to launch a continuous attack on it.
         	However, it dealt trivial damage.
-        	On the next second, the Giant punches you, and then you fly tens of meters away...
+        	At the next second, the Giant punches you, and then you fly tens of meters away...
 		+ [Move Left]
 	        You move left towards the position where the previous rock landed.
           You found a pit!
@@ -64,7 +64,7 @@ You wake up. You're in a castle. In front of you is a staff and a sword. What do
 	      		"The best defense is to attack."
         		You rush towards the Giant, and use the sword to launch a continuous attack on it.
         		However, it dealt trivial damage.
-        		On the next second, the Giant punches you, and then you fly tens of meters away...
+        		At the next second, the Giant punches you, and then you fly tens of meters away...
 			+ [Defend!]
 	      		You raise your sword and adopt a defensive posture.
         		The rock hits you accurately and ruins this trivial defense
