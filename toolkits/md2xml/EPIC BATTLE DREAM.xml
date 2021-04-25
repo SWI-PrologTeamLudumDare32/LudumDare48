@@ -5,9 +5,9 @@
 		</show>
 		<button>
 			<label>
-				<p>Pick the stuff</p>
+				<p>Pick the staff</p>
 			</label>
-			<go card="Pick the stuff"/>
+			<go card="Pick the staff"/>
 		</button>
 		<button>
 			<label>
@@ -16,13 +16,13 @@
 			<go card="Take the sword"/>
 		</button>
 	</card>
-	<card name="Pick the stuff">
+	<card name="Pick the staff">
 		<show>
-			<p>You pick the stuff. A group of Goblins appears. They are rushing towards you with daggers!</p>
+			<p>You pick the staff. A group of Goblins appears. They are rushing towards you with daggers!</p>
 		</show>
 		<button>
 			<label>
-				<p>Stuff Attack!</p>
+				<p>Staff Attack!</p>
 			</label>
 			<reveal>
 				<p>You raise your staff and wave it towards an enemy.</p>
@@ -67,7 +67,7 @@
 		</show>
 		<button>
 			<label>
-				<p>Stuff Attack!</p>
+				<p>Staff Attack!</p>
 			</label>
 			<reveal>
 				<p>You raise your staff and wave it towards an enemy.</p>

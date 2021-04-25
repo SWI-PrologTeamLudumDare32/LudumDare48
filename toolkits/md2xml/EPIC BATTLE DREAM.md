@@ -2,9 +2,9 @@ EPIC BATTLE DREAM
 
 You wake up. You're in a castle. In front of you is a staff and a sword. What do you do?
 
-+ [Pick the stuff]
-		You pick the stuff. A group of Goblins appears. They are rushing towards you with daggers!
-	+ [Stuff Attack!]
++ [Pick the staff]
+		You pick the staff. A group of Goblins appears. They are rushing towards you with daggers!
+	+ [Staff Attack!]
 			You raise your staff and wave it towards an enemy.
 			With a crisp sound, your staff breaks into two parts under the enemy's parry.
 			At the next second, the Goblins easily captured you.
@@ -19,7 +19,7 @@ You wake up. You're in a castle. In front of you is a staff and a sword. What do
 				You chant the spell, an ice barrier appears around your body.
 				Goblins start using their daggers to attack you. But no effects.
 				However, you are surrounded. What do you do?
-			+ [Stuff Attack!]
+			+ [Staff Attack!]
 						You raise your staff and wave it towards an enemy.
 						The attack missed, but it makes your energy unstable.
 						The ice barrier explodes and then repels the Goblins.
