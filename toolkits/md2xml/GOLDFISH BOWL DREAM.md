@@ -1,4 +1,4 @@
-GOLDFISH BOWL DREAM
+GOLDFISHBOWLDREAM
 
 You wake up. You are a fish. A goldfish to be exact. Not a gold fish. That would have been cool, but it was too expensive to get one in the Ludum Dare time window. 
 You look out and see a distorted room around you. You try to swim into that room, but you seem to bump into thin air. It's pretty cramped in here. Underneath you is a castle. Above you is a scary place you don't want to go. In front of you is your fishy reflection. Time is ticking. What do you do?

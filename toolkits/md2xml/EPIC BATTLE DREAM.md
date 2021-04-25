@@ -1,4 +1,4 @@
-EPIC BATTLE DREAM
+EPICBATTLEDREAM
 
 You wake up. You're in a castle. In front of you is a staff and a sword. What do you do?
 
