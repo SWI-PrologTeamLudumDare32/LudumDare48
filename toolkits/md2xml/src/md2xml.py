@@ -3,6 +3,8 @@ from xml.dom.minidom import Document
 import re
 
 def build_tree(text):
+    name_set = set()
+    name_set.add("root")
     root = WorldNode("root")
 
     tmp_text = []
@@ -28,7 +30,11 @@ def build_tree(text):
                     stack.pop()
             
             name = line[match.end():].strip(' []-')
+
+            while(name in name_set):
+                name += "#"
             new_node = WorldNode(name)
+            name_set.add(name)
 
             stack[-1].add_child(new_node)
             
@@ -80,10 +86,10 @@ def node_to_xml(doc, root):
         sh_elem.appendChild(create_p(doc, t))
     card.appendChild(sh_elem)
     
-    for name, child in root.children.items():
+    for _, child in root.children.items():
         btn = doc.createElement('button')
         lb_elem = doc.createElement('label')
-        lb_elem.appendChild(create_p(doc, name))
+        lb_elem.appendChild(create_p(doc, child.display_name))
         btn.appendChild(lb_elem)
 
         re_elem = doc.createElement('reveal')
@@ -94,7 +100,7 @@ def node_to_xml(doc, root):
         btn.appendChild(re_elem)
 
         go_elem = doc.createElement('go')
-        go_elem.setAttribute("card", name)
+        go_elem.setAttribute("card", child.name)
         btn.appendChild(go_elem)
 
         card.appendChild(btn)

@@ -6,6 +6,10 @@ class WorldNode:
         self.depth = 0
         self.text = ""
 
+    @property
+    def display_name(self):
+        return self.name.strip("#")
+
     def add_child(self, node):
         if node.name in self.children:
             print("{} already exists.".format(node.name))

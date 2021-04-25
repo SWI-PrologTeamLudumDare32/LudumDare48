@@ -94,7 +94,7 @@
 				<p>The ice barrier explodes and then repels the Goblins.</p>
 				<p>You've also taken a lot of damage.</p>
 			</reveal>
-			<go card="Stuff Attack!"/>
+			<go card="Stuff Attack!#"/>
 		</button>
 		<button>
 			<label>
@@ -219,7 +219,7 @@
 				<p>However, it dealt trivial damage.</p>
 				<p>On the next second, the Giant punches you, and then you fly tens of meters away...</p>
 			</reveal>
-			<go card="Charge!"/>
+			<go card="Charge!#"/>
 		</button>
 		<button>
 			<label>
@@ -230,7 +230,7 @@
 				<p>The rock hits you accurately and ruins this trivial defense</p>
 				<p>...along with your body.</p>
 			</reveal>
-			<go card="Defend!"/>
+			<go card="Defend!#"/>
 		</button>
 		<button>
 			<label>
@@ -241,10 +241,10 @@
 				<p>... ...</p>
 				<p>After several rounds, the Giant exhausted.</p>
 			</reveal>
-			<go card="Dodge!"/>
+			<go card="Dodge!#"/>
 		</button>
 	</card>
-	<card name="Dodge!">
+	<card name="Dodge!#">
 		<show>
 			<p>You are in a good position, so you escaped from that attack again.</p>
 			<p>... ...</p>
