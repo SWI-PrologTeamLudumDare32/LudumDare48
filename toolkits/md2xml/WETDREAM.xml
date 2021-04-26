@@ -43,6 +43,7 @@
 			</label>
 			<reveal>
 				<p>One.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -51,6 +52,7 @@
 			</label>
 			<reveal>
 				<p>Two.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -59,6 +61,7 @@
 			</label>
 			<reveal>
 				<p>Red.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -67,6 +70,7 @@
 			</label>
 			<reveal>
 				<p>Blue.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 	</card>
@@ -91,6 +95,7 @@
 			</label>
 			<reveal>
 				<p>One.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -99,6 +104,7 @@
 			</label>
 			<reveal>
 				<p>Two.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -107,6 +113,7 @@
 			</label>
 			<reveal>
 				<p>Red.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -115,6 +122,7 @@
 			</label>
 			<reveal>
 				<p>Blue.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 	</card>
@@ -128,6 +136,7 @@
 			</label>
 			<reveal>
 				<p>One.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -136,6 +145,7 @@
 			</label>
 			<reveal>
 				<p>Two.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -144,6 +154,7 @@
 			</label>
 			<reveal>
 				<p>Red.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -152,6 +163,7 @@
 			</label>
 			<reveal>
 				<p>Blue.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 	</card>

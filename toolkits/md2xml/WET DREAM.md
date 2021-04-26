@@ -8,12 +8,16 @@ You wake up. You are underwater. You are also a fish. A bigger fish eats you. Yo
 		There are four fish sleeping on the kelp bed. Time is ticking, which do you possess?
 		+ [One Fish]
 			One.
+<exit dream="random" />
 		+ [Two Fish]
 			Two.
+<exit dream="random" />
 		+ [Red Fish]
 			Red.
+<exit dream="random" />
 		+ [Blue Fish]
 			Blue.
+<exit dream="random" />
 	
 + [Ask Dapper Lamprey for a Lift]
 	Dapper Lamprey eats you. You are dead.
@@ -21,21 +25,28 @@ You wake up. You are underwater. You are also a fish. A bigger fish eats you. Yo
 		There are four fish sleeping on the kelp bed. Time is ticking, which do you possess?
 		+ [One Fish]
 			One.
+<exit dream="random" />
 		+ [Two Fish]
 			Two.
+<exit dream="random" />
 		+ [Red Fish]
 			Red.
+<exit dream="random" />
 		+ [Blue Fish]
 			Blue.
+<exit dream="random" />
 	
 + [Go to kelp bed]
 	On your way to kelp bed, you run out of oxygen. You are dead. You float up out of your lifeless body and see there are four fish sleeping on kelp bed. Time is ticking, which do you possess?
 	+ [One Fish]
 		One.
+<exit dream="random" />
 	+ [Two Fish]
 		Two.
+<exit dream="random" />
 	+ [Red Fish]
 		Red.
+<exit dream="random" />
 	+ [Blue Fish]
 		Blue.
-	
+<exit dream="random" />
