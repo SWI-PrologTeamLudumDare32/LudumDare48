@@ -73,6 +73,17 @@ Video
 <audio><source src="/audio/Dream-transition1.mp3"  autoplay="true"/></audio>
 ````
 
+## Converting files
+
+It's a game jam - things go sideways
+
+The files are marked up in markdown, then run through a python program to make xml, and the prolog reads xml
+
+````
+cd  ~/ludumdare48/toolkits/md2xml/src
+python -m main ..
+````
+
 
 
  

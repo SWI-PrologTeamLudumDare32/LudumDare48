@@ -24,8 +24,12 @@ function startGame() {
 		application: "ldjam_pengine_app",
 		destroy: false,
 		onfailure: () => console.log('engine fails'),
-		onerror: () => console.log('engine error', this.data),
+		onerror: engine_error
 	});
+}
+
+function engine_error() {
+	console.log(this.data);
 }
 
 // send a query to Pengine, when it returns new_data is called and the card

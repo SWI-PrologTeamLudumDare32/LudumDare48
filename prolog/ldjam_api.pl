@@ -22,13 +22,6 @@ increase(N, N2) :-
 
 next_card('random_!_root', C) :-
 	!,
-	setof( Name, root_card_name(Name), Roots),
-	random_member(Name, Roots),
-	name_card(Name, C).
+	random_root_card(C).
 next_card(Name, Card) :-
 	name_card(Name, Card).
-
-root_card_name(Name) :-
-	ldjam_twine:card(C),
-	atom_concat(_, '_!_root', C.name),
-	Name = C.name .
