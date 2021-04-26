@@ -8,10 +8,19 @@
 			<label>
 				<p>Pick the staff</p>
 			</label>
-			<reveal>
-				<p>You pick the staff. A group of Goblins appears. They are rushing towards you with daggers!</p>
-			</reveal>
+			<go card="Pick the staff"/>
 		</button>
+		<button>
+			<label>
+				<p>Take the sword</p>
+			</label>
+			<go card="Take the sword"/>
+		</button>
+	</card>
+	<card name="Pick the staff">
+		<show>
+			<p>You pick the staff. A group of Goblins appears. They are rushing towards you with daggers!</p>
+		</show>
 		<button>
 			<label>
 				<p>Staff Attack!</p>
@@ -27,12 +36,6 @@
 				<p>Retreat</p>
 			</label>
 			<go card="Retreat"/>
-		</button>
-		<button>
-			<label>
-				<p>Take the sword</p>
-			</label>
-			<go card="Take the sword"/>
 		</button>
 	</card>
 	<card name="Retreat">

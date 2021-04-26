@@ -6,26 +6,26 @@ You wake up. You're in a castle. In front of you is a staff and a sword. What do
 
 + [Pick the staff]
   	You pick the staff. A group of Goblins appears. They are rushing towards you with daggers!
-  + [Staff Attack!]
+	+ [Staff Attack!]
     	You raise your staff and wave it towards an enemy.
     	With a crisp sound, your staff breaks into two parts under the enemy's parry.
     	At the next second, the Goblins easily captured you.
 
-  + [Retreat]
+	+ [Retreat]
   		You calmly analyze the situation and decide to go back some distance.
   		At this time, you find that the Goblins are very close to each other, and your spells are ready.
   		What do you do?
-  	+ [Fireball!]
+		+ [Fireball!]
   			You chant the spell, summon a huge fireball.
   			The fireball landed among the enemies, turning all of them into ashes.
   		
   		<exit dream="random"/>
   		
-  	+ [Frost Ward!]
+		+ [Frost Ward!]
   			You chant the spell, an ice barrier appears around your body.
   			Goblins start using their daggers to attack you. But no effects.
   			However, you are surrounded. What do you do?
-  		+ [Staff Attack!]
+			+ [Staff Attack!]
   					You raise your staff and wave it towards an enemy.
   					The attack missed, but it makes your energy unstable.
   					The ice barrier explodes and then repels the Goblins.
@@ -33,7 +33,7 @@ You wake up. You're in a castle. In front of you is a staff and a sword. What do
 			
   			<exit dream="random"/>
   			
-  		+ [Wait for the Next Spell]
+			+ [Wait for the Next Spell]
   					You try to maintain the barrier, but quickly become exhausted.
   					After that, the ice barrier collapses and you fall down.
   
@@ -56,6 +56,7 @@ You wake up. You're in a castle. In front of you is a staff and a sword. What do
 		+ [Move Left]
 	        You move left towards the position where the previous rock landed.
           You found a pit!
+          
 			+ [Jump into it!]
 	            	You jump into the pit without hesitation!
               	... ...
