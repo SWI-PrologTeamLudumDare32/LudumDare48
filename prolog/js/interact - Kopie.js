@@ -5,6 +5,9 @@ var mypengine;
 // you don't need to pass the whole object back, just the name for the card you want
 var lastCard; 
 
+var audioElement = [];
+
+
 // Data from Pengine comming
 function new_data(){
 	if(this.data && this.data[0] && this.data[0].Result != undefined) {
@@ -18,18 +21,24 @@ function new_data(){
 
 // overall start
 function startGame() {
+
+	audioElement["Nightmare"] = new Audio('/audio/Nightmare.mp3');
+	audioElement["Dream-transition1"] = new Audio('/audio/Dream-transition1.mp3');
+	audioElement["Happy-theme"] = new Audio('/audio/Happy-theme.mp3');
+	audioElement["LD48-firstkiss-hank"] = new Audio('/audio/LD48-firstkiss-hank.mp3');
+	audioElement["ld_48_3_atschool-hank"] = new Audio('/audio/ld_48_3_atschool-hank.mp3');
+	audioElement["ld_48_teethonadate-hank"] = new Audio('/audio/ld_48_teethonadate-hank.mp3');
+	audioElement["main"] = new Audio('/audio/main.mp3');
+	audioElement["Space-theme"] = new Audio('/audio/Space-theme.mp3');
+
 	mypengine = new Pengine({
 		ask: "create_game(Result)",
 		onsuccess: new_data,
 		application: "ldjam_pengine_app",
 		destroy: false,
 		onfailure: () => console.log('engine fails'),
-		onerror: engine_error
+		onerror: () => console.log('engine error', this.data),
 	});
-}
-
-function engine_error() {
-	console.log(this.data);
 }
 
 // send a query to Pengine, when it returns new_data is called and the card
@@ -45,6 +54,7 @@ function advanceToNextCard(NextCard) {
 function displayCard(aCardObj)
 {
   var html = aCardObj.show;
+  console.log("HRML", aCardObj.buttons);
   $("#card").empty(); 
   $("#card").append(html);
 
@@ -72,13 +82,17 @@ function donothing() {
 // perform the reveal and then call the callback
 function doReveal(text, callback) {
 
-//console.log("Reveal text", text);
+// you have do get the filename of the soundfile somehow -> audio tag in reveal text?
+//key = nameOfFile(filename);
+//audioElement[key].play();
+
+console.log("Reveal text", text);
   if (text != '')
   {
      var node = decodeURI(text);
      $("#revealArea").empty();
      $("#revealArea").append('<div id="spookyText">' + node + '</div>');
-     setTimeout(callback, 5000);
+     setTimeout(callback, 4000);
   }
   else 
 	callback();
@@ -111,6 +125,11 @@ function buildButton(label, go, reveal)
 	}
 }
 
+function nameOfFile(Path)
+{
+	p1 = Path.substring(test.lastIndexOf('/')+1);
+	return p1.substring(0, p1.lastIndexOf('.'))
+}
 
 window.onload = startGame;
 

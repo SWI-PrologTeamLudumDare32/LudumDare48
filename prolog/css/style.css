@@ -137,7 +137,7 @@ b {
  #spookyText {
   opacity: 0;
   animation-name: disappear;
-  animation-duration: 6s;
+  animation-duration: 5s;
   animation-timing-function: linear;
  }
 
