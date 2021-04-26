@@ -2,6 +2,8 @@ SPACEDREAM
 
 You wake up. You're a space man! No wait, you're in space, ma'am! Like floating out in space, watching the space station get smaller and smaller in front of you. What do you do?
 
+<audio src="/Sound/Space-theme.mp3" />
+
 + [Activate Propulsion Socks]
 	You activate your propulsion socks. They don't work. With sheer willpower you launch yourself at the space station anyway and eventually make it. Unfortunately, there is a robot inside who will not open the pod bay doors to let you in. After a candid radio chat, you determine all he wants from life is a red hat. {ITEM NEEDED}{RED HAT}
 
@@ -28,7 +30,7 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 <exit dream="EPICBATTLEDREAM"/>
 
 + [Float Slowly Towards that Small Moon]
-	You float slowly...                                                               Oh so slowly...                                                                   Ohhhhhhh.                                                                         sooo.........                                                                     slow.......................................                                                                                   l                                                                                                                                                                  y. towards the small moon. So slowly, in fact, that your empty stomach finishes digesting its last meal (itself) and everything goes black. You wake up. You are dead. You lift up out of your lifelessbody and see: that's no moon! It's a GIANT BED! With a GIANT!!!! SLEEPING ON IT!!!
+	
 	+ [HAUNT THEIR DREAMS!!!]
 		You possess the giant. Oops! You almost forgot; you reach out, take the alarm clock, and shove it in your ghostly body.
 <exit dream="GARDENGNOMEDREAM"/>

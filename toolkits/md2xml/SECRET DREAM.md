@@ -2,6 +2,8 @@ SECRETDREAM
 
 Turns out life really is a simulation, and you haunted its dreams! Where would you like to go?
 
+<audio src="/Sound/Happy-theme.mp3"/>
+
 + [OVERWORLD INTRO... DREAM?]
 	Remember that one?
 <exit dream="OVERWORLDINTRODREAM" />

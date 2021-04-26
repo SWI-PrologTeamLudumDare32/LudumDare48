@@ -2,6 +2,7 @@
 	<card name="root">
 		<show>
 			<p>You wake up. You're in a castle. In front of you is a staff and a sword. What do you do?</p>
+			<audio src="/Sound/ld_48_3_atschool-hank.mp3"/>
 		</show>
 		<button>
 			<label>
@@ -47,6 +48,7 @@
 			<reveal>
 				<p>You chant the spell, summon a huge fireball.</p>
 				<p>The fireball landed among the enemies, turning all of them into ashes.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -71,6 +73,7 @@
 				<p>The attack missed, but it makes your energy unstable.</p>
 				<p>The ice barrier explodes and then repels the Goblins.</p>
 				<p>You've also taken a lot of damage.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -149,6 +152,7 @@
 				<p>... ...</p>
 				<p>It takes a few seconds to hit the bottom.</p>
 				<p>Though taking a great deal of damage, you left the battle alive.</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>

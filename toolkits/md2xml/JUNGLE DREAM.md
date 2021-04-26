@@ -1,6 +1,7 @@
 JUNGLEDREAM
 
 You wake up. You're in a jungle. You hear a tiger roar.  It sounds really close! What do you do?
+<audio src="/Sound/Nightmare.mp3"/>
 
 + [Run!]
 	You run from the tiger as fast as your hobbit legs can carry you. You hear rustling and growling  as the tiger hears you and gives chase. You find a small yurt, just in the knick of time, run in, and slam the straw door, thinking "That probably won't hold..." What do you do?

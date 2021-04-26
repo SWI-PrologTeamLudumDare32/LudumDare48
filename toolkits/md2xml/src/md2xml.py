@@ -81,7 +81,7 @@ def to_xml(filepath):
     xml = re.sub(r"\*\*.+\*\*", lambda m: f"<b>{m.group(0).strip('*')}</b>", xml)
     xml = re.sub(r"\*.+\*", lambda m: f"<i>{m.group(0).strip('*')}</i>", xml)
 
-    return xml
+    return xml, title
 
 
 def dfs_card(doc, dream, root):

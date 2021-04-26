@@ -13,14 +13,14 @@ if __name__ == '__main__':
         filepath = dir + '/' + file
         print(filepath)
         try:
-            xml = to_xml(filepath)
+            xml, title = to_xml(filepath)
         except BaseException as e:
             print(str(e))
             input("Press any key to exit.")
             exit(1)
         print(' ')
 
-        with open(filepath.replace('.md', '.xml'), 'w', encoding='utf-8') as f:
+        with open(dir + f'/{title}.xml', 'w', encoding='utf-8') as f:
             f.write(xml)
 
     input("All operations are successful. Press any key to exit.")
