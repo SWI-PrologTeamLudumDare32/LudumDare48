@@ -1,0 +1,184 @@
+<dream name="teethonadate">
+	<card name="root">
+		<show>
+			<p>&lt;audio src=&quot;/Sound/ld_48_teethonadate-hank.mp3&quot;/&gt;</p>
+			<p>You wake up. You are on a date at a restaurant with an unfamiliar romantic partner. All of your teeth fall out of your mouth into your cupped hands. The taste reminds you of pennies.</p>
+		</show>
+		<button>
+			<label>
+				<p>Present the pile of teeth as a gift to your unfamiliar romantic partner</p>
+			</label>
+			<go card="Present the pile of teeth as a gift to your unfamiliar romantic partner"/>
+		</button>
+		<button>
+			<label>
+				<p>Put the pile of teeth in your soup</p>
+			</label>
+			<go card="Put the pile of teeth in your soup"/>
+		</button>
+		<button>
+			<label>
+				<p>Ask to trade for your unfamiliar romantic partner's teeth, it's only fair</p>
+			</label>
+			<go card="Ask to trade for your unfamiliar romantic partner's teeth, it's only fair"/>
+		</button>
+		<button>
+			<label>
+				<p>Plant the pile of teeth in the ground later when you get home, together</p>
+			</label>
+			<reveal>
+				<p>You plant the pile of teeth in the ground later when you get home, together.</p>
+				<p>You loosely pad the dirt on top of the teeth with your bare hands while your unfamiliar romantic partner returns with a full watering can.</p>
+				<p>This is the American Dream, you think to yourself.</p>
+				<p>Why, the world could end right now, and you'd still have a job tomorrow.</p>
+				<p>And in four to six weeks, these teeth are going to grow into something else. That's what life is.</p>
+				<p>You have a dreamy glob of an unfamiliar romantic partner and you planted teeth together at your home.</p>
+				<p>To some, that's a life well lived, and you're not even halfway there yet, you think to yourself.</p>
+				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+			</reveal>
+		</button>
+		<button>
+			<label>
+				<p>Plant the pile of teeth in the ground later when you get home, alone</p>
+			</label>
+			<reveal/>
+		</button>
+	</card>
+	<card name="Present the pile of teeth as a gift to your unfamiliar romantic partner">
+		<show>
+			<p>You present the pile of teeth as a gift to your unfamiliar romantic partner. They are thrilled. It was very thoughtful of you. A selfless action. You are a good person.</p>
+			<p>If only the world had more philanthropic and compassionate people like yourself. Other couples look on in jealousy at the spark between the two of you.</p>
+		</show>
+		<button>
+			<label>
+				<p>You congratulate yourself on being such a great gift giver</p>
+			</label>
+			<reveal>
+				<p>You congratulate yourself on being such a great gift giver. That one artist guy gave someone his ear. He kept all his teeth. Selfish. Or was he a writer?</p>
+				<p>Given that correllation, you should be pretty great at art now too. Or writing. One of the two. Maybe both. A bunch of teeth is more than one ear.</p>
+				<p>You make a mental note to produce art of some type later.</p>
+				<p>All that inspiration has made you thirsty, but you find drinking exceptionally challenging after being so used to your teeth's presence in your mouth.</p>
+				<p>You ask the waiter for a straw. It's not any easier. The water pours from your mouth due to your inability to purse your lips.</p>
+				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+			</reveal>
+		</button>
+	</card>
+	<card name="Put the pile of teeth in your soup">
+		<show>
+			<p>You put the pile of teeth in your soup. Some sink faster than others. This place never sends crackers out with the soup. You wonder why that is. You'll have to remember that when you leave the tip.</p>
+			<p>Maybe you have to ask for crackers. Maybe they don't send them out automatically because then each individual bowl of soup costs more for them to distribute.</p>
+			<p>It's embarassing to have to ask about crackers. They should just send them out. If it's too expensive, then why don't they just raise the price of the soup by the cost of the crackers?</p>
+			<p>The waiter is walking by right now...</p>
+		</show>
+		<button>
+			<label>
+				<p>Ask about crackers</p>
+			</label>
+			<go card="Ask about crackers"/>
+		</button>
+		<button>
+			<label>
+				<p>Don't ask about crackers</p>
+			</label>
+			<reveal>
+				<p>You don't ask about crackers. It would be embarassing. I mean, it's fine. You already put your teeth in the soup.</p>
+				<p>You look around to see if anyone else has crackers. You don't even see another bowl of soup at any tables.</p>
+				<p>You stir your spoon through the soup, clinking your teeth at the bottom. They will get soggy soon, you think to yourself.</p>
+				<p>Your unfamiliar romantic partner warns you that you should eat your soup soon, before your teeth get soggy.</p>
+				<p>That's a reasonable suggestion, you think to yourself. What a wise and decisive unfamiliar romantic partner you've chosen.</p>
+				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+			</reveal>
+		</button>
+	</card>
+	<card name="Ask about crackers">
+		<show>
+			<p>You ask about crackers. It's embarassing. Everyone takes notice. The waiter looks at your bowl of soup with a sneer, then asks if you'd like a pack, perhaps to take home.</p>
+		</show>
+		<button>
+			<label>
+				<p>Accept</p>
+			</label>
+			<reveal>
+				<p>You accept. You reflect silently to yourself about how they should have sent crackers in the first place.</p>
+				<p>Once the waiter is gone, your unfamiliar romantic partner voices an opinion similar to the one you just had.</p>
+				<p>You agree. Yes, they should have sent crackers in the first place.</p>
+				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+			</reveal>
+		</button>
+		<button>
+			<label>
+				<p>Decline</p>
+			</label>
+			<reveal>
+				<p>You decline. You already put your teeth in the soup and you remember that you have crackers at home. You always have crackers at home.</p>
+				<p>Once the waiter is gone, your unfamiliar romantic partner reminds you that you have crackers at home.</p>
+				<p>You remember again that you have crackers at home.</p>
+				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+			</reveal>
+		</button>
+		<button>
+			<label>
+				<p>Ask for two packs</p>
+			</label>
+			<reveal>
+				<p>You ask for two packs. The waiter takes another look at your bowl and blinks slowly before walking away.</p>
+				<p>You'll have to remember that when you leave the tip.</p>
+				<p>It's hard for you to imagine he makes a decent living off of tips, given the way he treats the customers.</p>
+				<p>You hope he brings the crackers soon, though. The soup is starting to get cold and your teeth will be soggy soon.</p>
+				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+			</reveal>
+		</button>
+	</card>
+	<card name="Ask to trade for your unfamiliar romantic partner's teeth, it's only fair">
+		<show>
+			<p>You ask to trade for your unfamiliar romantic partner's teeth, it's only fair. This is commitment we're talking about. There's a big difference between living together and exchanging each others' teeth.</p>
+			<p>We have to be ready to lay it all on the line. To fully embrace each other. To look into each others' toothless mouths and fully accept ourselves, even if it's really really hard to eat stuff and drink stuff.</p>
+			<p>Ready to take the next step, your unfamiliar romantic partner accepts your offer. Soon both of you have cupped hands full of your own teeth.</p>
+			<p>You're both a little confused how the exchange is supposed to work out logistically.</p>
+			<p>Measuring the available options you...</p>
+		</show>
+		<button>
+			<label>
+				<p>Pile your teeth in the center of the table</p>
+			</label>
+			<reveal>
+				<p>You pile your teeth in the center of the table. It seemed like the right thing to do. It was the first possiblity that crept into your mind. And now they're there, in the center of the table where you put them.</p>
+				<p>Good job.</p>
+				<p>It's a good thing this place doesn't have centerpieces, you think to yourself.</p>
+				<p>Your unfamiliar romantic partner looks at a with distaste. You probably inconvenienced them by placing your teeth in the center of the table.</p>
+				<p>You worry your unfamiliar romantic partner might regret the trade. You didn't mean to rush things.</p>
+				<p>Even if you didn't mean to rush things, you hurriedly extend your hands to alleviate your unfamiliar romantic partner of their teeth.</p>
+				<p>Placing them in your pocket, you're both left to look at each other over a pile of your own teeth. You can't help but feel like your teeth are worth more than those you just recieved, but oh well.</p>
+				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+			</reveal>
+		</button>
+		<button>
+			<label>
+				<p>Shove your silverware aside with the bottom of your cupped hands and pile your teeth on the napkin</p>
+			</label>
+			<reveal>
+				<p>You shove your silverware aside with the bottom of your cupped hands and pile your teeth on the napkin. That worked out well. Nice. That's a good looking pile, you think to yourself.</p>
+				<p>Any unfamiliar romantic partner should be happy to recieve that in a fair and agreed upon exchange.</p>
+				<p>Your unfamiliar romantic partner performs similar actions to your own. Now there are two piles of teeth on their own respective napkins.</p>
+				<p>You might need another set of silverware though, these tables are filthy.</p>
+				<p>Your unfamiliar romantic partner furls your former napkin into a bag like shape and proceeds to place it somewhere upon its person, most likely a pocket.</p>
+				<p>You perform a similar action, it's a little harder than it looked. You drop a couple of your unfamiliar romantic partner's teeth on the floor during transport.</p>
+				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+			</reveal>
+		</button>
+		<button>
+			<label>
+				<p>Ask a third party to assist with the exchange</p>
+			</label>
+			<reveal>
+				<p>You ask a third party to assist with the exchange. This is just too much to handle on your own. Somebody needs to be thinking about this from an outside perspective.</p>
+				<p>The waiter sulks towards the table in response to your pleading gaze and helpless befuddlement. He asks what he can do for you. You put your teeth in his hands.</p>
+				<p>Now your hands can recieve your unfamiliar romantic partner's teeth. Perfect. Good plan, you think to yourself.</p>
+				<p>And now your unfamiliar romantic partner's hands are free to recieve your teeth from the waiter.</p>
+				<p>The waiter unfurls your teeth into your unfamiliar romantic partner's lap, as if he wanted to be rid of them.</p>
+				<p>You'll have to remember that when you leave the tip.</p>
+				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+			</reveal>
+		</button>
+	</card>
+</dream>
