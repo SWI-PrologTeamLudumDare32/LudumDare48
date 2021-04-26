@@ -58,13 +58,13 @@ code {
 
 body {
 /*	animation: flicker 6000ms infinite;  */
-    background-color: #000000;
-    color: #FFFFFF;
-   font-family: 'VT323', monospace;
-    animation-name: flicker;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'VT323', monospace;
+  /*animation-name: flicker;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: linear;*/
  
 /* font-family: 'IBM Plex Mono', monospace; */
 }
@@ -88,29 +88,33 @@ b {
  }
 
  button {
-  background-color: #4CAF50; /* Green */
+  background-color: #bababc; /* Green */
   border: none;
-  color: white;
-  padding: 15px 32px;
+  color: black;
+  padding: 12px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 21px;
    margin: 5px;
    border-radius: 4px;
+   font-family: "Josefin Sans", sans-serif;
+  
  }
  
  button:active {
-  background-color: #4C8F50; /* Green */
+  background-color: #bababc; /* Green */
   border: none;
-  color: #888888;
-  padding: 15px 32px;
+  color: black;
+  padding: 12px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 21px;
   margin: 5px;
   border-radius: 4px;
+  font-family: "Josefin Sans", sans-serif;
+ 
  }
  
 #playarea {
@@ -133,7 +137,7 @@ b {
  #spookyText {
   opacity: 0;
   animation-name: disappear;
-  animation-duration: 4s;
+  animation-duration: 6s;
   animation-timing-function: linear;
  }
 
