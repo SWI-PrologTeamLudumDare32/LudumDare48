@@ -671,7 +671,10 @@
 			<label>
 				<p>Haunt Their Dreams!</p>
 			</label>
-			<reveal/>
+			<reveal>
+				<p>You possess the brick pig, you try to grab the alarm-clock to take with you but - it's bricked! Panicked, you throw it against the wall and suddenly it's working again. You shove it in your ghostly body and dive in.</p>
+				<exit dream="teethonadate"/>
+			</reveal>
 		</button>
 	</card>
 </dream>

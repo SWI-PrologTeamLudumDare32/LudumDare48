@@ -210,7 +210,9 @@
 			<label>
 				<p>Possess the Giant</p>
 			</label>
-			<reveal/>
+			<reveal>
+				<exit dream="random"/>
+			</reveal>
 		</button>
 	</card>
 </dream>

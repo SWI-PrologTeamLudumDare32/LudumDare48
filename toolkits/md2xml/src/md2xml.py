@@ -1,6 +1,5 @@
 # -*- coding: UTF-8 -*-
 
-from typing import Match
 from node import WorldNode
 from xml.dom.minidom import Document
 from xml.dom.minidom import parseString
@@ -16,6 +15,8 @@ def build_tree(text):
     stack = [root]
 
     previous_indent = -1
+
+    last_child = None
 
     for _j, line in enumerate(text.splitlines()):
         if str.isspace(line) or line == "":
@@ -51,6 +52,8 @@ def build_tree(text):
             name_set.add(name)
 
             stack[-1].add_child(new_node)
+
+            last_child = new_node
             
             if indent > previous_indent:
                 if indent - previous_indent != 1:
@@ -60,6 +63,8 @@ def build_tree(text):
             previous_indent = indent
             
             print('[{}] '.format(new_node.depth) + line)
+
+    last_child.text = tmp_text
     return root
 
 

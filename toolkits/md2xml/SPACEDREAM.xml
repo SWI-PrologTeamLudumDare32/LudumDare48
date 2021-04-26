@@ -134,7 +134,9 @@
 			<label>
 				<p>I still want to do something else...</p>
 			</label>
-			<reveal/>
+			<reveal>
+				<p>Okay fine, sit around and wait for your life to fulfill itself. You'll only run out the clock.</p>
+			</reveal>
 		</button>
 	</card>
 </dream>

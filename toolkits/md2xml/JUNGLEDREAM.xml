@@ -162,7 +162,10 @@
 			<label>
 				<p>Possess the dreamer</p>
 			</label>
-			<reveal/>
+			<reveal>
+				<p>You possess the granny. You take the alarm clock and shove it into your ghost body as you haunt your next dream.</p>
+				<exit dream="SPACEDREAM"/>
+			</reveal>
 		</button>
 	</card>
 </dream>

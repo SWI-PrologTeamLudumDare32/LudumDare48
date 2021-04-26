@@ -150,7 +150,9 @@
 			<label>
 				<p>Blue Fish</p>
 			</label>
-			<reveal/>
+			<reveal>
+				<p>Blue.</p>
+			</reveal>
 		</button>
 	</card>
 </dream>
