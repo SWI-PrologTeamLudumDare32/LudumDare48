@@ -37,9 +37,9 @@
 		</button>
 		<button>
 			<label>
-				<p>Possess the Worm</p>
+				<p>Haunt Their Dreams!</p>
 			</label>
-			<go card="Possess the Worm#"/>
+			<go card="Haunt Their Dreams!#"/>
 		</button>
 		<button>
 			<label>
@@ -79,20 +79,26 @@
 		</button>
 		<button>
 			<label>
-				<p>Possess the Worm</p>
+				<p>Haunt Their Dreams!</p>
 			</label>
-			<reveal/>
+			<reveal>
+				<p>You possess the worm and swallow its alarm clock.</p>
+				<exit dream="EPICBATTLEDREAM"/>
+			</reveal>
 		</button>
 	</card>
-	<card name="Possess the Worm#">
+	<card name="Haunt Their Dreams!#">
 		<show>
 			<p>You float over to the worm and attempt to possess her. Unfortunately, you are not a ghost, so you actually just rub all up on the worm, who immediately wakes up and shouts &quot;GUARDS!&quot; Two worm knights swoop in on their wyrm mounts and slice your head off. You wake up. You are dead. You float up out of your lifeless body and see the worm has rolled over and gone back to sleep. What do you do?</p>
 		</show>
 		<button>
 			<label>
-				<p>Possess the Worm</p>
+				<p>Haunt Their Dreams!</p>
 			</label>
-			<reveal/>
+			<reveal>
+				<p>You possess the worm and swallow its alarm clock.</p>
+				<exit dream="EPICBATTLEDREAM"/>
+			</reveal>
 		</button>
 	</card>
 	<card name="Announce Your Presence">
@@ -109,10 +115,11 @@
 		</button>
 		<button>
 			<label>
-				<p>Possess the Worm</p>
+				<p>Haunt Their Dreams!</p>
 			</label>
 			<reveal>
-				<p>You possess the worm.</p>
+				<p>You possess the worm and swallow its alarm clock.</p>
+				<exit dream="EPICBATTLEDREAM"/>
 			</reveal>
 		</button>
 	</card>
@@ -129,10 +136,11 @@
 		</button>
 		<button>
 			<label>
-				<p>Possess the cat</p>
+				<p>Haunt Their Dreams!</p>
 			</label>
 			<reveal>
-				<p>You possess the cat. You notice the alarm clock on the cat's collar is set to stun, about one minute from now.</p>
+				<p>You possess the cat. You notice the alarm clock on the cat's collar is set to stun, about one minute from now. You take the alarm clock off the collar and shove it inside you.</p>
+				<exit dream="nopantsatschooldream"/>
 			</reveal>
 		</button>
 	</card>
@@ -142,10 +150,11 @@
 		</show>
 		<button>
 			<label>
-				<p>Possess the cat</p>
+				<p>Haunt Their Dreams!</p>
 			</label>
 			<reveal>
-				<p>You possess the cat. You notice the alarm clock on the cat's collar is set to stun, roughly one minute from now.</p>
+				<p>You possess the cat. You notice the alarm clock on the cat's collar is set to stun, roughly one minute from now. You take the alarm clock off the collar and shove it inside you.</p>
+				<exit dream="nopantsatschooldream"/>
 			</reveal>
 		</button>
 	</card>
@@ -161,7 +170,7 @@
 		</button>
 		<button>
 			<label>
-				<p>Possess the cat</p>
+				<p>Haunt Their Dreams!</p>
 			</label>
 			<reveal/>
 		</button>
@@ -172,10 +181,11 @@
 		</show>
 		<button>
 			<label>
-				<p>Possess the cat</p>
+				<p>Haunt Their Dreams!</p>
 			</label>
 			<reveal>
-				<p>You possess the cat. You notice the alarm clock on the cat's collar is set to stun, roughly one minute from now.</p>
+				<p>You possess the cat. You notice the alarm clock on the cat's collar is set to stun, roughly one minute from now. You take the alarm clock off the collar and shove it inside you.</p>
+				<exit dream="nopantsatschooldream"/>
 			</reveal>
 		</button>
 	</card>

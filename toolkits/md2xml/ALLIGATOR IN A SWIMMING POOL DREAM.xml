@@ -1,0 +1,177 @@
+<dream name="ALLIGATORINASWIMMINGPOOLDREAM">
+	<card name="root">
+		<show>
+			<p>You wake up. You are in a swimming pool. There is an alligator in front of you and a ladder behind you. What do you do?</p>
+		</show>
+		<button>
+			<label>
+				<p>Clamp the gator's jaws shut</p>
+			</label>
+			<go card="Clamp the gator's jaws shut"/>
+		</button>
+		<button>
+			<label>
+				<p>Punch the gator</p>
+			</label>
+			<go card="Punch the gator"/>
+		</button>
+		<button>
+			<label>
+				<p>Get to the ladder!</p>
+			</label>
+			<go card="Get to the ladder!"/>
+		</button>
+	</card>
+	<card name="Clamp the gator's jaws shut">
+		<show>
+			<p>You successfully hold down the gator's jaws. He thrashes, but the two of you stay locked in this position for days. Eventually the gator drifts to sleep, and you starve. You wake up. You are dead. You lift up out of your lifeless body to see the gator sleeping in the pool. At least you think so... It's hard to tell with gators...</p>
+		</show>
+		<button>
+			<label>
+				<p>Haunt Their Dreams?</p>
+			</label>
+			<reveal>
+				<p>You possess the gator! The alarm-clock on his gold watch will go off three minutes from now. You absorb the gold watch, just in case.</p>
+				<exit dream="GOLDFISHBOWLDREAM"/>
+			</reveal>
+		</button>
+	</card>
+	<card name="Punch the gator">
+		<show>
+			<p>You cock your hip and send a single watery fisticuff towards the gator. It eats your arm off. I forgot to mention you also have hemophilia. You bleed out rapidly, are devoured, and everything goes black. You wake up. You are dead. You float up out of your lifeless body and see the gator lounging in a beach chair. Next to the gator is a robot waiter doing the splits. Lowering his shades, the gator acknowledges your ghostly figure and presses a button on the robot. The robot goes to sleep. Time is ticking. What do you do?</p>
+		</show>
+		<button>
+			<label>
+				<p>Haunt their dreams!</p>
+			</label>
+			<reveal>
+				<p>You possess the robot. You notice his sleep timer is set to five minutes... You breathe in that timer all Kirby-style and dive in.</p>
+				<exit dream="SPACEDREAM"/>
+			</reveal>
+		</button>
+		<button>
+			<label>
+				<p>Punch the gator</p>
+			</label>
+			<go card="Punch the gator#"/>
+		</button>
+	</card>
+	<card name="Punch the gator#">
+		<show>
+			<p>Once again you - with all your ghostly might - try to form a fist and punch the gator. It's not very effective... What do you do?</p>
+		</show>
+		<button>
+			<label>
+				<p>Keep Trying to Punch the Gator</p>
+			</label>
+			<go card="Keep Trying to Punch the Gator"/>
+		</button>
+	</card>
+	<card name="Keep Trying to Punch the Gator">
+		<show>
+			<p>This is embarrasing, but it's what you did: You kept trying to morph your ectoplasmic mass into a fist. It failed. Every. Time. However, watching the ebb and flow of your shimmery non-physical body put the gator into a kind of hypnotic trance. He is drooling now, and you're pretty sure he's asleep. What do you do?</p>
+		</show>
+		<button>
+			<label>
+				<p>Haunt Their Dreams!</p>
+			</label>
+			<reveal>
+				<p>You possess the gator. The alarm-clock on his gold watch will go off three minutes from now. You absorb the gold watch, just in case.</p>
+				<exit dream="GOLDFISHBOWLDREAM"/>
+			</reveal>
+		</button>
+		<button>
+			<label>
+				<p>PUNCH. THE. GATOR!</p>
+			</label>
+			<go card="PUNCH. THE. GATOR!"/>
+		</button>
+	</card>
+	<card name="PUNCH. THE. GATOR!">
+		<show>
+			<p>Exception: Bad Decision Buffer Overflow. To maintain data integrity, 'mainStory' thread has been put to sleep.</p>
+		</show>
+		<button>
+			<label>
+				<p>Haunt Their Dreams!</p>
+			</label>
+			<reveal>
+				<p>You possess 'mainStory' threa-ERROR! ... ERROR!! ... Entity 'PlayerCharacter' is undefined. Initiating Stacktrace... Error. Failed to execute script 'mainStory'. Initiating Ghost Image Protocol. Please stand by... ... ... Backup Successful. Emergency Narration Engaged. Rebooting 'mainStory' in 3... 2... 1... Thinking quickly, you steal the system clock and haunt the story's dream.</p>
+				<exit dream="SECRETDREAM"/>
+			</reveal>
+		</button>
+	</card>
+	<card name="Get to the ladder!">
+		<show>
+			<p>You reach the lad-- hey wait a second, the ladder disappears before your very eyes. That's just cruel... You think you hear a twelve year-old laughing from some great distance. At a much lesser distance is the gator, and he's coming right for you! What do you do?</p>
+		</show>
+		<button>
+			<label>
+				<p>Climb out the side of the pool</p>
+			</label>
+			<go card="Climb out the side of the pool"/>
+		</button>
+	</card>
+	<card name="Climb out the side of the pool">
+		<show>
+			<p>You attempt to climb out of the side of the pool, but this is impossible. Without a ladder, you are doomed. You feel the gator's fangs tickle your skin then everything goes black. You wake up. You are dead. You float out of your lifeless body and see the gator lounging in a beach chair. Next to the gator is a robot waiter doing the splits. Lowering his shades, the gator acknowledges your ghostly figure and presses a button on the robot. The robot goes to sleep. Time is ticking. What do you do?</p>
+		</show>
+		<button>
+			<label>
+				<p>Haunt their dreams!</p>
+			</label>
+			<reveal>
+				<p>You possess the robot. You notice his sleep timer is set to five minutes... You breathe in that timer all Kirby-style and dive in.</p>
+				<exit dream="SPACEDREAM"/>
+			</reveal>
+		</button>
+		<button>
+			<label>
+				<p>Punch the gator</p>
+			</label>
+			<go card="Punch the gator##"/>
+		</button>
+	</card>
+	<card name="Punch the gator##">
+		<show>
+			<p>Once again you - with all your ghostly might - try to form a fist and punch the gator. It's not very effective... What do you do?</p>
+		</show>
+		<button>
+			<label>
+				<p>Keep Trying to Punch the Gator</p>
+			</label>
+			<go card="Keep Trying to Punch the Gator#"/>
+		</button>
+	</card>
+	<card name="Keep Trying to Punch the Gator#">
+		<show>
+			<p>This is embarrasing, but it's what you did: You kept trying to morph your ectoplasmic mass into a fist. It failed. Every. Time. However, watching the ebb and flow of your shimmery non-physical body put the gator into a kind of hypnotic trance. He is drooling now, and you're pretty sure he's asleep. What do you do?</p>
+		</show>
+		<button>
+			<label>
+				<p>Haunt Their Dreams!</p>
+			</label>
+			<reveal>
+				<p>You possess the gator. The alarm-clock on his gold watch will go off three minutes from now. You absorb the gold watch, just in case.</p>
+				<exit dream="GOLDFISHBOWLDREAM"/>
+			</reveal>
+		</button>
+		<button>
+			<label>
+				<p>PUNCH. THE. GATOR!</p>
+			</label>
+			<go card="PUNCH. THE. GATOR!#"/>
+		</button>
+	</card>
+	<card name="PUNCH. THE. GATOR!#">
+		<show>
+			<p>Exception: Bad Decision Buffer Overflow. To maintain data integrity, 'mainStory' thread has been put to sleep.</p>
+		</show>
+		<button>
+			<label>
+				<p>Haunt Their Dreams!</p>
+			</label>
+			<reveal/>
+		</button>
+	</card>
+</dream>

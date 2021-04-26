@@ -1,7 +1,7 @@
 <dream name="JUNGLEDREAM">
 	<card name="root">
 		<show>
-			<p>You wake up. You're in a jungle. You hear a tiger roar. {sound} It sounds really close! What do you do?</p>
+			<p>You wake up. You're in a jungle. You hear a tiger roar.  It sounds really close! What do you do?</p>
 		</show>
 		<button>
 			<label>
@@ -18,7 +18,7 @@
 	</card>
 	<card name="Run!">
 		<show>
-			<p>You run from the tiger as fast as your hobbit legs can carry you. You hear rustling and growling {sound} as the tiger hears you and gives chase. You find a small yurt, just in the knick of time, run in, and slam the straw door, thinking &quot;That probably won't hold...&quot; What do you do?</p>
+			<p>You run from the tiger as fast as your hobbit legs can carry you. You hear rustling and growling  as the tiger hears you and gives chase. You find a small yurt, just in the knick of time, run in, and slam the straw door, thinking &quot;That probably won't hold...&quot; What do you do?</p>
 		</show>
 		<button>
 			<label>
@@ -29,7 +29,7 @@
 	</card>
 	<card name="Jump in the fireplace!">
 		<show>
-			<p>With a running start, you dive headfirst into the fireplace, {sound} {wilhelm scream?} where you are instantly killed. If you die in dreams, you die in real life. So you are now dead. But you are also a ghost in real life. So you were already dead. Realizing this, you float out of your lifeless body and are now a ghost in this dream. You wake up. You are dead. You float up out of your lifeless body and see the tiger burst into the door so hard it splats right into an iron headboard and onto the bed below, out cold. Time is ticking. What do you do?</p>
+			<p>With a running start, you dive headfirst into the fireplace, where you are instantly killed. If you die in dreams, you die in real life. So you are now dead. But you are also a ghost in real life. So you were already dead. Realizing this, you float out of your lifeless body and are now a ghost in this dream. You wake up. You are dead. You float up out of your lifeless body and see the tiger burst into the door so hard it splats right into an iron headboard and onto the bed below, out cold. Time is ticking. What do you do?</p>
 		</show>
 		<button>
 			<label>
@@ -43,7 +43,7 @@
 	</card>
 	<card name="Give Up and Die!">
 		<show>
-			<p>You give up, you shout out to the tiger, &quot;Here kitty kitty, come eat me!&quot; The tiger obliges. {sound} {death} You are dead. If you die in dreams, you die in real life. So you are now dead. But you are also a ghost in real life. So you were already dead. Realizing this, you float out of your lifeless body and are now a ghost in this dream. The clock is ticking... What do you want to do?</p>
+			<p>You give up, you shout out to the tiger, &quot;Here kitty kitty, come eat me!&quot; The tiger obliges. You are dead. If you die in dreams, you die in real life. So you are now dead. But you are also a ghost in real life. So you were already dead. Realizing this, you float out of your lifeless body and are now a ghost in this dream. The clock is ticking... What do you want to do?</p>
 		</show>
 		<button>
 			<label>
@@ -110,6 +110,7 @@
 			</label>
 			<reveal>
 				<p>You possess the granny. You take the alarm clock and shove it into your ghost body as you dive into your next dream.</p>
+				<exit dream="SPACEDREAM"/>
 			</reveal>
 		</button>
 	</card>

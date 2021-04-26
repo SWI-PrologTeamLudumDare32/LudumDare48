@@ -11,7 +11,18 @@ if __name__ == '__main__':
         if file[-3:] != '.md':
             continue
         filepath = dir + '/' + file
-        xml = to_xml(filepath)
+        print(filepath)
+        try:
+            xml = to_xml(filepath)
+        except BaseException as e:
+            print(str(e))
+            input("Press any key to exit.")
+            exit(1)
+        print(' ')
 
         with open(filepath.replace('.md', '.xml'), 'w', encoding='utf-8') as f:
             f.write(xml)
+
+    input("All operations are successful. Press any key to exit.")
+
+    

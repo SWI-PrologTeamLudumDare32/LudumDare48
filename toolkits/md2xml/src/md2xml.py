@@ -17,7 +17,7 @@ def build_tree(text):
 
     previous_indent = -1
 
-    for line in text.splitlines():
+    for _j, line in enumerate(text.splitlines()):
         if str.isspace(line) or line == "":
             continue
         match = re.match(r"^[\t\s]*\+", line)
@@ -54,7 +54,7 @@ def build_tree(text):
             
             if indent > previous_indent:
                 if indent - previous_indent != 1:
-                    raise ValueError("Indentation Error!")
+                    raise ValueError(f"line {_j}: Indentation Error!\n{line}")
             stack.append(new_node)
                 
             previous_indent = indent
@@ -94,7 +94,10 @@ def dfs_card(doc, dream, root):
 
 def create_p(doc, text: str):
     if text.startswith("<"):
-        return parseString(text).childNodes[0]
+        try:
+            return parseString(text).childNodes[0]
+        except:
+            raise ValueError(f"XML Error!\n{text}")
     p_elem = doc.createElement('p')
     p_elem.appendChild(doc.createTextNode(text))
     return p_elem
