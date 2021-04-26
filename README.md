@@ -28,7 +28,7 @@ LD Jam image
  
 ````
  cd prolog/
-swipl -s server.pl -g "load_game_to_cards('OVERWORLDINTRODREAM', '../toolkits/md2xml/'),go"
+swipl -s server.pl -g "ifml:load_game_to_cards('OVERWORLDINTRODREAM', '../toolkits/md2xml/'),go"
 ````
 
 `root` is the card the player sees when they first load the game.

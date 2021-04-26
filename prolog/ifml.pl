@@ -138,6 +138,9 @@ check_button(Button) :-
    _{ go: '' } :< Button,
    !.
 check_button(Button) :-
+   _{ go: 'random_!_root' } :< Button,
+   !.
+check_button(Button) :-
     _{ go: Go } :< Button,
     ldjam_twine:card(OC),
     OC.name = Go,
