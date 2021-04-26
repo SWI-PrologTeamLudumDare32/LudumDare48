@@ -2,6 +2,8 @@ OVERWORLDINTRODREAM
 
 You wake up. You are dead. You float up out of your lifeless body and see someone sleeping on a bed nearby. Next to the bed is an end-table with an alarm clock. What do you do?
 
+<audio src="/Sound/Main.mp3" />
+
 + [Freak Out]
 	OMG I'm dead I'm dead I'm dead!!!!
 	
