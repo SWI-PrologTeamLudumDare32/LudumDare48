@@ -1,6 +1,6 @@
 GARDENGNOMEDREAM
 
-You wake up. As far as your eyes can see there is grass. It's a sunny day, but massive shadows drape across the grass. You look up a bit to see castle-wall-sized hedges all around you. "This is amaze-ing," you exclaim in a shrill voice. You start hopping around with glee, but it's quite difficult to move as the blades of grass are huge and your legs appear to be stuck together. Suddenly, you hear an engine roar to life followed by the unmistakable sound of a lawnmower. The sound is getting closer. What do you do?
+You wake up. As far as your eyes can see there is grass. It's a sunny day, but massive shadows drape across the grass. You look up a bit to see castle-wall-sized hedges all around you. "This is amaze-ing," you exclaim in a shrill voice. You start hopping around with glee, but it's quite difficult to move as the blades of grass are huge and your legs appear to be stuck together. Suddenly, you hear an engine roar to life followed by the unmistakable sound of a lawnmower. The sound is getting closer. What do you /do?
 
 + [Roll over and brace for impact]
 	Good choice! You roll over, the lawnmower gets closer. Oh goodness it must be right behind you and -- a sound as if someone just put a helicopter through a cheese grater  is gracefully cut short by a deafening explosion. The last thing you see is bits of porcelain flying away from you. Then everything goes black. You wake up. You are dead. You float up out of your lifeless body - or what's left of it. What do you do?
@@ -46,8 +46,8 @@ You wake up. As far as your eyes can see there is grass. It's a sunny day, but m
 <exit dream="firstkissdream" />
 		+ [She's a BRICK... house!]
 			The moment you walk in a proximity mine  Good thing you're a ghost! You see a little brick pig sleeping on a little brick bed with a little brick alarm clock next to her.
-				+ [Haunt Their Dreams!]
-					You possess the brick pig, you try to grab the alarm-clock to take with you but - it's bricked! Panicked, you throw it against the wall and suddenly it's working again. You shove it in your ghostly body and dive in.
+			+ [Haunt Their Dreams!]
+				You possess the brick pig, you try to grab the alarm-clock to take with you but - it's bricked! Panicked, you throw it against the wall and suddenly it's working again. You shove it in your ghostly body and dive in.
 <exit dream="teethonadate" />
 	+ [Loot your corpse]
 		With great effort, you telekinetically turn over the various bits and pieces of your shattered body until you find a pointy red porcelain hat {Item}. You use all the rest of your ghostly powers to float the hat atop your head. Style! What do you do?
