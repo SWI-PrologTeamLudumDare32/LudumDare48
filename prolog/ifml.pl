@@ -8,6 +8,8 @@
 :- use_module(library(sgml_write)).
 :- use_module(library(yall)).
 
+:- debug(load_cards).
+
 load_ifml_to_cards(File) :-
     load_xml_file(File, DOM),
     (   xpath(DOM, //game(@start), StartCard)
@@ -27,8 +29,10 @@ load_game_to_cards(StartDream, Dir) :-
     retractall(ldjam_twine:start_card(_)),
     mangle_name(Start, StartDream, root),
     asserta(ldjam_twine:start_card(Start)),
-    maplist([Name,Path]>>atom_concat('xml/', Name, Path), Files, Paths),
-    maplist(load_dream_to_cards, Paths).
+    maplist({Dir}/[Name,Path]>>atom_concat(Dir, Name, Path), Files, Paths),
+    maplist(load_dream_to_cards, Paths),
+    report_invalid_buttons,
+    !.
 
 load_dream_to_cards(Path) :-
     atom_concat(_, '.xml', Path),
@@ -48,7 +52,7 @@ assert_cards(DOM) :-
     xpath(Card, /self(@name), Name),
     xpath(Card, show(1)/(*), Show),
     xml_str(Show, ShowStr),
-    findall(Button, button(Card, Button), Buttons),
+    findall(Button, button(DreamName, Card, Button), Buttons),
     mangle_name(Mangle, DreamName, Name),
     \+ card_already_exists(Mangle),
     asserta(ldjam_twine:card(card{
@@ -65,7 +69,7 @@ card_already_exists(Mangle) :-
      !.
 
 
-button(Card, button{
+button(DreamName, Card, button{
                  label: LabelStr,
                  reveal: RevealStr,
                  go: Go
@@ -79,21 +83,29 @@ button(Card, button{
     ;
         RevealStr = ''
    ),
-   find_go(Button, Go).
+   find_go(DreamName, Button, Go),
+   (   Go == '',
+       RevealStr == ''
+   ->
+       xpath(Card,  /self(@name), N),
+       format('Button ~w in dream ~w has no go, exit, or reveal~n', [N, DreamName])
+   ;   true
+   ).
 
-find_go(Button, Go) :-
+find_go(_, Button, Go) :-
     xpath(Button, //exit(@dream), ExitDream),
     xpath(Button, //exit(@card), Card),
     mangle_name(Go, ExitDream, Card),
     !.
-find_go(Button, Go) :-
+find_go(_, Button, Go) :-
     xpath(Button, //exit(@dream), ExitDream),
     mangle_name(Go, ExitDream, root),
     !.
-find_go(Button, Go) :-
-   xpath(Button, go(@card), Go),
+find_go(DreamName, Button, Go) :-
+   xpath(Button, go(@card), GoCard),
+   mangle_name(Go, DreamName, GoCard),
    !.
-find_go(_, '').
+find_go(_, _, '').
 
 mangle_name(Mangle, Dream, Name) :-
     atom(Mangle),
@@ -111,4 +123,28 @@ mangle_name(Mangle, Dream, Name) :-
 
 xml_str(XML, Str) :-
        with_output_to(string(Str), xml_write(current_output, XML, [header(false)])).
+
+report_invalid_buttons :-
+    ldjam_twine:card(C),
+    member(Button, C.buttons),
+    check_button(Button),
+    fail.
+report_invalid_buttons.
+
+check_button(Button) :-
+   \+ _{ go: _ } :< Button,
+   !.
+check_button(Button) :-
+   _{ go: '' } :< Button,
+   !.
+check_button(Button) :-
+    _{ go: Go } :< Button,
+    ldjam_twine:card(OC),
+    OC.name = Go,
+    !.
+check_button(Button) :-
+    _{label: L, go: G} :< Button,
+    format('Button ~w goes to ~w which doesn\'t exist~n', [L, G]),
+    !.
+
 
