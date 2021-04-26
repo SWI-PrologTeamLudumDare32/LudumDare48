@@ -78,7 +78,7 @@
 			</label>
 			<reveal>
 				<p>You leap into one of the infinite possibilities twirling around you. After a blinding flash of light you wander around until you sense a bed nearby. Without thinking, you possess a sleeper! Who knows where you might end up... Oops! You almost forgot; you reach out, take the alarm clock, and shove it in your ghostly body.</p>
-				<exit dream="GOLDFISHBOWLDREAM"/>
+				<exit dream="alligatorinaswimmingpooldream"/>
 			</reveal>
 		</button>
 	</card>
@@ -134,7 +134,7 @@
 			</label>
 			<reveal>
 				<p>You possess the straw pig, grabbing the alarm clock as you dive in.</p>
-				<exit dream="alligatorinaswimmingpooldream"/>
+				<exit dream="nopantsatschooldream"/>
 			</reveal>
 		</button>
 	</card>
@@ -199,7 +199,7 @@
 			</label>
 			<reveal>
 				<p>You possess the straw pig, grabbing the alarm clock as you dive in.</p>
-				<exit dream="alligatorinaswimmingpooldream"/>
+				<exit dream="nopantsatschooldream"/>
 			</reveal>
 		</button>
 	</card>
@@ -281,7 +281,7 @@
 			</label>
 			<reveal>
 				<p>You possess the straw pig, grabbing the alarm clock as you dive in.</p>
-				<exit dream="alligatorinaswimmingpooldream"/>
+				<exit dream="nopantsatschooldream"/>
 			</reveal>
 		</button>
 	</card>
@@ -346,7 +346,7 @@
 			</label>
 			<reveal>
 				<p>You possess the straw pig, grabbing the alarm clock as you dive in.</p>
-				<exit dream="alligatorinaswimmingpooldream"/>
+				<exit dream="nopantsatschooldream"/>
 			</reveal>
 		</button>
 	</card>
@@ -442,7 +442,7 @@
 			</label>
 			<reveal>
 				<p>You possess the straw pig, grabbing the alarm clock as you dive in.</p>
-				<exit dream="alligatorinaswimmingpooldream"/>
+				<exit dream="nopantsatschooldream"/>
 			</reveal>
 		</button>
 	</card>
@@ -535,7 +535,7 @@
 			</label>
 			<reveal>
 				<p>You possess the straw pig, grabbing the alarm clock as you dive in.</p>
-				<exit dream="alligatorinaswimmingpooldream"/>
+				<exit dream="nopantsatschooldream"/>
 			</reveal>
 		</button>
 	</card>
@@ -645,7 +645,7 @@
 			</label>
 			<reveal>
 				<p>You possess the straw pig, grabbing the alarm clock as you dive in.</p>
-				<exit dream="alligatorinaswimmingpooldream"/>
+				<exit dream="nopantsatschooldream"/>
 			</reveal>
 		</button>
 	</card>

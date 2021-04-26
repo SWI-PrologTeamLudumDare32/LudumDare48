@@ -16,7 +16,7 @@ You wake up. As far as your eyes can see there is grass. It's a sunny day, but m
 						The moment you walk in the house, a sentry turret guns you down. Good thing you're a ghost! You see a medium-sized straw pig on a medium-sized straw bed with a medium-sized alarm-clock nearby. You also see some porridge nearby. Thinking "This is just right." You try to eat the porridge. Unfortunately, you are a ghost, so it just spills on the floor. What do you do?	
 						+ [Haunt Their Dreams!]
 							You possess the straw pig, grabbing the alarm clock as you dive in.
-<exit dream="alligatorinaswimmingpooldream" />
+<exit dream="nopantsatschooldream" />
 					+ [You WOOD pick this house.]
 						The moment you walk in a hatchet falls from the roof right on top of you. Good thing you're a ghost! You see a large wooden pig sleeping on a large wooden bed shaped like an alarm clock.
 						+ [Haunt Their Dreams!]
@@ -31,14 +31,14 @@ You wake up. As far as your eyes can see there is grass. It's a sunny day, but m
 			  		You drink the goo. It's delicious! 
 			+ [Find one of the inifinite possibilities with a bed in it]
 				You leap into one of the infinite possibilities twirling around you. After a blinding flash of light you wander around until you sense a bed nearby. Without thinking, you possess a sleeper! Who knows where you might end up... Oops! You almost forgot; you reach out, take the alarm clock, and shove it in your ghostly body.
-<exit dream="GOLDFISHBOWLDREAM" />
+<exit dream="alligatorinaswimmingpooldream" />
 	+ [Explore the Maze]
 		You float around the maze for hours, maybe even days. You float left. You float right. But most importantly, you keep on floating until you find three little houses scattered about. One is made of straw, one of wood, and one of brick. What do you do?
 		+ [This choice is way too easy, some might even call it a STRAW man.]
 			The moment you walk in the house, a sentry turret guns you down. Good thing you're a ghost! You see a medium-sized straw pig on a medium-sized straw bed with a medium-sized alarm-clock nearby. You also see some porridge nearby. Thinking "This is just right." You try to eat the porridge. Unfortunately, you are a ghost, so it just spills on the floor. What do you do?
 			+ [Haunt Their Dreams!]
 				You possess the straw pig, grabbing the alarm clock as you dive in.
-<exit dream="alligatorinaswimmingpooldream" />
+<exit dream="nopantsatschooldream" />
 		+ [You WOOD pick this house.]
 			The moment you walk in a hatchet falls from the roof right on top of you. Good thing you're a ghost! Too bad you wore that sexy red hat; it's ruined. You see a large wooden pig sleeping on a large wooden bed shaped like an alarm clock.
 			+ [Haunt Their Dreams!]
@@ -57,7 +57,7 @@ You wake up. As far as your eyes can see there is grass. It's a sunny day, but m
 				The moment you walk in the house, a sentry turret guns you down. Good thing you're a ghost! You see a medium-sized straw pig on a medium-sized straw bed with a medium-sized alarm-clock nearby. You also see some porridge nearby. Thinking "This is just right." You try to eat the porridge. Unfortunately, you are a ghost, so it just spills on the floor. What do you do?
 				+ [Haunt Their Dreams!]
 					You possess the straw pig, grabbing the alarm clock as you dive in.
-<exit dream="alligatorinaswimmingpooldream" />
+<exit dream="nopantsatschooldream" />
 			+ [You WOOD pick this house.]
 				The moment you walk in a hatchet falls from the roof right on top of you. Good thing you're a ghost! Too bad you wore that sexy red hat; it's ruined. You see a large wooden pig sleeping on a large wooden bed shaped like an alarm clock.
 				+ [Haunt Their Dreams!]
@@ -74,7 +74,7 @@ You wake up. As far as your eyes can see there is grass. It's a sunny day, but m
 				The moment you walk in the house, a sentry turret guns you down. Good thing you're a ghost! You see a medium-sized straw pig on a medium-sized straw bed with a medium-sized alarm-clock nearby. You also see some porridge nearby. Thinking "This is just right." You try to eat the porridge. Unfortunately, you are a ghost, so it just spills on the floor. What do you do?
 				+ [Haunt Their Dreams!]
 					You possess the straw pig, grabbing the alarm clock as you dive in.
-<exit dream="alligatorinaswimmingpooldream" />
+<exit dream="nopantsatschooldream" />
 			+ [You WOOD pick this house.]
 				The moment you walk in a hatchet falls from the roof right on top of you. Good thing you're a ghost! And good thing you activated your hat! It's rapid spinning deflected the hatchet entirely. You see a large wooden pig sleeping on a large wooden bed shaped like an alarm clock.
 				+ [Haunt Their Dreams!]
@@ -99,7 +99,7 @@ You wake up. As far as your eyes can see there is grass. It's a sunny day, but m
 			The moment you walk in the house, a sentry turret guns you down. Pieces of porcelain fly everywhere before everything goes black. You are dead. You float up out of your lifeless body and see a medium-sized straw pig on a medium-sized straw bed with a medium-sized alarm-clock nearby. You also see some porridge nearby. Thinking "This is just right." You try to eat the porridge. Unfortunately, you are a ghost, so it just spills on the floor. What do you do?
 			+ [Haunt Their Dreams!]
 				You possess the straw pig, grabbing the alarm clock as you dive in.
-<exit dream="alligatorinaswimmingpooldream" />
+<exit dream="nopantsatschooldream" />
 		+ [You WOOD pick this house.]
 			The moment you walk in a hatchet falls from the roof  and kills you.  You are dead. You float up out of your lifeless body and see a large wooden pig sleeping on a large wooden bed shaped like an alarm clock.
 			+ [Haunt Their Dreams!]
@@ -121,7 +121,7 @@ You wake up. As far as your eyes can see there is grass. It's a sunny day, but m
 				The moment you walk in the house, a sentry turret guns you down. Pieces of porcelain fly everywhere before everything goes black. You are dead. You float up out of your lifeless body and see a medium-sized straw pig on a medium-sized straw bed with a medium-sized alarm-clock nearby. You also see some porridge nearby. Thinking "This is just right." You try to eat the porridge. Unfortunately, you are a ghost, so it just spills on the floor. What do you do?
 				+ [Haunt Their Dreams!]
 					You possess the straw pig, grabbing the alarm clock as you dive in.
-<exit dream="alligatorinaswimmingpooldream" />
+<exit dream="nopantsatschooldream" />
 			+ [You WOOD pick this house.]
 				The moment you walk in a hatchet falls from the roof  and kills you.  You are dead. You float up out of your lifeless body and see a large wooden pig sleeping on a large wooden bed shaped like an alarm clock.
 				+ [Haunt Their Dreams!]
@@ -151,7 +151,7 @@ You wake up. As far as your eyes can see there is grass. It's a sunny day, but m
 			The moment you walk in the house, a sentry turret guns you down. Pieces of porcelain fly everywhere before everything goes black. You are dead. You float up out of your lifeless body and see a medium-sized straw pig on a medium-sized straw bed with a medium-sized alarm-clock nearby. You also see some porridge nearby. Thinking "This is just right." You try to eat the porridge. Unfortunately, you are a ghost, so it just spills on the floor. What do you do?
 			+ [Haunt Their Dreams!]
 				You possess the straw pig, grabbing the alarm clock as you dive in.
-<exit dream="alligatorinaswimmingpooldream" />
+<exit dream="nopantsatschooldream" />
 		+ [You WOOD pick this house.]
 			The moment you walk in a hatchet falls from the roof  and kills you.  You are dead. You float up out of your lifeless body and see a large wooden pig sleeping on a large wooden bed shaped like an alarm clock.
 			+ [Haunt Their Dreams!]
