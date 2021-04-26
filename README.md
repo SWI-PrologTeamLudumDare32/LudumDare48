@@ -19,10 +19,7 @@ LD Jam image
  You will need SWI-Prolog installed. Get the (latest development release)[https://www.swi-prolog.org/download/devel]
  and run here. I'm developing on 8.3.22
  
- To run the server:
- 
- As I write this I don't know the name of the dream you start in.  So this assumes it's `firstkiss`.
- replace as needed.
+ To run the server (assuming OVERWORLDINTRODREAM is the first dream):
  
  On linux and mac
  
@@ -42,7 +39,7 @@ You'll be left with a prompt like `?-`.
 At that prompt type
  
 ````
-ifml:load_game_to_cards(firstkiss, 'xml/'),go.
+ifml:load_game_to_cards('OVERWORLDINTRODREAM', '../toolkits/md2xml/'),go.
 ````
 
 Notice the period at the end. (and yes, type enter at the end of all of it)

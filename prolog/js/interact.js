@@ -78,7 +78,7 @@ function doReveal(text, callback) {
      var node = decodeURI(text);
      $("#revealArea").empty();
      $("#revealArea").append('<div id="spookyText">' + node + '</div>');
-     setTimeout(callback, 4000);
+     setTimeout(callback, 6000);
   }
   else 
 	callback();
