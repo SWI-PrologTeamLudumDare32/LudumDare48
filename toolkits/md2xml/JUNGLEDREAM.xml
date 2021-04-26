@@ -2,6 +2,7 @@
 	<card name="root">
 		<show>
 			<p>You wake up. You're in a jungle. You hear a tiger roar.  It sounds really close! What do you do?</p>
+			<audio src="/Sound/Nightmare.mp3"/>
 		</show>
 		<button>
 			<label>

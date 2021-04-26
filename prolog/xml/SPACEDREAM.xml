@@ -2,6 +2,7 @@
 	<card name="root">
 		<show>
 			<p>You wake up. You're a space man! No wait, you're in space, ma'am! Like floating out in space, watching the space station get smaller and smaller in front of you. What do you do?</p>
+			<audio src="/Sound/Space-theme.mp3"/>
 		</show>
 		<button>
 			<label>
@@ -25,9 +26,9 @@
 		</button>
 		<button>
 			<label>
-				<p>Float Slowly Towards that Small Moon</p>
+				<audio src="Happy-theme"/>
 			</label>
-			<go card="Float Slowly Towards that Small Moon"/>
+			<go card="&lt;audio src=&quot;Happy-theme&quot;/&gt;"/>
 		</button>
 	</card>
 	<card name="Merge with the Omnipresent Void of the Infinite Cosmos">
@@ -107,10 +108,8 @@
 			</reveal>
 		</button>
 	</card>
-	<card name="Float Slowly Towards that Small Moon">
-		<show>
-			<p>You float slowly...                                                               Oh so slowly...                                                                   Ohhhhhhh.                                                                         sooo.........                                                                     slow.......................................                                                                                   l                                                                                                                                                                  y. towards the small moon. So slowly, in fact, that your empty stomach finishes digesting its last meal (itself) and everything goes black. You wake up. You are dead. You lift up out of your lifelessbody and see: that's no moon! It's a GIANT BED! With a GIANT!!!! SLEEPING ON IT!!!</p>
-		</show>
+	<card name="&lt;audio src=&quot;Happy-theme&quot;/&gt;">
+		<show/>
 		<button>
 			<label>
 				<p>HAUNT THEIR DREAMS!!!</p>

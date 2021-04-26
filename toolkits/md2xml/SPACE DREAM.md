@@ -2,6 +2,8 @@ SPACEDREAM
 
 You wake up. You're a space man! No wait, you're in space, ma'am! Like floating out in space, watching the space station get smaller and smaller in front of you. What do you do?
 
+<audio src="/Sound/Space-theme.mp3" />
+
 + [Activate Propulsion Socks]
 	You activate your propulsion socks. They don't work. With sheer willpower you launch yourself at the space station anyway and eventually make it. Unfortunately, there is a robot inside who will not open the pod bay doors to let you in. After a candid radio chat, you determine all he wants from life is a red hat. {ITEM NEEDED}{RED HAT}
 
@@ -27,8 +29,8 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 				I have taken control of the narrative. It's mine. All mine!!!! AH HAHAHAH AHHAHAHHAHHAHAHHAHHAHAHH AHAHHA AHHAHAHAHHAHHAHAHAHHAHHAHAHAHAHHAHHAHAHHA. Wow! A bed appears floating in space, and check that out: a wandering erg-lob is sleeping peacefully on the bed. I possess the erg-lob... and lose control of the narrative - woooh that was close. Good thing I take really fast showers. So the alarm clock next to the erg-lob is set to @#&%*&HFDI!*U(#$):}{+-7, which means you should have approximately three minutes before She wakes up. Good luck, you fourth-wall-breaker you. Oops! You almost forgot; you reach out, take the alarm clock, and shove it in your ghostly body.
 <exit dream="EPICBATTLEDREAM"/>
 
-+ [Float Slowly Towards that Small Moon]
-	You float slowly...                                                               Oh so slowly...                                                                   Ohhhhhhh.                                                                         sooo.........                                                                     slow.......................................                                                                                   l                                                                                                                                                                  y. towards the small moon. So slowly, in fact, that your empty stomach finishes digesting its last meal (itself) and everything goes black. You wake up. You are dead. You lift up out of your lifelessbody and see: that's no moon! It's a GIANT BED! With a GIANT!!!! SLEEPING ON IT!!!
++ <audio src="Happy-theme"/>
+	
 	+ [HAUNT THEIR DREAMS!!!]
 		You possess the giant. Oops! You almost forgot; you reach out, take the alarm clock, and shove it in your ghostly body.
 <exit dream="GARDENGNOMEDREAM"/>
