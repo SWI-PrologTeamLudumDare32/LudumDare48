@@ -1,8 +1,8 @@
 <dream name="nopantsatschooldream">
 	<card name="root">
 		<show>
-			<audio src="/Sound/ld_48_3_atschool-hank.mp3" />
 			<p>You wake up. You are in a classroom. You are a young, impressionable student. You forgot your pants. Your peers snicker, most likely at your lack of pants. Oh no! Not again. What is the answer to question number eight?</p>
+			<audio src="/Sound/ld_48_3_atschool-hank.mp3"/>
 		</show>
 		<button>
 			<label>
@@ -26,7 +26,14 @@
 			<label>
 				<p>D. All of the Above</p>
 			</label>
-			<reveal/>
+			<reveal>
+				<p>You apologize and promise to remember pants next time, while blaming the local energy companies and connecting with your classmates on a level you thought impossible. Did that work? One of them has to be right.</p>
+				<p>There is no effect. Usually this answer always works out. Statiscally over 33 percent of that particular multiple choice answer has to be correct assuming the teacher has a soul and the correct answer is even present.</p>
+				<p>Maybe you overwhelmed the system, or it's a bug.</p>
+				<p>Maybe the teacher didn't put the answer on here.</p>
+				<p>Maybe Game of Thrones was kind of lame. You can't let anyone know you think that though. That's worse than the pants thing.</p>
+				<exit dream="random"/>
+			</reveal>
 		</button>
 	</card>
 	<card name="Apologize and promise to remember pants next time">
@@ -43,7 +50,7 @@
 				<p>Soon, your classmates begin shunning you for illegally being in their country.</p>
 				<p>And you actually end up having to pay more taxes somehow.</p>
 				<p>Taxes are ridiculous.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -56,7 +63,7 @@
 				<p>You currently have -121 Bravery. This is unacceptable. You're dead now.</p>
 				<p>But actually through a fluke you've given yourself five points of bravery as well (by not wearing pants). And negative values aren't conditionally attributed to existing values, it reverts to 0.</p>
 				<p>You've recieved +5 points of Bravery. You have 5 Bravery points. You're alive! With pants this time too!</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -67,7 +74,7 @@
 				<p>You sing Eddie Money. You try anyway. You can't remember any lyrics. There was that one about 'shaking' or something. And didn't he do that one TV show song? You can't remember the words from that one either, or the show.</p>
 				<p>Oh well, everyone is totally impressed by your performance anyway.</p>
 				<p>Next time you'll have to do you a real song, you think to yourself.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 	</card>
@@ -86,7 +93,7 @@
 				<p>It reminds you of that time with the thing that you ran from. Hohoho that was scary, remember?</p>
 				<p>Let's hope you don't dream about that anymore ever again.</p>
 				<p>As you defenestrate yourself from an incredibly high story in the schoolhouse, you wonder about the other possiblities.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -98,7 +105,7 @@
 				<p>Louder and louder, it calls to you. You've read some stories like this before. About guys going following disturbing forces that beckon them into the inexplicable darkness.</p>
 				<p>Where the search for knowledge and understanding only yields more questions, darkness, and insanity.</p>
 				<p>Caddyshack, that was the movie.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -109,7 +116,7 @@
 				<p>Big whoop, an impending, ominous rumbling requests your presence? So what! You scoff at the power outage and dimensions you don't understand and go back to blaming the energy companies.</p>
 				<p>It's dark in here.</p>
 				<p>You think about other impending, ominous rumblings that have requested your presence. Nothing bad ever happened with them before. And nothing bad is going to happen now.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 	</card>
@@ -127,7 +134,7 @@
 			<reveal>
 				<p>Pants are just a form of population control anyway. They keep us down. We have to wear them because society says we do. And the fat cat pants guys are sitting on mountains of cash.</p>
 				<p>This sparks another dialog with your classmates, that engages you intimately on a level you thought impossible.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 	</card>

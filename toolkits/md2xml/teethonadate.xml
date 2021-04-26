@@ -1,7 +1,7 @@
 <dream name="teethonadate">
 	<card name="root">
 		<show>
-			<p>&lt;audio src=&quot;/Sound/ld_48_teethonadate-hank.mp3&quot;/&gt;</p>
+			<audio src="/Sound/ld_48_teethonadate-hank.mp3"/>
 			<p>You wake up. You are on a date at a restaurant with an unfamiliar romantic partner. All of your teeth fall out of your mouth into your cupped hands. The taste reminds you of pennies.</p>
 		</show>
 		<button>
@@ -34,14 +34,22 @@
 				<p>And in four to six weeks, these teeth are going to grow into something else. That's what life is.</p>
 				<p>You have a dreamy glob of an unfamiliar romantic partner and you planted teeth together at your home.</p>
 				<p>To some, that's a life well lived, and you're not even halfway there yet, you think to yourself.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
 			<label>
 				<p>Plant the pile of teeth in the ground later when you get home, alone</p>
 			</label>
-			<reveal/>
+			<reveal>
+				<p>You plant the pile of teeth in the ground later when you get home, alone.</p>
+				<p>It's kinda sad doing this all by yourself, you think as you pad the dirt with your hands. You have to get up to get the watering can and end up tracking dirt all over the house. Dang it.</p>
+				<p>What's the point of planting teeth by yourself, you wonder.</p>
+				<p>Now the house is dirty and you've got responsibility, and nobody to pawn it off on.</p>
+				<p>And in four to six weeks, you'll probably still be alone and will have probably neglected these teeth you planted.</p>
+				<p>You go to bed and never wake up again.</p>
+				<exit dream="random"/>
+			</reveal>
 		</button>
 	</card>
 	<card name="Present the pile of teeth as a gift to your unfamiliar romantic partner">
@@ -59,7 +67,7 @@
 				<p>You make a mental note to produce art of some type later.</p>
 				<p>All that inspiration has made you thirsty, but you find drinking exceptionally challenging after being so used to your teeth's presence in your mouth.</p>
 				<p>You ask the waiter for a straw. It's not any easier. The water pours from your mouth due to your inability to purse your lips.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 	</card>
@@ -86,7 +94,7 @@
 				<p>You stir your spoon through the soup, clinking your teeth at the bottom. They will get soggy soon, you think to yourself.</p>
 				<p>Your unfamiliar romantic partner warns you that you should eat your soup soon, before your teeth get soggy.</p>
 				<p>That's a reasonable suggestion, you think to yourself. What a wise and decisive unfamiliar romantic partner you've chosen.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 	</card>
@@ -102,7 +110,7 @@
 				<p>You accept. You reflect silently to yourself about how they should have sent crackers in the first place.</p>
 				<p>Once the waiter is gone, your unfamiliar romantic partner voices an opinion similar to the one you just had.</p>
 				<p>You agree. Yes, they should have sent crackers in the first place.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -113,7 +121,7 @@
 				<p>You decline. You already put your teeth in the soup and you remember that you have crackers at home. You always have crackers at home.</p>
 				<p>Once the waiter is gone, your unfamiliar romantic partner reminds you that you have crackers at home.</p>
 				<p>You remember again that you have crackers at home.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -125,7 +133,7 @@
 				<p>You'll have to remember that when you leave the tip.</p>
 				<p>It's hard for you to imagine he makes a decent living off of tips, given the way he treats the customers.</p>
 				<p>You hope he brings the crackers soon, though. The soup is starting to get cold and your teeth will be soggy soon.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 	</card>
@@ -149,7 +157,7 @@
 				<p>You worry your unfamiliar romantic partner might regret the trade. You didn't mean to rush things.</p>
 				<p>Even if you didn't mean to rush things, you hurriedly extend your hands to alleviate your unfamiliar romantic partner of their teeth.</p>
 				<p>Placing them in your pocket, you're both left to look at each other over a pile of your own teeth. You can't help but feel like your teeth are worth more than those you just recieved, but oh well.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -163,7 +171,7 @@
 				<p>You might need another set of silverware though, these tables are filthy.</p>
 				<p>Your unfamiliar romantic partner furls your former napkin into a bag like shape and proceeds to place it somewhere upon its person, most likely a pocket.</p>
 				<p>You perform a similar action, it's a little harder than it looked. You drop a couple of your unfamiliar romantic partner's teeth on the floor during transport.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 		<button>
@@ -177,7 +185,7 @@
 				<p>And now your unfamiliar romantic partner's hands are free to recieve your teeth from the waiter.</p>
 				<p>The waiter unfurls your teeth into your unfamiliar romantic partner's lap, as if he wanted to be rid of them.</p>
 				<p>You'll have to remember that when you leave the tip.</p>
-				<p>&lt;exit dream=&quot;random&quot;/&gt;</p>
+				<exit dream="random"/>
 			</reveal>
 		</button>
 	</card>
