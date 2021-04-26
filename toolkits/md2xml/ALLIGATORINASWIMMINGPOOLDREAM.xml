@@ -171,7 +171,10 @@
 			<label>
 				<p>Haunt Their Dreams!</p>
 			</label>
-			<reveal/>
+			<reveal>
+				<p>You possess 'mainStory' threa-ERROR! ... ERROR!! ... Entity 'PlayerCharacter' is undefined. Initiating Stacktrace... Error. Failed to execute script 'mainStory'. Initiating Ghost Image Protocol. Please stand by... ... ... Backup Successful. Emergency Narration Engaged. Rebooting 'mainStory' in 3... 2... 1... Thinking quickly, you steal the system clock and haunt the story's dream.</p>
+				<exit dream="SECRETDREAM"/>
+			</reveal>
 		</button>
 	</card>
 </dream>

@@ -172,7 +172,10 @@
 			<label>
 				<p>Haunt Their Dreams!</p>
 			</label>
-			<reveal/>
+			<reveal>
+				<p>You possess the cat. You notice the alarm clock on the cat's collar is set to stun, about one minute from now. You take the alarm clock off the collar and shove it inside you.</p>
+				<exit dream="nopantsatschooldream"/>
+			</reveal>
 		</button>
 	</card>
 	<card name="Pee on the cat#">
