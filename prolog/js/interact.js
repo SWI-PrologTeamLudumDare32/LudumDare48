@@ -4,6 +4,9 @@ var mypengine;
 // Hans, we only need the name from the button field
 // you don't need to pass the whole object back, just the name for the card you want
 var lastCard; 
+var audioElement = [];
+var currentDream; 
+var currentSound = null; 
 
 // Data from Pengine comming
 function new_data(){
@@ -18,6 +21,24 @@ function new_data(){
 
 // overall start
 function startGame() {
+
+	try {
+		audioElement["JUNGLEDREAM"] = new Audio('/audio/Nightmare.mp3');
+		audioElement["WETDREAM"] = new Audio('/audio/Dream-transition1.mp3');
+		audioElement["SECRETDREAM"] = new Audio('/audio/Happy-theme.mp3');
+		audioElement["GOLDFISHBOWLDREAM"] = new Audio('/audio/LD48-firstkiss-hank.mp3');
+		audioElement["EPICBATTLEDREAM"] = new Audio('/audio/ld_48_3_atschool-hank.mp3');
+		audioElement["GARDENGNOMEDREAM"] = new Audio('/audio/ld_48_teethonadate-hank.mp3');
+		audioElement["OVERWORLDINTRODREAM"] = new Audio('/audio/main.mp3');
+		audioElement["SPACEDREAM"] = new Audio('/audio/Space-theme.mp3');
+		audioElement["ALLIGATORINASWIMMINGPOOLDREAM"] = new Audio('/audio/Nightmare2.mp3');
+	}
+	catch(err)
+	{
+		console.log("Error loading sound : ", err);
+	}
+	
+
 	mypengine = new Pengine({
 		ask: "create_game(Result)",
 		onsuccess: new_data,
@@ -36,7 +57,7 @@ function engine_error() {
 // replaced
 function advanceToNextCard(NextCard) {
   var query = 'next_card(\''+ NextCard +'\', Result)';
-  console.log("Query will be: " + query);
+  //console.log("Query will be: " + query);
   mypengine.ask(query);
 };
 
@@ -45,6 +66,8 @@ function advanceToNextCard(NextCard) {
 function displayCard(aCardObj)
 {
   var html = aCardObj.show;
+  currentDream = nameOfDream(aCardObj.name); 
+  console.log("Current Dream", currentDream);
   $("#card").empty(); 
   $("#card").append(html);
 
@@ -72,10 +95,23 @@ function donothing() {
 // perform the reveal and then call the callback
 function doReveal(text, callback) {
 
-//console.log("Reveal text", text);
+	try {
+		// stop playing old sound
+		if (currentSound) 
+			currentSound.pause(); 
+				
+		currentSound = audioElement[currentDream];
+		currentSound.play();
+	}
+	catch(err)
+	{
+		console.log("Sound " + currentDream + " not available");
+	}
+
   if (text != '')
   {
      var node = decodeURI(text);
+     //console.log("Reveal text", text);
      $("#revealArea").empty();
      $("#revealArea").append('<div id="spookyText">' + node + '</div>');
      setTimeout(callback, 6000);
@@ -111,6 +147,16 @@ function buildButton(label, go, reveal)
 	}
 }
 
+function nameOfFile(Path)
+{
+	p1 = Path.substring(test.lastIndexOf('/')+1);
+	return p1.substring(0, p1.lastIndexOf('.'))
+}
+
+function nameOfDream(DreamIdentifier)
+{
+	return DreamIdentifier.substring(0, DreamIdentifier.lastIndexOf('!')-1);
+}
 
 window.onload = startGame;
 
