@@ -1,7 +1,7 @@
 <dream name="nopantsatschooldream">
 	<card name="root">
 		<show>
-			<p>&lt;audio src=&quot;/Sound/ld_48_3_atschool-hank.mp3&quot;/&gt;</p>
+			<audio src="/Sound/ld_48_3_atschool-hank.mp3" />
 			<p>You wake up. You are in a classroom. You are a young, impressionable student. You forgot your pants. Your peers snicker, most likely at your lack of pants. Oh no! Not again. What is the answer to question number eight?</p>
 		</show>
 		<button>
