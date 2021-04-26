@@ -32,6 +32,7 @@ You wake up. You are in a swimming pool. There is an alligator in front of you a
 		You attempt to climb out of the side of the pool, but this is impossible. Without a ladder, you are doomed. You feel the gator's fangs tickle your skin then everything goes black. You wake up. You are dead. You float out of your lifeless body and see the gator lounging in a beach chair. Next to the gator is a robot waiter doing the splits. Lowering his shades, the gator acknowledges your ghostly figure and presses a button on the robot. The robot goes to sleep. Time is ticking. What do you do?
 		+ [Haunt their dreams!]
 			You possess the robot. You notice his sleep timer is set to five minutes... You breathe in that timer all Kirby-style and dive in.
+<exit dream="SPACEDREAM" />
 		+ [Punch the gator]
 			Once again you - with all your ghostly might - try to form a fist and punch the gator. It's not very effective... What do you do?
 			+ [Keep Trying to Punch the Gator] 
