@@ -26,9 +26,9 @@
 		</button>
 		<button>
 			<label>
-				<audio src="Happy-theme"/>
+				<p>Float Slowly Towards that Small Moon</p>
 			</label>
-			<go card="&lt;audio src=&quot;Happy-theme&quot;/&gt;"/>
+			<go card="Float Slowly Towards that Small Moon"/>
 		</button>
 	</card>
 	<card name="Merge with the Omnipresent Void of the Infinite Cosmos">
@@ -108,7 +108,7 @@
 			</reveal>
 		</button>
 	</card>
-	<card name="&lt;audio src=&quot;Happy-theme&quot;/&gt;">
+	<card name="Float Slowly Towards that Small Moon">
 		<show/>
 		<button>
 			<label>

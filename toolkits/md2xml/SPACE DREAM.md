@@ -29,7 +29,7 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 				I have taken control of the narrative. It's mine. All mine!!!! AH HAHAHAH AHHAHAHHAHHAHAHHAHHAHAHH AHAHHA AHHAHAHAHHAHHAHAHAHHAHHAHAHAHAHHAHHAHAHHA. Wow! A bed appears floating in space, and check that out: a wandering erg-lob is sleeping peacefully on the bed. I possess the erg-lob... and lose control of the narrative - woooh that was close. Good thing I take really fast showers. So the alarm clock next to the erg-lob is set to @#&%*&HFDI!*U(#$):}{+-7, which means you should have approximately three minutes before She wakes up. Good luck, you fourth-wall-breaker you. Oops! You almost forgot; you reach out, take the alarm clock, and shove it in your ghostly body.
 <exit dream="EPICBATTLEDREAM"/>
 
-+ <audio src="Happy-theme"/>
++ [Float Slowly Towards that Small Moon]
 	
 	+ [HAUNT THEIR DREAMS!!!]
 		You possess the giant. Oops! You almost forgot; you reach out, take the alarm clock, and shove it in your ghostly body.
