@@ -1,0 +1,18 @@
+BUG LIST -
+
+JUNGLE DREAM
+	Granny First Go Right Option Bugged to Space Dream
+SPACE DREAM
+	float to moon bugge
+	possess what's left of your original body
+FIRST KISS
+	First decision bugged.
+GARDEN GNOME DREAM
+	BRICK PIG bugged from FIRST decision hop away as fast as you can and explore maze
+
+TEETHONADATEDREAM
+	bugged from SECRET DREAM (probably same as brick pig)
+UNFINISHED DREAMS MENU
+	bugged from SECRET DREAM
+GARDENGNOMEDREAM
+	brick pig seems to be bugged everywhere probbaly teeth on adate
