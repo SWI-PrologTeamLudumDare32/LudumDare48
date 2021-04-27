@@ -3,7 +3,6 @@ SECRETDREAM
 Turns out life really is a simulation, and you haunted its dreams! There is a way to get here naturally, or you may have gotten here randomly. Either way, welcome! Where would you like to go?
 
 <audio src="/Sound/Happy-theme.mp3"/>
-
 + [OVERWORLD INTRO... DREAM?]
 	Remember that one?
 <exit dream="OVERWORLDINTRODREAM" />
