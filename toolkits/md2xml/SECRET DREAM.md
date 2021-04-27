@@ -33,7 +33,7 @@ Turns out life really is a simulation, and you haunted its dreams! There is a wa
 <exit dream="firstkissdream" />	
 
 + [EPIC BATTLE DREAM]
-	Beware of goblins!
+	Beware of Giant!
 <exit dream="EPICBATTLEDREAM" />
 
 + [GARDEN GNOME DREAM]

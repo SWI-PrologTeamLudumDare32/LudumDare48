@@ -2,6 +2,7 @@ ALLIGATORINASWIMMINGPOOLDREAM
 
 You wake up. You are in a swimming pool. There is an alligator in front of you and a ladder behind you. What do you do?
 
+<audio src="/Sound/Nightmare2.mp3"/>
 + [Clamp the gator's jaws shut]
 	You successfully hold down the gator's jaws. He thrashes, but the two of you stay locked in this position for days. Eventually the gator drifts to sleep, and you starve. You wake up. You are dead. You lift up out of your lifeless body to see the gator sleeping in the pool. At least you think so... It's hard to tell with gators...
 	+ [Haunt Their Dreams?]

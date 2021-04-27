@@ -144,7 +144,7 @@ You wake up. As far as your eyes can see there is grass. It's a sunny day, but m
 		With the grace of an ace pilot, you leap onto your steed. Startled it takes off into the sky,  leaving lawnmower, hedgemaze, and frustratingly tall grass behind. From up here you see it all, a medium-sized straw house, a large wood house, and a little brick house. There also appears to be a wrought-iron gazeebo in the center of the maze. Too scared to let go, you let the pink flamingo take you higher and higher so high that you can't breathe anymore. Slapping the flamingo wildly,  you try to get it to descend, but to no avail. The flamingo goes up and rests on a pillow-shaped cloud with a cloud-shaped pillow on top and a completely normal hover-clock floating nearby. Unfortunately it is at this moment your lungs cannot bear it anymore. Everything goes black.  {Death} You are dead. You float up out of your lifeless body and see the flamingo sleeping on the bed. What do you do?
 		+ [Possess the Flamingo]
 			You possess the flamingo, noting the hover-clock is set to three minutes from now.
-<exit dream="NOPANTSATSCHOOLDREAM" />
+<exit dream="nopantsatschooldream" />
 	+ [Explore the Maze]
 		The lawnmower is very close.  You wait a moment as it hurtles down the hedge maze path with frightening speed and precision. As the lawnmower zooms past, the rather 2-Dimensional Pink Flamingo with thin metal legs takes off into the sky. You hop around the maze for hours, maybe even days. You hop left. You hop right. But most importantly, you keep on hopping until you find three little houses scattered about. One is made of straw, one of wood, and one of brick. What do you do?
 		+ [This choice is way too easy, some might even call it a STRAW man.]
