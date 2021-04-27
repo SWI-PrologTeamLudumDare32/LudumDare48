@@ -1,7 +1,6 @@
 firstkiss
 
 <audio src="/Sound/LD48-firstkiss-hank.mp3"/>
-
 You wake up. Your partner's dark eyes look back into yours, seeing your soul. In them, you can see the sun, a light. The air was the perfect temperature. You could taste the sea in the air but it wasn't overbearing. A crisp, refreshing taste that revitalized your youth and your passion for one another. You never had a moment together so serene as this one. You remember this... your first kiss.
 + [You keep staring longingly into your partner's deep, dark eyes.]
 	You keep staring longingly into your partner's deep, dark eyes. Your family disagreed when they first learned of the romance. It wasn't deemed appropriate. Your father called their family "giant terrible monsters." He claimed that you were never to associate with them, that it would soil your family's good name. You didn't care. 

@@ -1,7 +1,6 @@
 teethonadate
 
 <audio src="/Sound/ld_48_teethonadate-hank.mp3"/>
-
 You wake up. You are on a date at a restaurant with an unfamiliar romantic partner. All of your teeth fall out of your mouth into your cupped hands. The taste reminds you of pennies.
 
 + [Present the pile of teeth as a gift to your unfamiliar romantic partner]
