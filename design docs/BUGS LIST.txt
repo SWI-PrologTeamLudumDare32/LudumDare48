@@ -12,7 +12,11 @@ GARDEN GNOME DREAM
 
 TEETHONADATEDREAM
 	bugged from SECRET DREAM (probably same as brick pig)
+	CONFIRMED NAME ERROR
+		find replace "teethonadate" with "teethonadatedream"
 UNFINISHED DREAMS MENU
 	bugged from SECRET DREAM
 GARDENGNOMEDREAM
 	brick pig seems to be bugged everywhere probbaly teeth on adate
+	CONFIRMED NAME ERROR
+		find replace "teethonadate" with "teethonadatedream"
