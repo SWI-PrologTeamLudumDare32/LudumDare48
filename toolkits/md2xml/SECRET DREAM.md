@@ -44,6 +44,7 @@ Turns out life really is a simulation, and you haunted its dreams! There is a wa
 <exit dream="nopantsatschooldream" />
 
 + [UNFINISHED DREAMS]
+	Eww...
 	+ [WET DREAM]
 		Eww...
 <exit dream="WETDREAM" />		

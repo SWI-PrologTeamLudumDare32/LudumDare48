@@ -29,7 +29,6 @@ You wake up. You're a space man! No wait, you're in space, ma'am! Like floating 
 <exit dream="EPICBATTLEDREAM"/>
 
 + [Float Slowly Towards that Small Moon]
-	
 	+ [HAUNT THEIR DREAMS!!!]
 		You possess the giant. Oops! You almost forgot; you reach out, take the alarm clock, and shove it in your ghostly body.
 <exit dream="GARDENGNOMEDREAM"/>

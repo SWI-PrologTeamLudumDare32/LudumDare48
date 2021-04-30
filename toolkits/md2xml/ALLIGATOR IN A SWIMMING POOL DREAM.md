@@ -1,4 +1,4 @@
-ALLIGATORINASWIMMINGPOOLDREAM
+alligatorinaswimmingpooldream
 
 You wake up. You are in a swimming pool. There is an alligator in front of you and a ladder behind you. What do you do?
 
